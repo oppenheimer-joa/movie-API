@@ -4,7 +4,7 @@ api_key = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMzllMGE3ZTBhZmRkNjg3ZDQ0Njc1NTVhNzA4
 
 # 파일 홈 디렉토리
 # <수정 필요>
-home_dir = "/Users/kimdohoon/git/openheimer/movie-API/datas/discover/movie"
+home_dir = "/Users/kimdohoon/git/openheimer/movie-API/datas/discoverMovie"
 
 # Date 파라미터 입력
 # date_argv = sys.argv[1]
