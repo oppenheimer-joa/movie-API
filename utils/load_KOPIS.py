@@ -2,9 +2,6 @@ from urllib.request import urlopen, Request
 import os
 import configparser
 
-
-
-
 def get_pf_detail(PF_ID_LIST):
 
     """
@@ -27,3 +24,6 @@ def get_pf_detail(PF_ID_LIST):
 
         with open(xml_file_path, "wb") as file:
             file.write(response_body)
+
+
+        return f"{id} DONE \n {response_body}"
