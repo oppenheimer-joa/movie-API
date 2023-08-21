@@ -1,6 +1,5 @@
 import requests
 import json
-#import ast
 import sys
 sys.path.append('/home/kjh/code/')
 from API_key import api_key
