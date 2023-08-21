@@ -23,7 +23,7 @@ def get_TMDB_movieSimilar(api_key, movieID):
     else:
         try:
             # 파일 저장
-            dir = f"/home/kjh/code/SMS/movie-API/Data/movieSimilar/TMDB_movieSimilar_{movieID}.json"
+            dir = f"/home/kjh/code/SMS/movie-API/datas/movieSimilar/TMDB_movieSimilar_{movieID}.json"
             with open (dir, "w", encoding="utf-8") as file:
                 json.dump(json_data, file, indent=4, ensure_ascii=False)
             return f'TMDB_movieSimilar_{movieID}.json : Data received'

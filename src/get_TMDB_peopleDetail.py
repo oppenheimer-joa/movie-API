@@ -20,7 +20,7 @@ def get_TMDB_peopleDetail(api_key, peopleID):
         
     try:
         # 파일 저장
-        dir = f"/home/kjh/code/SMS/movie-API/Data/peopleDetails/TMDB_peopleDetails_{peopleID}.json"
+        dir = f"/home/kjh/code/SMS/movie-API/datas/peopleDetails/TMDB_peopleDetails_{peopleID}.json"
         with open (dir, "w", encoding="utf-8") as file:
             json.dump(json_data, file, indent=4, ensure_ascii=False)
         return f'TMDB_peopleDetails_{peopleID}.json : Data received'
