@@ -2,7 +2,7 @@ import os
 from fastapi import APIRouter, Request
 
 #from utils.scout_modules import *
-from utils.test_func import *
+from utils.load_KOPIS import *
 
 router = APIRouter()
 
