@@ -1,0 +1,394 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/pdhDFmVQSA0f5i5IL0gpWROjgZ5.jpg",
+            "genre_ids": [
+                10749,
+                35
+            ],
+            "id": 621,
+            "original_language": "en",
+            "original_title": "Grease",
+            "overview": "Australian good girl Sandy and greaser Danny fell in love over the summer. But when they unexpectedly discover they're now in the same high school, will they be able to rekindle their romance despite their eccentric friends?",
+            "popularity": 44.572,
+            "poster_path": "/czVhhAaSBFpakur7U8pOIDV9NUG.jpg",
+            "release_date": "1978-07-07",
+            "title": "Grease",
+            "video": false,
+            "vote_average": 7.396,
+            "vote_count": 6695
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 265249,
+            "original_language": "en",
+            "original_title": "Seandainya",
+            "overview": "Cinta and  Arkana have a relationship (lover) but not approved by his father. The father was deaf and dumb Cinta changed after Arkana presence. However Cinta not heed his father until his father became very angry and no longer care Cinta. In the midst of all the other reality is revealed, Cinta leukemia disease.",
+            "popularity": 0.623,
+            "poster_path": "/xeoKtOOPCOpQN6lnx3opONacv1E.jpg",
+            "release_date": "2012-02-23",
+            "title": "Seandainya",
+            "video": false,
+            "vote_average": 5.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/n4CvA50GBtIPrSqCl8nMNZCliYI.jpg",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "id": 7214,
+            "original_language": "en",
+            "original_title": "Coach Carter",
+            "overview": "Based on a true story, in which Richmond High School head basketball coach Ken Carter made headlines in 1999 for benching his undefeated team due to poor academic results.",
+            "popularity": 37.383,
+            "poster_path": "/y3HOTTyM5nLsdUzXFtFCohG28qj.jpg",
+            "release_date": "2005-01-14",
+            "title": "Coach Carter",
+            "video": false,
+            "vote_average": 7.56,
+            "vote_count": 2587
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/dgQPsVodCzvVSQdsvPysuWmFPsX.jpg",
+            "genre_ids": [
+                28,
+                12,
+                10751,
+                14,
+                878
+            ],
+            "id": 6499,
+            "original_language": "en",
+            "original_title": "Turbo: A Power Rangers Movie",
+            "overview": "The legendary Power Rangers must stop the evil space pirate Divatox from releasing the powerful Maligore from his volcanic imprisonment on the island of Muranthias, where only the kindly wizard Lerigot has the key to release him. The hope of victory lies in the Ranger's incredible new Turbo powers and powerful Turbo Zords.",
+            "popularity": 18.343,
+            "poster_path": "/deaDBDldND9PzCZ3mmsF0FxVq3P.jpg",
+            "release_date": "1997-03-27",
+            "title": "Turbo: A Power Rangers Movie",
+            "video": false,
+            "vote_average": 5.769,
+            "vote_count": 251
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1ACyqkf9JzPQ2f4bdb6m9lm93ua.jpg",
+            "genre_ids": [
+                10749,
+                35,
+                18
+            ],
+            "id": 2028,
+            "original_language": "en",
+            "original_title": "Say Anything...",
+            "overview": "Lloyd, an eternal optimist, seeks to capture the heart of Diane, an unattainable high school beauty and straight-A student. He surprises just about everyone-including himself-when she returns the sentiment. But Diane's over-possessive, divorced Dad disapproves and it's going to take more than just the power of love to conquer all.",
+            "popularity": 15.073,
+            "poster_path": "/4J4s2FzBQ5WeeVCKNoaXC7fZDL7.jpg",
+            "release_date": "1989-04-14",
+            "title": "Say Anything...",
+            "video": false,
+            "vote_average": 7.053,
+            "vote_count": 881
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/oUptKQLatCgywVDx0ETVhq7knHt.jpg",
+            "genre_ids": [
+                18,
+                10402,
+                10751
+            ],
+            "id": 2054,
+            "original_language": "en",
+            "original_title": "Mr. Holland's Opus",
+            "overview": "In 1965, passionate musician Glenn Holland takes a day job as a high school music teacher, convinced it's just a small obstacle on the road to his true calling: writing a historic opus. As the decades roll by with the composition unwritten but generations of students inspired through his teaching, Holland must redefine his life's purpose.",
+            "popularity": 12.278,
+            "poster_path": "/kBmwWeSN3ajnYHZ3dSybEobxEPI.jpg",
+            "release_date": "1995-12-29",
+            "title": "Mr. Holland's Opus",
+            "video": false,
+            "vote_average": 6.955,
+            "vote_count": 363
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/e65E7jH5bKMSgHJnWLw4ex02Dyu.jpg",
+            "genre_ids": [
+                37,
+                28,
+                18,
+                12,
+                10749
+            ],
+            "id": 2055,
+            "original_language": "en",
+            "original_title": "Open Range",
+            "overview": "A former gunslinger is forced to take up arms again when he and his cattle crew are threatened by a corrupt lawman.",
+            "popularity": 20.29,
+            "poster_path": "/d0zydHSE3kaidjDdlc4T6xnp113.jpg",
+            "release_date": "2003-08-29",
+            "title": "Open Range",
+            "video": false,
+            "vote_average": 7.193,
+            "vote_count": 933
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sHkq7IaklVd8mPTliThtIvE2PDQ.jpg",
+            "genre_ids": [
+                35,
+                10402
+            ],
+            "id": 1584,
+            "original_language": "en",
+            "original_title": "School of Rock",
+            "overview": "Fired from his band and hard up for cash, guitarist and vocalist Dewey Finn finagles his way into a job as a fifth-grade substitute teacher at a private school, where he secretly begins teaching his students the finer points of rock 'n' roll. The school's hard-nosed principal is rightly suspicious of Finn's activities. But Finn's roommate remains in the dark about what he's doing.",
+            "popularity": 30.134,
+            "poster_path": "/zXLXaepIBvFVLU25DH3wv4IPSbe.jpg",
+            "release_date": "2003-10-03",
+            "title": "School of Rock",
+            "video": false,
+            "vote_average": 7.066,
+            "vote_count": 5132
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/chQ7r8gGkzBSSuqcGffUIokEIpd.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 1588,
+            "original_language": "en",
+            "original_title": "Bring It On",
+            "overview": "The Toro cheerleading squad from Rancho Carne High School in San Diego has got spirit, spunk, sass and a killer routine that's sure to land them the national championship trophy for the sixth year in a row. But for newly-elected team captain Torrance, the Toros' road to total cheer glory takes a shady turn when she discovers that their perfectly-choreographed routines were in fact stolen.",
+            "popularity": 14.789,
+            "poster_path": "/bnVby0qI0dS7YunbShP7mw68HY3.jpg",
+            "release_date": "2000-08-25",
+            "title": "Bring It On",
+            "video": false,
+            "vote_average": 6.228,
+            "vote_count": 1538
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/n7zm7vcZ5m2nSV9Scyh2axpY8d4.jpg",
+            "genre_ids": [
+                80,
+                18
+            ],
+            "id": 1646,
+            "original_language": "en",
+            "original_title": "Freedom Writers",
+            "overview": "A young teacher inspires her class of at-risk students to learn tolerance, apply themselves, and pursue education beyond high school.",
+            "popularity": 20.388,
+            "poster_path": "/81AdeUQT99N0xPg3j6RVh0YGOTk.jpg",
+            "release_date": "2007-01-05",
+            "title": "Freedom Writers",
+            "video": false,
+            "vote_average": 7.913,
+            "vote_count": 1989
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99,
+                10402
+            ],
+            "id": 805111,
+            "original_language": "en",
+            "original_title": "Full Out: Inside Ohio Show Choir",
+            "overview": "Four unique high school show choirs in Ohio prepare themselves to win during their highly-anticipated, grueling and glamorous competition season.",
+            "popularity": 0.652,
+            "poster_path": "/lN7QfnMEH1T5k1wF9jHf5pwJE8.jpg",
+            "release_date": "2022-10-14",
+            "title": "Full Out: Inside Ohio Show Choir",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pGTXJcZQIgqzFZlWy6KxlamlTHK.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 621013,
+            "original_language": "en",
+            "original_title": "Chemical Hearts",
+            "overview": "When a hopelessly romantic high school senior falls for a mysterious new classmate, it sets them both on an unexpected journey that teaches them about love, loss, and most importantly themselves.",
+            "popularity": 19.137,
+            "poster_path": "/q1MNlZYqhoD4U7sd7pjxD6SUf4z.jpg",
+            "release_date": "2020-08-21",
+            "title": "Chemical Hearts",
+            "video": false,
+            "vote_average": 7.376,
+            "vote_count": 1059
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rXXNUNbVlYzbPrzAQA436WZWpvQ.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 4226,
+            "original_language": "en",
+            "original_title": "Shriek If You Know What I Did Last Friday the Thirteenth",
+            "overview": "In this horror parody, a masked serial killer menaces the town of Bulimia Falls with various sharp objects. Attention-seeking television personality Hagitha Utslay is soon on the scene, reporting on the ever-growing body count. Former mall security guard Doughy shows up to protect the teenage population, but he's clearly not much help, allowing the murderer to pick off even more hapless kids as numerous scary movies are referenced.",
+            "popularity": 11.248,
+            "poster_path": "/m0jr23r30h8DUrX3kIu7rO3NIQp.jpg",
+            "release_date": "2000-10-17",
+            "title": "Shriek If You Know What I Did Last Friday the Thirteenth",
+            "video": false,
+            "vote_average": 4.743,
+            "vote_count": 272
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8m7Qhs1sZF83YLUBSgDd0tmd46j.jpg",
+            "genre_ids": [
+                80,
+                27,
+                9648
+            ],
+            "id": 4232,
+            "original_language": "en",
+            "original_title": "Scream",
+            "overview": "A year after the murder of her mother, Sidney Prescott is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game.",
+            "popularity": 57.845,
+            "poster_path": "/3O3klyyYpAZBBE4n7IngzTomRDp.jpg",
+            "release_date": "1996-12-20",
+            "title": "Scream",
+            "video": false,
+            "vote_average": 7.402,
+            "vote_count": 6091
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/m5dA4JZsj78EBTa2D6imWOAebwB.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 4247,
+            "original_language": "en",
+            "original_title": "Scary Movie",
+            "overview": "A familiar-looking group of teenagers find themselves being stalked by a more-than-vaguely recognizable masked killer! As the victims begin to pile up and the laughs pile on, none of your favorite scary movies escape the razor-sharp satire of this outrageously funny parody!",
+            "popularity": 74.102,
+            "poster_path": "/lRQiJXETkCnVVurHmglNvMXrZOx.jpg",
+            "release_date": "2000-07-07",
+            "title": "Scary Movie",
+            "video": false,
+            "vote_average": 6.333,
+            "vote_count": 6294
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tU5CdvDGQRGMfjDIfWmeUKh3ZKk.jpg",
+            "genre_ids": [
+                27,
+                53,
+                9648
+            ],
+            "id": 3597,
+            "original_language": "en",
+            "original_title": "I Know What You Did Last Summer",
+            "overview": "After four high school friends are involved in a hit-and-run road accident, they dispose of the body and vow to keep the incident a secret. A year later, they each start receiving anonymous letters bearing the warning \"I Know What You Did Last Summer.\"",
+            "popularity": 17.371,
+            "poster_path": "/7OfTWTQEvPcwPrOdeLH0F3h6GRZ.jpg",
+            "release_date": "1997-10-17",
+            "title": "I Know What You Did Last Summer",
+            "video": false,
+            "vote_average": 5.94,
+            "vote_count": 2492
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                28
+            ],
+            "id": 621098,
+            "original_language": "ko",
+            "original_title": "대가리",
+            "overview": "Han-cheol and his buddies, Geon-mo and Min-ho, want to be the dominators of 11th grade. He gets rid of likely candidates of the 11th grade one by one. One of his opponents is Sang-gil and after school one day, they decide to fight behind an alley. The fight ends with the police appearing, and while the result is inconclusive, they each realize how good their opponent is.",
+            "popularity": 1.102,
+            "poster_path": "/pDkle066JdJDV2KuGtp7hOgitma.jpg",
+            "release_date": "2019-08-01",
+            "title": "The Dominator",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bcerqRfEihoBj5gYVDsagUJPYHK.jpg",
+            "genre_ids": [
+                28,
+                878,
+                14
+            ],
+            "id": 992527,
+            "original_language": "ja",
+            "original_title": "仮面ライダーリバイス スペシャルイベント",
+            "overview": "A special stage show for Kamen Rider Revice. The stage show was performed live on May 4-5, 2022.",
+            "popularity": 0.6,
+            "poster_path": "/kgtxn5bITTJbmPbqniajJ3fqgCl.jpg",
+            "release_date": "2022-06-26",
+            "title": "Kamen Rider Revice: Special Event",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/yvPbncYhMu9FfTjDhq0N5lgnVkO.jpg",
+            "genre_ids": [
+                35,
+                10749,
+                18
+            ],
+            "id": 4951,
+            "original_language": "en",
+            "original_title": "10 Things I Hate About You",
+            "overview": "On the first day at his new school, Cameron instantly falls for Bianca, the gorgeous girl of his dreams. The only problem is that Bianca is forbidden to date until her ill-tempered, completely un-dateable older sister Kat goes out, too. In an attempt to solve his problem, Cameron singles out the only guy who could possibly be a match for Kat: a mysterious bad boy with a nasty reputation of his own.",
+            "popularity": 34.701,
+            "poster_path": "/ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+            "release_date": "1999-03-30",
+            "title": "10 Things I Hate About You",
+            "video": false,
+            "vote_average": 7.579,
+            "vote_count": 7316
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4VXmlLKDCHEpNwMsGewezYlamKD.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 264337,
+            "original_language": "en",
+            "original_title": "Spare Parts",
+            "overview": "With the help of their high school's newest teacher, four Hispanic students form a robotics club. Although they have no experience, the youths set their sights on a national robotics contest. With $800 and parts scavenged from old cars, they build a robot and compete against reigning champion MIT. Along the way, the students learn not only how to build a robot but something far more important: how to forge bonds that will last a lifetime.",
+            "popularity": 8.483,
+            "poster_path": "/k0L2NEWvH0SMljArJGUGXaVHcV.jpg",
+            "release_date": "2015-01-16",
+            "title": "Spare Parts",
+            "video": false,
+            "vote_average": 7.185,
+            "vote_count": 176
+        }
+    ],
+    "total_pages": 67,
+    "total_results": 1329
+}

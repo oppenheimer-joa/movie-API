@@ -1,0 +1,384 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 273379,
+            "original_language": "en",
+            "original_title": "Art City 1 Making It in Manhattan",
+            "overview": "Unlike any art movie you've ever seen, Making it in Manhattan is informed 'entertainment' about the people who make contemporary art. Artists, collectors, and dealers bring to life the art capital of the world, New York, as it plunges into the 21st Century. Presenting a cross-section of artists, the film discusses inspiration, aesthetics, and the meaning of success. With Louise Bourgeois, Brice Marden, Chuck Close, Neil Jenney, Elizabeth Murray, Ashley Bickerton, Gary Simmons, Ursula von Rydingsvard, Rirkrit Tiravanija, St. Clair Cemin, Ivan Karp, Jay Gorney, Matthew Marks, Jerry Saltz, Herb &amp; Dorothy Vogel, and others. From abstraction to figuration, from installation to conceptual art, from the privacy of the doctor's office to the posh gallery opening, Making it in Manhattan captures the reality of a special world. Music by Tom Waits, Don Braden Ryuichi Sakamoto, George van Eps, Piero Umiliani with Chet Baker.",
+            "popularity": 0.6,
+            "poster_path": "/y3YvIdJ15gCVvF5inQQHNUYzDI2.jpg",
+            "release_date": "1996-01-01",
+            "title": "Art City 1 Making It in Manhattan",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 273383,
+            "original_language": "en",
+            "original_title": "Art City 2 Simplicty",
+            "overview": "Travelling around the country, Art City: Simplicity takes viewers on a revealing trip into the studios and lives of a group of singular artists. On a desert mesa outside Santa Fe, Richard Tuttle invents his mysterious and marvellously humble forms, made of wire, cardboard, wood. In Taos, Agnes Martin rhythmically repeats extremely simplified images. Near the Santa Monica surf, John Baldessari, aims for successful juxtapositions of photographs and text. In his North Hollywood living room, Robert Williams revels in surreal cartoon imagery. At a cabin in Woodstock, Joan Snyder refines her sensuous art amid a lush forest. Mike Bidlo salutes Duchamp in a SoHo Gallery, while on Sunset Boulevard, Amy Adler reclaims personal history through self-portraits. Through this group of memorable iconoclasts, the creative \"act\" is there to see and study.",
+            "popularity": 0.849,
+            "poster_path": "/tjG8Q3Xrku4hYDFhs6S3wNVS8T0.jpg",
+            "release_date": "2002-01-01",
+            "title": "Art City 2 Simplicty",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 273385,
+            "original_language": "en",
+            "original_title": "Art City 3 A Ruling Passion",
+            "overview": "Many artists use the pain, exhilaration and resolution of private desires to express themselves. Art City: A Ruling Passion focuses on intense personalities who’ve used their art to explore the emotional impact of psychological truths. Everything that Louise Bourgeois creates - whether in marble, fabric or bronze - comes from memory. Michael Ray Charles investigates the marketing of black memorabilia, using early American advertising imagery. Elizabeth Peyton reinvents portraiture, using her friends as subjects, as well as pop culture royalty. Ed Ruscha’s literary landscapes burst from the physical world \"right outside the window.\" The comic spirit of Lari Pittman contrasts with his graphic declarations. In a landmark house, Richmond Burton remembers his dreams to build \"psychic fields\" of abstraction. The arrays of featureless faces by David Deutsch are stimulated by sub-conscious sensations.",
+            "popularity": 0.6,
+            "poster_path": "/jLfGsUBp3or4IC8EAQpwUMwiuvx.jpg",
+            "release_date": "2002-02-02",
+            "title": "Art City 3 A Ruling Passion",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                27,
+                53
+            ],
+            "id": 14122,
+            "original_language": "en",
+            "original_title": "Blur",
+            "overview": "Artist Adrian Jonas toils in preparation for the biggest gallery opening of his career. The creative process takes Adrian deep into the depths of his mind, where he begins to experience premonitions of a terrible fate that awaits his beloved Iliana. Adrian grows to suspect that a mysterious neighbor is the phantom who means to harm his wife.",
+            "popularity": 1.323,
+            "poster_path": "/rvEkzcUVVQtXSuuGyOtuSdKCaIv.jpg",
+            "release_date": "2007-04-17",
+            "title": "Blur",
+            "video": false,
+            "vote_average": 3.8,
+            "vote_count": 5
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/91vklCk28sQ6R5ZvtT892d0yrgu.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 451157,
+            "original_language": "it",
+            "original_title": "Manet - Portraying Life",
+            "overview": "",
+            "popularity": 0.6,
+            "poster_path": "/dHFQlLNPYcOqqxZt372WHFzpisf.jpg",
+            "release_date": "2013-04-09",
+            "title": "Manet - Portraying Life",
+            "video": false,
+            "vote_average": 5.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/om47GMuXbkAtlBgBcOnklWAXg6H.jpg",
+            "genre_ids": [
+                12,
+                35,
+                10749,
+                37
+            ],
+            "id": 11799,
+            "original_language": "fr",
+            "original_title": "Viva Maria!",
+            "overview": "Gorgeous IRA operative Marie flees the British authorities and finds herself somewhere in the American continent, where she meets a stunning woman also named Marie, a singer in a traveling circus. The new friends start a vaudeville act that grows exponentially more popular after they incorporate striptease into their routine. When the singer Maria falls for a charismatic rebel, the girls leave the circus behind and recreate themselves as wild-eyed revolutionaries.",
+            "popularity": 7.347,
+            "poster_path": "/dXoW8MNvpKn3dpFS1rhzwZAUdWF.jpg",
+            "release_date": "1965-11-22",
+            "title": "Viva Maria!",
+            "video": false,
+            "vote_average": 6.069,
+            "vote_count": 72
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iQDErfqkPq8RMvhMYqKSGCq5vTw.jpg",
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "id": 11801,
+            "original_language": "en",
+            "original_title": "Angel",
+            "overview": "Edwardian England. A precocious girl from a poor background with aspirations to being a novelist finds herself swept to fame and fortune when her tasteless romances hit the best seller lists. Her life changes in unexpected ways when she encounters an aristocratic brother and sister, both of whom have cultural ambitions, and both of whom fall in love with her.",
+            "popularity": 9.443,
+            "poster_path": "/tyL663WNFNq4BuKUeACWfP7zPnN.jpg",
+            "release_date": "2007-02-17",
+            "title": "Angel",
+            "video": false,
+            "vote_average": 5.545,
+            "vote_count": 123
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kRSGXAFlssWjYM2wvQQRQoIErBk.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 11855,
+            "original_language": "en",
+            "original_title": "Pecker",
+            "overview": "A Baltimore sandwich shop employee becomes an overnight sensation when photographs he's taken of his weird family become the latest rage in the art world. The young man is called \"Pecker\" because he pecks at his food like a bird.",
+            "popularity": 6.927,
+            "poster_path": "/hhd9Y2K6zCULfdbYPN19ajRWjjx.jpg",
+            "release_date": "1998-09-25",
+            "title": "Pecker",
+            "video": false,
+            "vote_average": 6.079,
+            "vote_count": 165
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gfwMVCtYjn4VjAQyIZ5bOj6KSu0.jpg",
+            "genre_ids": [
+                35,
+                10751,
+                12
+            ],
+            "id": 11888,
+            "original_language": "en",
+            "original_title": "Snow Dogs",
+            "overview": "When a Miami dentist inherits a team of sled dogs, he's got to learn the trade or lose his pack to a crusty mountain man.",
+            "popularity": 17.697,
+            "poster_path": "/rIPJRJZGleNaK1kfHBaFbGZ675m.jpg",
+            "release_date": "2002-01-18",
+            "title": "Snow Dogs",
+            "video": false,
+            "vote_average": 5.626,
+            "vote_count": 669
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/6VEEPizyGVjZXwKrgFfjvB50wxW.jpg",
+            "genre_ids": [
+                28,
+                53,
+                18,
+                12
+            ],
+            "id": 11893,
+            "original_language": "en",
+            "original_title": "Runaway Train",
+            "overview": "A hardened convict and a younger prisoner escape from a brutal prison in the middle of winter only to find themselves on an out-of-control train with a female railway worker while being pursued by the vengeful head of security.",
+            "popularity": 17.699,
+            "poster_path": "/dqViXokpi1xTZmsotfyhvGmzyZo.jpg",
+            "release_date": "1985-11-15",
+            "title": "Runaway Train",
+            "video": false,
+            "vote_average": 6.975,
+            "vote_count": 484
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xDzub52wGcLB2XJwtRIhiW1u7TY.jpg",
+            "genre_ids": [
+                12,
+                18,
+                28
+            ],
+            "id": 14280,
+            "original_language": "en",
+            "original_title": "Never Cry Wolf",
+            "overview": "A scientific researcher, sent on a government study: The Lupus Project, must investigate the possible \"menace\" of wolves in the north. To do so, he must survive in the wilderness for six months on his own. In the course of these events, he learns about the true beneficial and positive nature of the wolf species. Based on the book and true story by Farley Mowat.",
+            "popularity": 7.686,
+            "poster_path": "/e61tGxVtobTQuFPmAC7xWwdC4O1.jpg",
+            "release_date": "1983-10-07",
+            "title": "Never Cry Wolf",
+            "video": false,
+            "vote_average": 6.959,
+            "vote_count": 109
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ipMqR31n0BVEByEeZOYoI9tsvAw.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 630724,
+            "original_language": "en",
+            "original_title": "I'll be your mirror",
+            "overview": "The artist Johanna Faust is about to leave her children to finally devote herself to her art again. A vague memory comes to her mind: Didn't her grandmother do the same thing, with terrible consequences? The intimate road movie tells of lost mothers and abandoned children, of the temptations and the price of self-fulfilment, of the abysses of motherhood and of the deep longing for another life.",
+            "popularity": 0.612,
+            "poster_path": "/yHhOtWLltzdvr5ac8UO7fZhmbF6.jpg",
+            "release_date": "2021-04-29",
+            "title": "I'll be your mirror",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 273667,
+            "original_language": "en",
+            "original_title": "Being and Becoming Chua Ek Kay",
+            "overview": "The film offers exclusive and intimate insights into how and why the classically trained artist risked rejection to revolutionize the traditional Chinese ink art form in Singapore.",
+            "popularity": 0.883,
+            "poster_path": "/1E1SsTw7UDohAom3z6PyBO8cMZJ.jpg",
+            "release_date": "2012-01-01",
+            "title": "Being and Becoming Chua Ek Kay",
+            "video": false,
+            "vote_average": 10.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 451324,
+            "original_language": "fr",
+            "original_title": "Pierre Bonnard : les couleurs de l'intime",
+            "overview": "",
+            "popularity": 0.6,
+            "poster_path": "/q2EGSP4J9vTDVmlKavUGXZBg0T8.jpg",
+            "release_date": "",
+            "title": "Pierre Bonnard : les couleurs de l'intime",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/x4q9H6LDHg7op1m4xrSczSNrNg3.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 14369,
+            "original_language": "en",
+            "original_title": "Out Cold",
+            "overview": "Rick Rambis and his friends are having the time of their lives on Bull Mountain—until the legendary Papa Muntz' son decides to sell the mountain to a sleazy land developer, have the staff fired and turn Bull Mountain into 'Yuppieville'.",
+            "popularity": 10.33,
+            "poster_path": "/2aBepBnMXRs3hmde9Je3rn5bseJ.jpg",
+            "release_date": "2001-11-21",
+            "title": "Out Cold",
+            "video": false,
+            "vote_average": 5.9,
+            "vote_count": 153
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/zSaL4P4G2AaOLmSch5cmCi64Jjm.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1004168,
+            "original_language": "ja",
+            "original_title": "無言館",
+            "overview": "A story about how Kuboshima Seiichiro overcomes various difficulties to open Mugonkan, an art museum in Ueda City, Nagano Prefecture, featuring artworks by students before they were sent to fight in WWII.",
+            "popularity": 0.6,
+            "poster_path": "/b2nVRkEY3D8FugDozSSwzO5IT6B.jpg",
+            "release_date": "2022-08-27",
+            "title": "Mugonkan",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7me6Tp9o8K0KVrtVbq0U4FeBvkq.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 12509,
+            "original_language": "en",
+            "original_title": "Pollock",
+            "overview": "In August of 1949, Life Magazine ran a banner headline that begged the question: \"Jackson Pollock: Is he the greatest living painter in the United States?\" The film is a look back into the life of an extraordinary man, a man who has fittingly been called \"an artist dedicated to concealment, a celebrity who nobody knew.\" As he struggled with self-doubt, engaging in a lonely tug-of-war between needing to express himself and wanting to shut the world out, Pollock began a downward spiral.",
+            "popularity": 8.565,
+            "poster_path": "/azsBSw2zw2uNHiCjTnbe9TJVEDB.jpg",
+            "release_date": "2000-09-06",
+            "title": "Pollock",
+            "video": false,
+            "vote_average": 6.658,
+            "vote_count": 273
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kTlrvY35ldGN0yReCu59DfQdlcp.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 12527,
+            "original_language": "es",
+            "original_title": "Fresa y chocolate",
+            "overview": "Set in 1979, following a young Communist man's relationship with a gay Catholic writer, exploring tolerance, inclusion, homophobia and challenging its Cuban audience with great humour. Based on the short story by Cuban writer Senel Paz.",
+            "popularity": 7.926,
+            "poster_path": "/tMwUsu080E4kS4rkHPffy1ugvaJ.jpg",
+            "release_date": "1993-12-01",
+            "title": "Strawberry and Chocolate",
+            "video": false,
+            "vote_average": 7.11,
+            "vote_count": 73
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gPMYhwogEWMeUWqL0JJkSuwcafk.jpg",
+            "genre_ids": [
+                12,
+                28,
+                53
+            ],
+            "id": 11678,
+            "original_language": "en",
+            "original_title": "Vertical Limit",
+            "overview": "Trapped near the summit of K2, the world's second-highest mountain, Annie Garrett radios to base camp for help. Brother Peter hears Annie's message and assembles a team to save her and her group before they succumb to K2's unforgiving elements. But, as Annie lays injured in an icy cavern, the rescuers face several terrifying events that could end the rescue attempt -- and their lives.",
+            "popularity": 23.314,
+            "poster_path": "/kpqQUEi8eAyYHMDFACf6YlnPIu7.jpg",
+            "release_date": "2000-12-08",
+            "title": "Vertical Limit",
+            "video": false,
+            "vote_average": 5.992,
+            "vote_count": 927
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hslcMyl7uVScTz5kR9XEM2YCnz5.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 450628,
+            "original_language": "pt",
+            "original_title": "Laerte-se",
+            "overview": "In this film, Laerte conjugates the body in the feminine, and scrutinizes concepts and prejudices. Not in search of an identity, but in search of un-identities. Laerte creates and sends creatures to face reality in the fictional world of comic strips as a vanguard of the self. And, on the streets, the one who becomes the fiction of a real character. Laerte, of all the bodies, and of none, complicates all binaries. In following Laerte, this documentary chooses to clothe the nudity beyond the skin we inhabit.",
+            "popularity": 2.144,
+            "poster_path": "/6pefmBwp0xuHdUXbJEPHAwQjHjm.jpg",
+            "release_date": "2017-05-18",
+            "title": "Laerte-se",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 36
+        }
+    ],
+    "total_pages": 89,
+    "total_results": 1778
+}

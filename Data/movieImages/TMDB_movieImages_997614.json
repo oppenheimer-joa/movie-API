@@ -1,0 +1,26 @@
+{
+    "backdrops": [
+        {
+            "aspect_ratio": 1.778,
+            "height": 720,
+            "iso_639_1": null,
+            "file_path": "/sDPNuRfriKVYXJLgNi2wWRfOp8E.jpg",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "width": 1280
+        }
+    ],
+    "id": 997614,
+    "logos": [],
+    "posters": [
+        {
+            "aspect_ratio": 0.675,
+            "height": 2048,
+            "iso_639_1": null,
+            "file_path": "/rMKYv0lZrpFBBrojgyC66aaHiHo.jpg",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "width": 1382
+        }
+    ]
+}

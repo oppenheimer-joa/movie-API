@@ -1,0 +1,372 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 264088,
+            "original_language": "ko",
+            "original_title": "이재수의 난",
+            "overview": "In the late 19th century Catholicism was gaining a foothold on Jeju island, much to the horror of the Confucian community, who were seeing their influence diminishing as well as getting increased taxes from Catholic-friendly government officers. The conflict became a religious war that resulted in a rebel Confucian army massacring hundreds of Christians in little more than a matter of days. The Uprising details the events leading up to the assault, focusing on the story of Yi Jae-su, the young man destined to become the leader of the rebel army.",
+            "popularity": 0.653,
+            "poster_path": "/tSO1fDlbbpPgK9zbx1FhnkOQ6j6.jpg",
+            "release_date": "1999-04-01",
+            "title": "The Uprising",
+            "video": false,
+            "vote_average": 5.0,
+            "vote_count": 2
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/wQOLc1VTMmo6MgznYuKrmU4N6pb.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1021871,
+            "original_language": "ko",
+            "original_title": "물꽃의 전설",
+            "overview": "Hyun Soonjik is the oldest living resident in Jeju Island. A natural diver with good skills, she became a high rank Haenyeo at an early age and has led an astonishing career of diving for eighty-seven years. Though she looks more comfortable when she is under water than when she is at home, she quit diving in October, 2020, and goes to sea every day, missing her old life as a diver. When she does, Chae Jiae who has been disciplined by Hyun, accompanies her and looks after her. Together they head for Deulmoolyeo, a place that only Hyun can find, to see the water flowers that bloom under water.",
+            "popularity": 0.6,
+            "poster_path": "/2XXuSNNNtn6dNPAcrV1ph9FbSko.jpg",
+            "release_date": "2022-10-09",
+            "title": "Legend of the Waterflowers",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/p42xFM1cYyUaT5CeH2DjFnaPiIc.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 469885,
+            "original_language": "ko",
+            "original_title": "시인의 사랑",
+            "overview": "A married poet meets a teenage boy working at a donut shop and helplessly develops feelings for him.",
+            "popularity": 1.339,
+            "poster_path": "/ao8l1TZu4Tl95xgzXyGydWJxlm.jpg",
+            "release_date": "2017-09-14",
+            "title": "The Poet and the Boy",
+            "video": false,
+            "vote_average": 5.714,
+            "vote_count": 7
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 1013074,
+            "original_language": "ko",
+            "original_title": "언제가 가장 좋았어요?",
+            "overview": "A Korean woman, who is also an aspiring musician, goes on a pilgrimage to the country. On a quiet seafront on Jeju island, she meets a French guy who came to see his girlfriend but failed to. They are two different people but can communicate in English. Their conversation enables them to face the most important memories in their lives.",
+            "popularity": 0.6,
+            "poster_path": "/yiI1F5Wy0umhc2NPtlNXxXDpUQd.jpg",
+            "release_date": "2022-08-13",
+            "title": "When was your best day ever?",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 473020,
+            "original_language": "ko",
+            "original_title": "미라클 여행기",
+            "overview": "It's been 4 years graduating college. What am I doing? I am unemployed. With a hope of being healed, I've decided to getaway to Jeju Island and am on board SeWol ship. Once I arrive at the island after 13 hours of traveling, my heart was broken by witnessing painful seizure of local people's hearts due to the brutal governmental policy on the construction of Naval base. This film follows vividly the fate of fragile persons and nature suppressed by the government's ridiculous decisions. The story is told by Mira.",
+            "popularity": 0.6,
+            "poster_path": "/pt9iwth5rMrrtuFQCz6XDB4NvHQ.jpg",
+            "release_date": "2015-01-15",
+            "title": "Mira Story",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vUpbyE5YeiUCGGEQSs3nxfTU9NK.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 59594,
+            "original_language": "ko",
+            "original_title": "그랑프리",
+            "overview": "Grand Prix\" covers the world of horse racing, centered around the romance between a male horse jockey and a female horse jockey. Seo Joo-Hee (Kim Tae-Hee) is an ambitious equestrian who loses her beloved horse in a racing accident and also injures her arm. Devastated she quits the sport and travels to Jeju Island. On Jeju Island, Seo Joo-Hee meets fellow equestrian Woo-Seok (Yang Dong-Kun), a former winner of the Japan Cup who is also experienced a similar slump as Seo Joo-Hee. With Woo-Seok's help, Seo Joo-Hee becomes inspired to compete for the Grand Prix Chamionship.",
+            "popularity": 2.291,
+            "poster_path": "/yU4PW6yXtQ87a4ayXTYUIKv0ilD.jpg",
+            "release_date": "2010-09-16",
+            "title": "Grand Prix",
+            "video": false,
+            "vote_average": 6.3,
+            "vote_count": 7
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                16,
+                99
+            ],
+            "id": 863206,
+            "original_language": "ko",
+            "original_title": "메이•제주•데이",
+            "overview": "Immediately after liberation, an incident called 'Jeju Uprising' took place on Jeju Island, the Hawaii of Korea, under the control of the US military government. As a result, about one-tenth of the total population of the island at that time was sacrificed. The children who survived the massacre record the memories of that day in an animated film 70 years later.",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "2021-09-08",
+            "title": "May•JEJU•Day",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/f0cJ0fcVEXVOeN8lvRzSWx3tB87.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 481537,
+            "original_language": "ko",
+            "original_title": "비념",
+            "overview": "Focusing on Mrs. Kang Sang-hee’s life, she lost her husband in the Jeju Uprising (March 3rd, 1948). The film views the dark-side of Jeju Island, a huge grave, which is completely opposite of the other side of the island, the famous tourist attraction. It says that the tragedy has been going on about the recent Gang-jeong village situation.",
+            "popularity": 0.6,
+            "poster_path": "/hyIH6pp1QugTAscHkV6t2sm943G.jpg",
+            "release_date": "2013-04-03",
+            "title": "Jeju Prayer",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pv4R5veLHSdZuAHwaPyJrqslxBm.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 502556,
+            "original_language": "ko",
+            "original_title": "천화",
+            "overview": "Old man, Moon-ho, spends his time masturbating because of Alzheimer. Yoon-jeong works as\r caretaker for Moon-ho. One day, Yoon-jeong finds Moon-ho completely recovered from dementia…",
+            "popularity": 0.6,
+            "poster_path": "/sdQGrfXo408wAG2nBi13JTZfP1U.jpg",
+            "release_date": "2018-01-25",
+            "title": "A Living Being",
+            "video": false,
+            "vote_average": 6.0,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/wp3e6XNp2V22W53RCEAul6TEHR.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 874762,
+            "original_language": "ko",
+            "original_title": "낮과 달",
+            "overview": "Min-hee, who faces many changes after losing her husband. After her husband's sudden death, Min-hee visits Jeju Island, where her husband had always yearned and experiences a whirlwind of emotions. Mok-ha, a single mom living in Jeju Island, becomes a neighbor to Min-hee who comes down from Seoul and causes various emotional changes.",
+            "popularity": 0.6,
+            "poster_path": "/gBpq2fKRhQO4mVHMEJdhEdhuEj6.jpg",
+            "release_date": "2022-10-20",
+            "title": "The Cave",
+            "video": false,
+            "vote_average": 6.0,
+            "vote_count": 2
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mzsCLrjPMiXzwY5dpT89CMYHh1s.jpg",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "id": 452323,
+            "original_language": "ja",
+            "original_title": "アウトレイジ 最終章",
+            "overview": "Five years after the all-out war between the Sanno and Hanabishi crime families, former yakuza boss Otomo works in South Korea for Mr. Chang, a noted fixer. When tensions rise between Chang and the Hanabishi, and Chang's life is endangered, Otomo returns to Japan to settle things once and for all.",
+            "popularity": 8.715,
+            "poster_path": "/4zFrnSerWypyhypXmifo2Rh1TQx.jpg",
+            "release_date": "2017-10-07",
+            "title": "Outrage Coda",
+            "video": false,
+            "vote_average": 6.847,
+            "vote_count": 144
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/is9oKr5Lxr2hqvCJdDcnzFVrL9J.jpg",
+            "genre_ids": [
+                18,
+                35
+            ],
+            "id": 466744,
+            "original_language": "ko",
+            "original_title": "뽕똘",
+            "overview": "Seong-pil, an actor, is traveling through Jeju Island when he sees an ad looking for actors. He follows the ad that leads him to Pong-ddol. The film captures their sincerity without losing the humor. What does film and life mean to you?",
+            "popularity": 0.6,
+            "poster_path": "/631UJEKsR0bEte3NkHCLkGO4gwQ.jpg",
+            "release_date": "2011-08-25",
+            "title": "Ppong ddol",
+            "video": false,
+            "vote_average": 6.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9q3xjHwgjoiU3aCLZIyyweEHeoq.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 648233,
+            "original_language": "ko",
+            "original_title": "어멍",
+            "overview": "This is the story of Sook-ja (Moon Hee-kyung), a female diver in the beautiful Jeju Islands who has lived a tough life, and her childish son Yool (Yeon Joon). Young man Yool dreams of becoming a writer. One day he discovers his mother, Sook-ja, has terminal cancer, but she refuses to get treated and continues diving in the water. Yool gives up his dreams as a writer and goes to his brother-in-law to ask for a job just so he can change his mother's mind. One evening, Yool comes home drunk and upset. Sook-ja can't bear the sudden pain and wakes up her drunken son.",
+            "popularity": 0.633,
+            "poster_path": "/9YPHz5uPN1W6ecGxjnYGD64jw8O.jpg",
+            "release_date": "2019-11-21",
+            "title": "Eomung",
+            "video": false,
+            "vote_average": 5.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5Js39HONUA0hMQShbLsLQ9sdFUA.jpg",
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "id": 624584,
+            "original_language": "ko",
+            "original_title": "애월",
+            "overview": "A man on a bike trip across the country gets killed in an accident. His lover, So-wol, moves to the island where he died and settles down. 3 years later, the couple’s close friend, Cheol, pays her a surprise visit. Staying at her place, he goes fishing or ventures out looking for a particular lighthouse. Slowly, without knowing, the seemingly mundane daily life of island mends their broken heart.",
+            "popularity": 1.321,
+            "poster_path": "/aZi0dvZ3hj5BcV6CyePvocZl14f.jpg",
+            "release_date": "2019-09-26",
+            "title": "Moonfishing in Aewol",
+            "video": false,
+            "vote_average": 6.3,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/6jgmklE2120xNU6VghX2TKe9Ajg.jpg",
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "id": 349201,
+            "original_language": "ko",
+            "original_title": "연풍연가",
+            "overview": "A Seoul businessman comes to Jeju Island and meets a lonely tour guide.",
+            "popularity": 2.159,
+            "poster_path": "/ncgpWXarIUfnxcPAlSAuBvjRo9s.jpg",
+            "release_date": "1999-02-13",
+            "title": "Love Wind Love Song",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 4
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 349279,
+            "original_language": "ko",
+            "original_title": "말미잘",
+            "overview": "",
+            "popularity": 0.665,
+            "poster_path": "/oRV6JFUf95zknH8h70aYsB7kPHi.jpg",
+            "release_date": "1995-03-09",
+            "title": "Mom, the Star, and the Sea Anemone",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                36,
+                99
+            ],
+            "id": 346448,
+            "original_language": "en",
+            "original_title": "Diving Women of Jeju-do",
+            "overview": "Jeju-do is the largest of Korean islands and lies between Korea and Japan. There, for hundreds of years, women dive without breathing apparatus, to the ocean floor and collect shellfish, octopus, and urchins that they sell. The divers are in their sixties and seventies and their daughters do not want to inherit their work, lifestyle, and health problems that go with diving. As a filmmaker I was privileged to meet many of these women and dive with them. Their stories of hardship and pride confirmed my desire to record this unique and ancient tradition.",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "2007-01-01",
+            "title": "Diving Women of Jeju-do",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nDyj0eeFUDPzZGQBIbccazEXgdD.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1077647,
+            "original_language": "ko",
+            "original_title": "물안에서",
+            "overview": "A young actor explores the surroundings, waits for the right light to emerge and watches the horizon from the coast.",
+            "popularity": 0.949,
+            "poster_path": "/oyzNERVOkMSMKfpY8GpeVez00DH.jpg",
+            "release_date": "2023-04-12",
+            "title": "In Water",
+            "video": false,
+            "vote_average": 6.2,
+            "vote_count": 5
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8nhnFt9HyrHNOKjMpB7fovcntlZ.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 518708,
+            "original_language": "ko",
+            "original_title": "다시..올래",
+            "overview": "Yu-jeong who works golf practice is in her late twenties. One day, she receive the shocking news that Sang-ho who is only family and one young brother deserted from his regiment...",
+            "popularity": 1.144,
+            "poster_path": "/fBy8OzysxyQgzlXcEqjUWjHcVMK.jpg",
+            "release_date": "2018-04-26",
+            "title": "Hear me",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9hbE134FXDnx1Lw8fSRQq1m6LKJ.jpg",
+            "genre_ids": [
+                18,
+                35
+            ],
+            "id": 86262,
+            "original_language": "ko",
+            "original_title": "잘 알지도 못하면서",
+            "overview": "Delightfully comic exploration of the emotional and social geography of an art-house film director.",
+            "popularity": 3.311,
+            "poster_path": "/bTLZiYLeDDh7IYnHRXqYElKw8BV.jpg",
+            "release_date": "2009-05-14",
+            "title": "Like You Know It All",
+            "video": false,
+            "vote_average": 6.0,
+            "vote_count": 26
+        }
+    ],
+    "total_pages": 3,
+    "total_results": 49
+}

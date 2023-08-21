@@ -1,0 +1,377 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/5p3aTxtUtZHCHwYsuycutmxIhND.jpg",
+            "genre_ids": [
+                18,
+                80
+            ],
+            "id": 598,
+            "original_language": "pt",
+            "original_title": "Cidade de Deus",
+            "overview": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
+            "popularity": 28.521,
+            "poster_path": "/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
+            "release_date": "2002-08-30",
+            "title": "City of God",
+            "video": false,
+            "vote_average": 8.427,
+            "vote_count": 6627
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/99TjHpVoTXiMN6LRF828MlDaPpn.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 801831,
+            "original_language": "hi",
+            "original_title": "साइना",
+            "overview": "Champion. Olympic Medallist. The Doyen of Indian Badminton. Saina Nehwal is all of this and much more. This biopic chronicles the inspiring story of a gifted youngster's ascendance to the pinnacle of the Badminton World through sheer passion and perseverance.",
+            "popularity": 2.897,
+            "poster_path": "/fdZZDmeO0lybBrxdudwdQmbmxJq.jpg",
+            "release_date": "2021-03-26",
+            "title": "Saina",
+            "video": false,
+            "vote_average": 6.3,
+            "vote_count": 6
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vEstTfKlnnxIVQBcy8mU8WtQCz9.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 801913,
+            "original_language": "en",
+            "original_title": "Sharp Stick",
+            "overview": "Sarah Jo is a naive 26-year-old living on the fringes of Hollywood with her mother and sister. When she begins an affair with her older employer, she is thrust into an education on sexuality, loss and power.",
+            "popularity": 6.781,
+            "poster_path": "/hqPILOj6IAcoCYPE6vqGDQJtlUf.jpg",
+            "release_date": "2022-07-29",
+            "title": "Sharp Stick",
+            "video": false,
+            "vote_average": 5.864,
+            "vote_count": 22
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ewyIEXFN1DSGCH5erqrlYl5drS9.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 439695,
+            "original_language": "fi",
+            "original_title": "Saattokeikka",
+            "overview": "Lasse is an old racist who has lives in an apartment block filled with a selection of refugees and immigrants. Kamal is a 16-year old boy who's fed up in his life in Finland, and dreams of moving to Nairobi to live with his father. Only problem is that he doesn't have the money to buy the ticket.",
+            "popularity": 0.777,
+            "poster_path": "/v81A4E6QmVpCjPledklIc8cvPQp.jpg",
+            "release_date": "2017-03-10",
+            "title": "Unexpected Journey",
+            "video": false,
+            "vote_average": 6.3,
+            "vote_count": 6
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/qDEZmaaAGhEso6kvB5kk1CROPwG.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 897,
+            "original_language": "bn",
+            "original_title": "অপরাজিত",
+            "overview": "Aparajito picks up where the first film leaves off, with Apu and his family having moved away from the country to live in the bustling holy city of Varanasi (then known as Benares). As Apu progresses from wide-eyed child to intellectually curious teenager, eventually studying in Kolkata, we witness his academic and moral education, as well as the growing complexity of his relationship with his mother. This tenderly expressive, often heart-wrenching film, which won three top prizes at the Venice Film Festival, including the Golden Lion, not only extends but also spiritually deepens the tale of Apu.",
+            "popularity": 10.759,
+            "poster_path": "/qvR2Qs42WHwCEcuwhQnterU3gVY.jpg",
+            "release_date": "1956-10-11",
+            "title": "Aparajito",
+            "video": false,
+            "vote_average": 7.961,
+            "vote_count": 206
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/40PwKtiXIZhHS1NmDko6h8EA391.jpg",
+            "genre_ids": [
+                10749,
+                18,
+                36
+            ],
+            "id": 921,
+            "original_language": "en",
+            "original_title": "Cinderella Man",
+            "overview": "The true story of boxer Jim Braddock who, following his retirement in the 1920s, makes a surprise comeback in order to lift his family out of poverty.",
+            "popularity": 17.266,
+            "poster_path": "/i7OYyyAB2pSW9YwK0M2swDz6xSc.jpg",
+            "release_date": "2005-06-02",
+            "title": "Cinderella Man",
+            "video": false,
+            "vote_average": 7.531,
+            "vote_count": 1969
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/qfE8ZA3w0TDSg0lq92jgRhlO4s4.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 265330,
+            "original_language": "en",
+            "original_title": "Bad Boys",
+            "overview": "The Detroit Pistons of the late 1980s and early '90s seemed willing to do anything to win. That characteristic made them loved — and hated. It earned them the title: Bad Boys.",
+            "popularity": 1.619,
+            "poster_path": "/l7QWCym7Zb9wDpefryk8OqUyJD1.jpg",
+            "release_date": "2014-04-17",
+            "title": "Bad Boys",
+            "video": false,
+            "vote_average": 7.648,
+            "vote_count": 27
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/aBwmc25I3bxp82zbnCLTsUyTQBg.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 623057,
+            "original_language": "en",
+            "original_title": "Inside Game",
+            "overview": "In 2007, when NBA referee Tim Donaghy got caught betting on games he worked, he said two men associated with the Gambino crime family - a bookie named Baba Battista and a drug dealer named Tommy Martino - threatened to kill his family if he didn't give them gambling picks. That's what Donaghy told the FBI, that's what he told 60 Minutes, and that's what he testified in court. But that's not what really happened. That's not even close. INSIDE GAME is the untold true story of one of the biggest scandals in sports history.",
+            "popularity": 1.659,
+            "poster_path": "/vEVFQYliFNvMOG0Y3telnveXKuV.jpg",
+            "release_date": "2019-11-01",
+            "title": "Inside Game",
+            "video": false,
+            "vote_average": 5.5,
+            "vote_count": 6
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ArQx1UERyjeuxTfCnrvb9OfDaLU.jpg",
+            "genre_ids": [
+                18,
+                35
+            ],
+            "id": 807193,
+            "original_language": "es",
+            "original_title": "Las gentiles",
+            "overview": "Ana throws her life on the Instagram and other social networks, where she posts pictures, videos and short animations, together with witty (and lucid) texts. Ana is going through a strange moment. In addition to going through the family conflicts and identity issues typical of her age, she experiences something new. She feels something she does not quite understand, for her close friend Corrales.",
+            "popularity": 4.201,
+            "poster_path": "/ppmcKno9CoyXQVLZbUviX3uQdim.jpg",
+            "release_date": "2022-06-03",
+            "title": "The Gentiles",
+            "video": false,
+            "vote_average": 5.6,
+            "vote_count": 5
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vzkPRDEq0VqdaPWFV1SsxRu0Ofd.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 996427,
+            "original_language": "es",
+            "original_title": "Tengo sueños eléctricos",
+            "overview": "Eva can't stand the fact that her mother wants to renovate the house and get rid of the cat, which, disoriented since the divorce, pees everywhere. Eva wants to go and live with her father, who, disoriented like the cat, is experiencing a second adolescence. And Eva follows him while he tries to reconnect with his desire to become an artist and find love again. But like someone who crosses an ocean of adults without knowing how to swim, Eva will also discover the rage that gnaws at him, and that without knowing it, she has inherited from him.",
+            "popularity": 9.658,
+            "poster_path": "/fzWZ0ojQHy3leQCO6F12D26ysgH.jpg",
+            "release_date": "2023-02-03",
+            "title": "I Have Electric Dreams",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 5
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bu3haiMt2ML5NmO8WOhGbw0j08X.jpg",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "id": 6733,
+            "original_language": "de",
+            "original_title": "Wo ist Fred?",
+            "overview": "In order to catch a basketball from the favorite team of his girlfriend's spoiled son, Fred poses as a numb, wheelchair-bound fan. But when he catches the ball, he also catches the attention of young, attractive filmmaker Denise, who wants to feature an invalid fan in an image film for the team. Fred has to keep playing his role, while real invalid and really furious fan Ronny might call his bluff at any moment. Worse, still, love sets in...",
+            "popularity": 7.656,
+            "poster_path": "/9DkMHl3XHEYRBUXCOm3WVbmBn8G.jpg",
+            "release_date": "2006-11-15",
+            "title": "Where Is Fred?",
+            "video": false,
+            "vote_average": 6.3,
+            "vote_count": 125
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nrkkg5T2fvNUHT0jk23rZz6NLUB.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 6883,
+            "original_language": "en",
+            "original_title": "Two-Minute Warning",
+            "overview": "A psychotic sniper plans a massive killing spree in a Los Angeles football stadium during a major championship game. The police, led by Captain Peter Holly and the SWAT commander, learn of the plot and rush to the scene.",
+            "popularity": 4.926,
+            "poster_path": "/bPa1OZLOAOA60kZe4mWpLV7Ru14.jpg",
+            "release_date": "1976-11-12",
+            "title": "Two-Minute Warning",
+            "video": false,
+            "vote_average": 6.164,
+            "vote_count": 73
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/dIHezuC3AmylT8mkXQiWSjz2wJR.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 265177,
+            "original_language": "fr",
+            "original_title": "Mommy",
+            "overview": "A peculiar neighbor offers hope to a recent widow who is struggling to raise a teenager who is unpredictable and, sometimes, violent.",
+            "popularity": 17.835,
+            "poster_path": "/jBJ5vxKZpivd6eNmpJVVxanooDl.jpg",
+            "release_date": "2014-09-19",
+            "title": "Mommy",
+            "video": false,
+            "vote_average": 8.262,
+            "vote_count": 2517
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 996192,
+            "original_language": "en",
+            "original_title": "Alex Scott: The Future of Women's Football",
+            "overview": "Former England international Alex Scott looks at the explosion in popularity of women’s football and asks what the future holds for the game she loves.  Women’s football is the fastest growing female sport in the world. With wages on the rise and multimillion-pound broadcasting deals being agreed, this summer’s European Championships in England are set to be a watershed moment for the game.",
+            "popularity": 0.6,
+            "poster_path": "/440D3nUz45JKXmZQrEqp0emEcvq.jpg",
+            "release_date": "2022-07-02",
+            "title": "Alex Scott: The Future of Women's Football",
+            "video": false,
+            "vote_average": 7.5,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/n4CvA50GBtIPrSqCl8nMNZCliYI.jpg",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "id": 7214,
+            "original_language": "en",
+            "original_title": "Coach Carter",
+            "overview": "Based on a true story, in which Richmond High School head basketball coach Ken Carter made headlines in 1999 for benching his undefeated team due to poor academic results.",
+            "popularity": 37.383,
+            "poster_path": "/y3HOTTyM5nLsdUzXFtFCohG28qj.jpg",
+            "release_date": "2005-01-14",
+            "title": "Coach Carter",
+            "video": false,
+            "vote_average": 7.56,
+            "vote_count": 2587
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pGbnwZHZRaQcjBqQtRiXedD9xlB.jpg",
+            "genre_ids": [
+                35,
+                10751
+            ],
+            "id": 7233,
+            "original_language": "en",
+            "original_title": "Rebound",
+            "overview": "An acclaimed college hoops coach is demoted to a junior varsity team after a public meltdown.",
+            "popularity": 14.248,
+            "poster_path": "/4l0Q1lAf4aV3h1LJQ00EpxVQefr.jpg",
+            "release_date": "2005-07-01",
+            "title": "Rebound",
+            "video": false,
+            "vote_average": 5.52,
+            "vote_count": 300
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 7273,
+            "original_language": "en",
+            "original_title": "Space Riders",
+            "overview": "British 'Semi-Fictional' sports drama featuring Grand Prix motorcycle racing world champion Barry Sheene as himself. It tells the story of Sheene's pursuit of the world title, including his recovery from a near-fatal accident at Silverstone.",
+            "popularity": 1.537,
+            "poster_path": "/p2AfKnKK8C7jKTZzACSOjHqpJTD.jpg",
+            "release_date": "1984-01-01",
+            "title": "Space Riders",
+            "video": false,
+            "vote_average": 5.0,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 265673,
+            "original_language": "fr",
+            "original_title": "Two Lakes Of Tears",
+            "overview": "",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "2009-03-03",
+            "title": "Two Lakes Of Tears",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                35
+            ],
+            "id": 265555,
+            "original_language": "sh",
+            "original_title": "Šeki snima, pazi se",
+            "overview": "A group of young men suggest to the local tinsmith to make a movie, but he agrees only if its director would be his cousin Šeki, a Red Star FC soccer legend. Šeki, though, thinks that the movie-making is the same thing as a soccer match, which causes many argues amongst the members of the film crew.",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "1962-03-30",
+            "title": "Šeki's Rolling, Watch Out!",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/og3Rp80DoiaUKtsjJTTreLjnCSG.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 623184,
+            "original_language": "de",
+            "original_title": "Futur Drei",
+            "overview": "Parvis, the son of exiled Iranians, copes with life in his small hometown by indulging himself with pop culture, Grindr dates, and raves. After being caught shoplifting, he is sentenced to community service at a refugee shelter where he meets siblings Banafshe and Amon, who have fled Iran. As a romantic attraction between Parvis and Amon grows, the fragile relationship between the three is put to a test.",
+            "popularity": 5.399,
+            "poster_path": "/t0EYA4KHJKr9ed4n8gMZeSdajbT.jpg",
+            "release_date": "2020-09-24",
+            "title": "No Hard Feelings",
+            "video": false,
+            "vote_average": 5.1,
+            "vote_count": 15
+        }
+    ],
+    "total_pages": 300,
+    "total_results": 5981
+}

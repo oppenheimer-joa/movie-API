@@ -1,0 +1,399 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/qYejve1XhVlyedTbV0TabK88KU3.jpg",
+            "genre_ids": [
+                27,
+                878,
+                35
+            ],
+            "id": 992846,
+            "original_language": "en",
+            "original_title": "Capsules",
+            "overview": "After experimenting with mysterious substances, four chem students find themselves addicted in the worst way possible: they’ll die unless they take more.",
+            "popularity": 2.297,
+            "poster_path": "/r5PrmbQoxAXHDjqOkZchTLVFqEa.jpg",
+            "release_date": "2023-03-31",
+            "title": "Capsules",
+            "video": false,
+            "vote_average": 2.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27,
+                80,
+                878,
+                18,
+                28
+            ],
+            "id": 995087,
+            "original_language": "en",
+            "original_title": "Frankenstein : We've Conquered the Death",
+            "overview": "",
+            "popularity": 0.6,
+            "poster_path": "/aJC4gGOf8onQuFD9Ic8GBRHvDsI.jpg",
+            "release_date": "2022-10-31",
+            "title": "Frankenstein : We've Conquered the Death",
+            "video": true,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/amBvmIshdsSkOtvVIgxl7YSQ9Dg.jpg",
+            "genre_ids": [
+                18,
+                53,
+                28
+            ],
+            "id": 3176,
+            "original_language": "ja",
+            "original_title": "バトル・ロワイアル",
+            "overview": "In the future, the Japanese government captures a class of ninth-grade students and forces them to kill each other under the revolutionary \"Battle Royale\" act.",
+            "popularity": 18.397,
+            "poster_path": "/gFX7NuBUeKysOB9nEzRqVpHNT32.jpg",
+            "release_date": "2000-12-16",
+            "title": "Battle Royale",
+            "video": false,
+            "vote_average": 7.29,
+            "vote_count": 3038
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7HyWo7p5FWi250dsQHZFyaT6B5z.jpg",
+            "genre_ids": [
+                16,
+                28,
+                878
+            ],
+            "id": 46249,
+            "original_language": "ja",
+            "original_title": "プランゼット",
+            "overview": "In 2047, an unknown, alien lifeform descends upon the Earth, destroying all the major cities in one fell swoop. The survivors unite and build a Diffusor to stop the Februus, the invaders the military would later codename the FOS, and a temporary peace is achieved.  Jump forward to 2053, the present. A last, desperate counterattack is being mounted against the enemy. Hiroshi Akishima, soldier in the Planetary Defense Forces Alliance, would like nothing better than a shot at the aliens responsible for his father's death six years ago. However, the new offensive requires the Diffusor to be dropped, leaving the entire planet terribly vulnerable once more. Will humanity regain the stars or lose everything in the final, ultimate gamble?",
+            "popularity": 3.937,
+            "poster_path": "/uYF6KSEjm4PtQ9GoqJ7Mi07tLKI.jpg",
+            "release_date": "2010-05-22",
+            "title": "Planzet",
+            "video": false,
+            "vote_average": 5.4,
+            "vote_count": 7
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/imHFq1CKg6rDuS92qGxV0JvYb1s.jpg",
+            "genre_ids": [
+                878
+            ],
+            "id": 1035655,
+            "original_language": "en",
+            "original_title": "Back to the Moon",
+            "overview": "The story of a man who decides to make his childhood dream become a reality.\r To watch the movie: https://www.youtube.com/watch?v=V3EKRAkBjmo\r To watch the trailer: https://www.youtube.com/watch?v=_RWXNzwnREo",
+            "popularity": 0.6,
+            "poster_path": "/8k3pABcagXlltE4RiaHU10dlWvZ.jpg",
+            "release_date": "2022-08-26",
+            "title": "Back to the Moon",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27,
+                53,
+                9648,
+                878,
+                35
+            ],
+            "id": 1019581,
+            "original_language": "en",
+            "original_title": "Gouge Away",
+            "overview": "Tony the Stamper is about to uncover a nasty secret when his mentor Stanley goes missing amid a hazardous narcotic gas that has flooded the city streets.",
+            "popularity": 0.6,
+            "poster_path": "/rEE6vLacLf5y1DqC4QV67IvnqHt.jpg",
+            "release_date": "2023-01-17",
+            "title": "Gouge Away",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27,
+                878
+            ],
+            "id": 1019219,
+            "original_language": "en",
+            "original_title": "Missing Night",
+            "overview": "A woman has a harrowing encounter in the woods one night with a mysterious craft.",
+            "popularity": 0.6,
+            "poster_path": "/pU73u1jVAid4HtgLcFGHO6EMGDq.jpg",
+            "release_date": "2019-08-01",
+            "title": "Missing Night",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                878,
+                18
+            ],
+            "id": 1018126,
+            "original_language": "en",
+            "original_title": "Survey From The Stars",
+            "overview": "Two forms of alien intelligence analyze the contradictory behavior of their human test subjects.",
+            "popularity": 0.614,
+            "poster_path": "/mqbQIQ9jvAHW6bYeWI5d6mci8Lm.jpg",
+            "release_date": "2021-07-15",
+            "title": "Survey From The Stars",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                878
+            ],
+            "id": 313518,
+            "original_language": "en",
+            "original_title": "A Morning Light",
+            "overview": "When they find one another by chance in the middle of the woods, old friends Zach and Ellyn seem smiled-upon by the gods of summer, fated for a carefree season ranging across hills, lakes and forests. Gradually, however, their charmed reunion is distorted by an unseen but ever-expanding presence. Are they hidden in a quiet glade after all, or perched on the tip of the universe, buffeted by cosmic winds?  Directed, shot, and edited by Ian Clark, A Morning Light finds a new mode for the sci-fi thriller, one of insomniac watchfulness. With its eerily precise photography and uncanny soundscape that pulses, rumbles, and roars behind sedate scenery, it poses the otherworldly as something very near, something embedded in our own eyes and ears.  — Jon Kieran, New Orleans Film Festival",
+            "popularity": 0.6,
+            "poster_path": "/wq1XkNDXLO5E8SQ6vwlsZ37AL53.jpg",
+            "release_date": "2015-11-17",
+            "title": "A Morning Light",
+            "video": false,
+            "vote_average": 3.8,
+            "vote_count": 4
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/zwbhmcSfe0IiFirK3XBmEXcqCoc.jpg",
+            "genre_ids": [
+                27,
+                878,
+                53
+            ],
+            "id": 491459,
+            "original_language": "en",
+            "original_title": "The Doll",
+            "overview": "When Chris and Andy order a model from an escort service, they find that something is unnaturally wrong with Natasha, something deadly wrong.",
+            "popularity": 2.26,
+            "poster_path": "/waoIRPDcCfodCrs7wOmTmjivIIm.jpg",
+            "release_date": "2017-12-08",
+            "title": "The Doll",
+            "video": false,
+            "vote_average": 3.2,
+            "vote_count": 10
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                878,
+                16,
+                28
+            ],
+            "id": 1026287,
+            "original_language": "en",
+            "original_title": "Fugitive",
+            "overview": "A mysterious protagonist is on a quest worth spending 150 years playing chess to unlock, and Sarajevo, now called Neosarayevo, is under the control of a sinister Cyberdyne-esque corporation - Sodyn.",
+            "popularity": 0.6,
+            "poster_path": "/6oBahLNwf9EqKgkX6HS935wiXNc.jpg",
+            "release_date": "2022-08-12",
+            "title": "Fugitive",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lMEvmyjPI7gVxSe50ZxsLZZBiPQ.jpg",
+            "genre_ids": [
+                878,
+                18,
+                10752
+            ],
+            "id": 836720,
+            "original_language": "en",
+            "original_title": "Voyage of the Chimera",
+            "overview": "A young, civilian aristocrat with no practical military experience must lead his bottom-dollar crew on a dangerous mission and overcome his youth, inexperience, and self doubt in this microbudget sci-fi drama.",
+            "popularity": 1.94,
+            "poster_path": "/8z83vjSwBZIOf2ryi8ubr9eGTGu.jpg",
+            "release_date": "2021-06-02",
+            "title": "Voyage of the Chimera",
+            "video": false,
+            "vote_average": 4.8,
+            "vote_count": 4
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1038044,
+            "original_language": "en",
+            "original_title": "Seven Moons",
+            "overview": "A quest for fortune becomes a struggle for survival when a group of astronauts lands on a harsh alien planet seeking seeds from the Tree of Knowledge.",
+            "popularity": 0.6,
+            "poster_path": "/5dSIGdDCdhkzcP04azOPryJYUTu.jpg",
+            "release_date": "",
+            "title": "Seven Moons",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/i15bq4yECXIznF7r5P7zXpYT1kM.jpg",
+            "genre_ids": [
+                16,
+                27,
+                9648,
+                878
+            ],
+            "id": 51576,
+            "original_language": "ja",
+            "original_title": "ダークサイド・ブルース",
+            "overview": "The Persona Century Corporation has purchased nearly every parcel of land on earth. Dissension is not tolerated within the corporation's borders and those who oppose Persona are dealt with swiftly. Of those few places not yet under Persona's control is the free town of Kabuki-cho, also known as \"The Dark Side of Tokyo\". Within the town, under the leadership of a woman named Mai, is a small resistance group called Messiah. Into this world steps a man who takes the sobriquet of Kabuki-cho: Darkside. Sealed up in another dimension eighteen years ago by Persona Century, Darkside now returns to aid Messiah using his unique mystic power of renewal.",
+            "popularity": 4.426,
+            "poster_path": "/nekQVAI8V9pgKzKa4c50cHmG6SF.jpg",
+            "release_date": "1994-10-08",
+            "title": "Darkside Blues",
+            "video": false,
+            "vote_average": 5.133,
+            "vote_count": 15
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gweGDvYFM2KpFYtvTrQbEG8adTH.jpg",
+            "genre_ids": [
+                878,
+                9648
+            ],
+            "id": 1040829,
+            "original_language": "en",
+            "original_title": "The Taxman",
+            "overview": "While checking on her taxes, Mia notices that she owes a lot more than expected. After scheduling an appointment with The Taxman, Mia soon finds herself in a sticky situation.",
+            "popularity": 0.6,
+            "poster_path": "/sY225kBwVQvUe7CNFb7b6VwvjxF.jpg",
+            "release_date": "2022-01-14",
+            "title": "The Taxman",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/aYLrjWZnpfV7bcWxSwka6uXsoc2.jpg",
+            "genre_ids": [
+                18,
+                878
+            ],
+            "id": 850839,
+            "original_language": "en",
+            "original_title": "Walden",
+            "overview": "After returning from a year-long Moon mission, Cassie, a NASA botanist, finds herself in a remote cabin in the woods, where her estranged twin sister, Stella, a former NASA architect, has found a new life with climate activist Bryan. Old wounds resurface as the sisters attempt to pick up the pieces of the rivalry that broke them apart.",
+            "popularity": 1.638,
+            "poster_path": "/uNJ1U0cqEJ48c5sH2Bm7XOPZVxq.jpg",
+            "release_date": "2021-09-08",
+            "title": "Walden",
+            "video": false,
+            "vote_average": 6.0,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/yOqAreY28OmqiTsqbAPYeocoJ70.jpg",
+            "genre_ids": [
+                878,
+                53
+            ],
+            "id": 1049322,
+            "original_language": "en",
+            "original_title": "Can't Go Home Again",
+            "overview": "Temporal Enforcement Agent Elliott Young (Victoria Smith) breaks protocol and returns to her own past. There she comes face to face with her 8-year-old past self, Ellie (Sophia Waterton), and Justin (Ian Mairs), her seemingly kind father. During the encounter, Elliott explosively confronts Justin about a tragedy that will occur in only a few hours time.",
+            "popularity": 0.6,
+            "poster_path": "/ugaNwyBchLRPIVG1DRIuORJbNRy.jpg",
+            "release_date": "2021-01-01",
+            "title": "Can't Go Home Again",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                878,
+                27
+            ],
+            "id": 861303,
+            "original_language": "en",
+            "original_title": "Glitche",
+            "overview": "Glitche is experiencing programming errors. Please avoid all drug.exe. Be aware of these side-effects in your personalized simulation:  ›/suicidal behavior  ›/increased violent and sensual behavior  ›/extreme pain and rotting of the skin  ›/sudden and complete amnesia  ›/hallucinations",
+            "popularity": 0.68,
+            "poster_path": "/l7EfY77WCXzqgOZiqqBS20EvMVB.jpg",
+            "release_date": "2020-02-19",
+            "title": "Glitche",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8GeKaukS0TxDe1j32BgrV8gQjpi.jpg",
+            "genre_ids": [
+                14,
+                878,
+                35
+            ],
+            "id": 676483,
+            "original_language": "en",
+            "original_title": "Thong Girl Vs Xolta from Outer Space",
+            "overview": "Thong Girl reluctantly teams up with alien female Xolta to defeat evil warlord Vish'ss, who is bent on destroying planet Earth.",
+            "popularity": 0.844,
+            "poster_path": "/k2KQRsF1g7qLS6yAJOLRWFNDqPC.jpg",
+            "release_date": "2014-08-26",
+            "title": "Thong Girl Vs Xolta from Outer Space",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/d9bSm1hFy6iYCWP4nhwk8EpOZoy.jpg",
+            "genre_ids": [
+                16,
+                18,
+                878
+            ],
+            "id": 678299,
+            "original_language": "fr",
+            "original_title": "Saules aveugles, femme endormie",
+            "overview": "A lost cat, a giant talkative frog and a tsunami help a bank employee without ambition, his frustrated wife and a schizophrenic accountant to save Tokyo from an earthquake and find a meaning to their lives.",
+            "popularity": 4.545,
+            "poster_path": "/sZwCoTBd4k2RqxMLPPVYqnetdUT.jpg",
+            "release_date": "2023-02-24",
+            "title": "Blind Willow, Sleeping Woman",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 8
+        }
+    ],
+    "total_pages": 9,
+    "total_results": 166
+}
