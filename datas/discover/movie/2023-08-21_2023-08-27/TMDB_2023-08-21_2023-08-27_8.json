@@ -1,0 +1,363 @@
+{
+    "page": 8,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/724g6wTM0BXjv2GkkxWVfTj9r5l.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 1153687,
+            "original_language": "en",
+            "original_title": "Good Mythical Evening: Pain or Pleasure",
+            "overview": "",
+            "popularity": 8.946,
+            "poster_path": "/qY7h1r7JFxRLBbz40cLz2Q06zJs.jpg",
+            "release_date": "2023-08-24",
+            "title": "Good Mythical Evening: Pain or Pleasure",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1153472,
+            "original_language": "pt",
+            "original_title": "Eu, Tibano",
+            "overview": "",
+            "popularity": 7.474,
+            "poster_path": "/sDNegXAXwoiOWj1gV0TV7H9mboX.jpg",
+            "release_date": "2023-08-24",
+            "title": "Eu, Tibano",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                12
+            ],
+            "id": 1152398,
+            "original_language": "ru",
+            "original_title": "Квест",
+            "overview": "",
+            "popularity": 8.099,
+            "poster_path": "/o0nIfOFAlQLwCZ69LSpoAuyf0xu.jpg",
+            "release_date": "2023-08-24",
+            "title": "Квест",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 1150953,
+            "original_language": "en",
+            "original_title": "Rose Gold",
+            "overview": "",
+            "popularity": 8.768,
+            "poster_path": null,
+            "release_date": "2023-08-24",
+            "title": "Rose Gold",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1148452,
+            "original_language": "pt",
+            "original_title": "Aurora",
+            "overview": "",
+            "popularity": 7.472,
+            "poster_path": "/c9euNoYDiYZlmMXjLU4u9Cqrnew.jpg",
+            "release_date": "2023-08-24",
+            "title": "Aurora",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1148045,
+            "original_language": "pt",
+            "original_title": "Um Certo Cinema Gaúcho",
+            "overview": "",
+            "popularity": 8.022,
+            "poster_path": "/fElkx8nOeVLKT98gPPqsrvdxbuR.jpg",
+            "release_date": "2023-08-24",
+            "title": "Um Certo Cinema Gaúcho",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27
+            ],
+            "id": 1147689,
+            "original_language": "cn",
+            "original_title": "釀魂",
+            "overview": "",
+            "popularity": 8.372,
+            "poster_path": "/udnXmCbdgDKF5OZWZVAwBJQkjpf.jpg",
+            "release_date": "2023-08-24",
+            "title": "釀魂",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1140816,
+            "original_language": "af",
+            "original_title": "Werpsel",
+            "overview": "",
+            "popularity": 8.019,
+            "poster_path": null,
+            "release_date": "2023-08-24",
+            "title": "Werpsel",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                35
+            ],
+            "id": 1140767,
+            "original_language": "de",
+            "original_title": "Operation White Christmas",
+            "overview": "",
+            "popularity": 8.601,
+            "poster_path": "/wXr8biaTHvXMMagnNUMgL8rwRrl.jpg",
+            "release_date": "2023-08-24",
+            "title": "Operation White Christmas",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ioF6tk02tWZZmxoihaoB9vxRaY4.jpg",
+            "genre_ids": [
+                27
+            ],
+            "id": 1139116,
+            "original_language": "id",
+            "original_title": "Lantai 4",
+            "overview": "",
+            "popularity": 8.962,
+            "poster_path": "/4iydDyXJiajtJeBYhTOWZechYf9.jpg",
+            "release_date": "2023-08-24",
+            "title": "Lantai 4",
+            "video": false,
+            "vote_average": 1.5,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iomZ0IrbincUUMJv5EcwkSk6Kcy.jpg",
+            "genre_ids": [
+                10751
+            ],
+            "id": 1137207,
+            "original_language": "de",
+            "original_title": "Ponyherz",
+            "overview": "",
+            "popularity": 9.142,
+            "poster_path": "/g0x4lFQyq5XKrJU7QDWVcKRntld.jpg",
+            "release_date": "2023-08-24",
+            "title": "Ponyherz",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 1133945,
+            "original_language": "id",
+            "original_title": "Mappacci - Malam Pacar",
+            "overview": "",
+            "popularity": 8.048,
+            "poster_path": "/90mkfeAF6ImXreObWlZNzBBs545.jpg",
+            "release_date": "2023-08-24",
+            "title": "Mappacci - Malam Pacar",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2zuBOg2VC1kgEva8DD2JZb3GzwG.jpg",
+            "genre_ids": [
+                28,
+                18,
+                10749
+            ],
+            "id": 1126131,
+            "original_language": "id",
+            "original_title": "Galaksi",
+            "overview": "",
+            "popularity": 10.156,
+            "poster_path": "/yxoXjs4RrGloesXFihpqWq3tEL2.jpg",
+            "release_date": "2023-08-24",
+            "title": "Galaksi",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 1124481,
+            "original_language": "uk",
+            "original_title": "День незалежності",
+            "overview": "",
+            "popularity": 8.682,
+            "poster_path": "/wfxlCl8AO32pNkjPwl8soYMFiq8.jpg",
+            "release_date": "2023-08-24",
+            "title": "День незалежності",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27
+            ],
+            "id": 1118835,
+            "original_language": "km",
+            "original_title": "ផ្ទះតៃហោង",
+            "overview": "",
+            "popularity": 8.043,
+            "poster_path": "/vdX7GQ2OiI1hmiWuz4JmqYmwJuV.jpg",
+            "release_date": "2023-08-24",
+            "title": "ផ្ទះតៃហោង",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/zuo0lFfHUXaArIekl1eGR8XkbwN.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1112548,
+            "original_language": "pt",
+            "original_title": "Retratos Fantasmas",
+            "overview": "",
+            "popularity": 6.434,
+            "poster_path": "/qtqKgIMuKEPSDKqkKp85fMUHFMJ.jpg",
+            "release_date": "2023-08-24",
+            "title": "Retratos Fantasmas",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2UpQhc29sX8uKOPXqgcYNfmrhF0.jpg",
+            "genre_ids": [
+                53
+            ],
+            "id": 1109534,
+            "original_language": "en",
+            "original_title": "The Dive",
+            "overview": "외딴섬으로 다이빙을 떠난 자매 ‘드류’와 ‘메이’ 아름다운 바다 풍경에 감탄하던 것도 잠시, 산사태로 인해 거대한 바위와 물속으로 굴러떨어지고  바위는 두 사람을 깊은 바다 수면 속으로 끌고 들어간다.  수심 28m 추락, 생존 제한 시간 단 20분! 깊어질수록 턱 끝까지 차오르는 압도적 공포!",
+            "popularity": 15.114,
+            "poster_path": "/o43eMkNkWBBsyxEyyUeQwl4AOe.jpg",
+            "release_date": "2023-08-24",
+            "title": "다이브",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 1079233,
+            "original_language": "de",
+            "original_title": "Jeder schreibt für sich allein",
+            "overview": "",
+            "popularity": 8.456,
+            "poster_path": "/xrLth2SnBMvuwup2qRBwwYH3BlR.jpg",
+            "release_date": "2023-08-24",
+            "title": "Jeder schreibt für sich allein",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mfDxNs4i1gYnJHNwKcfXKwt8ulK.jpg",
+            "genre_ids": [
+                18,
+                9648
+            ],
+            "id": 1076011,
+            "original_language": "th",
+            "original_title": "แมนสรวง",
+            "overview": "",
+            "popularity": 9.685,
+            "poster_path": "/kj4qVhsA4pPQsn7TKG7ZaYqTpFg.jpg",
+            "release_date": "2023-08-24",
+            "title": "แมนสรวง",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                28,
+                36
+            ],
+            "id": 1072176,
+            "original_language": "ms",
+            "original_title": "Malbatt: Misi Bakara",
+            "overview": "",
+            "popularity": 9.149,
+            "poster_path": "/1HtAQ1M9DjRv4iiYzKnJ9lwXK3t.jpg",
+            "release_date": "2023-08-24",
+            "title": "Malbatt: Misi Bakara",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        }
+    ],
+    "total_pages": 12,
+    "total_results": 240
+}

@@ -1,0 +1,377 @@
+{
+    "page": 6,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/Dq5JJWRXKfbjp4PGvUjU1bA0gx.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1064566,
+            "original_language": "ja",
+            "original_title": "春に散る",
+            "overview": "",
+            "popularity": 8.075,
+            "poster_path": "/rUlfbqlM2mohRIwrVUXOZm6hQKx.jpg",
+            "release_date": "2023-08-25",
+            "title": "春に散る",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27
+            ],
+            "id": 1053914,
+            "original_language": "en",
+            "original_title": "That's a Wrap",
+            "overview": "",
+            "popularity": 9.285,
+            "poster_path": "/ctqcQgDG4An8lJB7veyEAG6xK90.jpg",
+            "release_date": "2023-08-25",
+            "title": "That's a Wrap",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bTu9qCfVpeFhuS508aTGMvz5LrX.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1053124,
+            "original_language": "id",
+            "original_title": "Ininnawa: An Island Calling",
+            "overview": "인도네시아에는 2억 6,500만 명의 인구가 17,000여 개의 섬에 흩어져 살고 있다. 모녀는 플로레스 해의 외딴섬에서 평생을 의료 서비스에 헌신해 온 한 가족의 이야기를 통해 세계에서 가장 큰 군도 국가가 국민에게 적절한 의료 서비스를 제공하는 데 직면한 어려움을 탐구한다. 미미는 최근까지 도시에 있는 학교에 첫 아이를 맡기고 섬에서 막내 아이를 돌보며 일해온 어머니다. 라비아는 간호사이자 어머니로서 은퇴를 준비하며, 섬 주민들에 대한 전적인 책임을 딸 미미에게 물려줄 준비를 하고 있다. 미미는 얼마나 오랫동안 어린 자녀와 남편을 떠나 마음을 굳게 먹고 일할 수 있을까. 또 라비아는 언제까지 섬의 부름으로부터 거리를 둘 수 있을까.",
+            "popularity": 7.034,
+            "poster_path": "/33SIiqr0DWth7LuJGO1nh6sFXt2.jpg",
+            "release_date": "2023-08-25",
+            "title": "이니나와",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jai2IePHlNTKwCNoOM5HQgMVUaj.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 1048522,
+            "original_language": "en",
+            "original_title": "Fremont",
+            "overview": "",
+            "popularity": 9.357,
+            "poster_path": "/rp8RRQWLF6hq2BfVdXpLwl3Pi0A.jpg",
+            "release_date": "2023-08-25",
+            "title": "Fremont",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jPRHKmXoQhNVPeuy1hMGU1xEJ8C.jpg",
+            "genre_ids": [
+                35,
+                27
+            ],
+            "id": 1042316,
+            "original_language": "en",
+            "original_title": "How To Kill Monsters",
+            "overview": "",
+            "popularity": 7.415,
+            "poster_path": "/zx9p1MM7ofCqS7qUfAdRnkDj4GM.jpg",
+            "release_date": "2023-08-25",
+            "title": "How To Kill Monsters",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27
+            ],
+            "id": 1033667,
+            "original_language": "zh",
+            "original_title": "粽邪3：鬼門開",
+            "overview": "",
+            "popularity": 8.812,
+            "poster_path": "/qjAkIHxu8Ld60ZlzbO1dWlJ4fa9.jpg",
+            "release_date": "2023-08-25",
+            "title": "粽邪3：鬼門開",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/uHvxzUCjRQHSRBdmyoLQY6ZrtJO.jpg",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "id": 1025067,
+            "original_language": "hi",
+            "original_title": "ड्रीम गर्ल 2",
+            "overview": "",
+            "popularity": 10.84,
+            "poster_path": "/spiHFvHk7vqsIF4wAU7S6wcTzek.jpg",
+            "release_date": "2023-08-25",
+            "title": "ड्रीम गर्ल 2",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/71oBx4HShXiJbLwDudGjeY6mHFI.jpg",
+            "genre_ids": [
+                28,
+                18,
+                80
+            ],
+            "id": 1020394,
+            "original_language": "fr",
+            "original_title": "Antigang : La relève",
+            "overview": "",
+            "popularity": 9.841,
+            "poster_path": "/ch81MpAW8nn2CYfZDzqY7DUPMPg.jpg",
+            "release_date": "2023-08-25",
+            "title": "Antigang : La relève",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                35
+            ],
+            "id": 1016886,
+            "original_language": "bn",
+            "original_title": "যমালয়ে জীবন্ত ভানু",
+            "overview": "",
+            "popularity": 6.547,
+            "poster_path": "/kt3s2qTDLnCyhv58Eu1RMnFzOHn.jpg",
+            "release_date": "2023-08-25",
+            "title": "যমালয়ে জীবন্ত ভানু",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                28,
+                18,
+                53
+            ],
+            "id": 1016346,
+            "original_language": "bn",
+            "original_title": "MR-9: Do or Die",
+            "overview": "",
+            "popularity": 10.838,
+            "poster_path": "/x5ELoH6k5z0DTGDLd6VXl5VwtOJ.jpg",
+            "release_date": "2023-08-25",
+            "title": "MR-9: Do or Die",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/laOBwujRCuRktzNDFGnyiJAeaB1.jpg",
+            "genre_ids": [
+                27
+            ],
+            "id": 1010826,
+            "original_language": "es",
+            "original_title": "El club de los lectores criminales",
+            "overview": "호러를 좋아하는 여덟 명의 친구들. 그들만의 끔찍한 비밀을 아는 듯한 살인 광대가 등장하고 친구들이 한 명씩 살해되기 시작한다. 이에 친구들은 살기 위한 반격에 나서는데.",
+            "popularity": 10.038,
+            "poster_path": "/idew42l7ILdyR97XC9yG4hFUy1Z.jpg",
+            "release_date": "2023-08-25",
+            "title": "킬러 북클럽",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/wEnEv2jEyuwjccnFhkolvT9JeHr.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1002711,
+            "original_language": "es",
+            "original_title": "Las chicas están bien",
+            "overview": "",
+            "popularity": 7.028,
+            "poster_path": "/d8DrPyKwLLC6me1fo8ho7BOA29r.jpg",
+            "release_date": "2023-08-25",
+            "title": "Las chicas están bien",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gmbwFud5kEtfG65j7LgF8byDG0l.jpg",
+            "genre_ids": [],
+            "id": 997398,
+            "original_language": "en",
+            "original_title": "Goldfish",
+            "overview": "인도인 엄마와 영국인 아버지 사이에서 태어난 아나미카는 치매가 진행 중인 엄마를 돌보기 위해 돌아온다. 하지만 두 모녀의 관계는 녹록지 않다. 젊은 시절 유망한 성악가였던 어머니는 뜻하지 않게 낯선 영국으로 이민을 오게 되고 계획에 없던 딸을 낳아 홀로 키워야 했기에 감성적이면서도 완강하다. 하얀 피부의 딸은 어린 시절 스스로를 입양아라고 거짓말을 했고, 열 살 때 아버지의 사망 이후 어머니에게 받은 상처는 트라우마가 되었다. 서로에게 드리운 그림자를 덜어내고 화해를 하기에는 짧게 남은 시간. 어머니의 병세가 악화되는 가운데 아나미카는 의료와 법적인 문제, 그리고 자신의 커리어와 곧 닥칠 일들에 대한 준비를 해야 한다.",
+            "popularity": 6.984,
+            "poster_path": "/plQ6Fg1898xqcxk69ptZU70agyI.jpg",
+            "release_date": "2023-08-25",
+            "title": "금붕어",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                28,
+                12
+            ],
+            "id": 997391,
+            "original_language": "ml",
+            "original_title": "ആര്‍ഡിഎക്സ് -  റോബര്‍ട്ട് ഡോണി സേവ്യര്‍",
+            "overview": "",
+            "popularity": 8.103,
+            "poster_path": "/y6QRQ0bHGt9Wc1BBTZsa1iB2PAm.jpg",
+            "release_date": "2023-08-25",
+            "title": "ആര്‍ഡിഎക്സ് -  റോബര്‍ട്ട് ഡോണി സേവ്യര്‍",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                53
+            ],
+            "id": 990787,
+            "original_language": "ta",
+            "original_title": "இறைவன்",
+            "overview": "",
+            "popularity": 7.005,
+            "poster_path": "/zRusAvFszxi96hzBfAQWezqnUQl.jpg",
+            "release_date": "2023-08-25",
+            "title": "இறைவன்",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/qDmVEKVrrGkrCZbYJSTnXhtMaZi.jpg",
+            "genre_ids": [
+                53
+            ],
+            "id": 974878,
+            "original_language": "en",
+            "original_title": "Peter Five Eight",
+            "overview": "",
+            "popularity": 8.899,
+            "poster_path": "/jsK9TGBnr1ixHnnEj8bGdFwSuoA.jpg",
+            "release_date": "2023-08-25",
+            "title": "Peter Five Eight",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                878,
+                53
+            ],
+            "id": 972423,
+            "original_language": "en",
+            "original_title": "A Million Days",
+            "overview": "",
+            "popularity": 7.571,
+            "poster_path": "/dj5pr0SkzEvMDkJzQ8VyZ3e19Dm.jpg",
+            "release_date": "2023-08-25",
+            "title": "A Million Days",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hkjOiIKeZ59XupKXVHGaLtHG1u.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 935906,
+            "original_language": "en",
+            "original_title": "Scrapper",
+            "overview": "꿈 많은 열두 살 소녀 조지는 혼자 사는 런던의 아파트를 마법으로 가득 채우며 즐겁게 지낸다. 어느 날, 멀어졌던 아버지가 느닷없이 나타나 조지에게 현실을 직시하도록 강요한다.",
+            "popularity": 11.004,
+            "poster_path": "/fezRPcjrd4whodnVVcFRCgDpK11.jpg",
+            "release_date": "2023-08-25",
+            "title": "스크래퍼",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                9648,
+                80
+            ],
+            "id": 920538,
+            "original_language": "zh",
+            "original_title": "最后的真相",
+            "overview": "",
+            "popularity": 7.126,
+            "poster_path": "/44REzXWeWB4gSGmuu6ReRUrclwg.jpg",
+            "release_date": "2023-08-25",
+            "title": "最后的真相",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fPun1QHWz3W1iHtsSfEGIs4Qvlv.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 869641,
+            "original_language": "en",
+            "original_title": "Vacation Friends 2",
+            "overview": "",
+            "popularity": 13.092,
+            "poster_path": "/wmH3VaUbwwTO3vDJhWT35BOFgb3.jpg",
+            "release_date": "2023-08-25",
+            "title": "Vacation Friends 2",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        }
+    ],
+    "total_pages": 12,
+    "total_results": 240
+}

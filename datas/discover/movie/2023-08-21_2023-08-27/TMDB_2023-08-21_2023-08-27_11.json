@@ -1,0 +1,373 @@
+{
+    "page": 11,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/qrQMRkSk5lsJW7TQHIMMA6yDoOs.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1050750,
+            "original_language": "pt",
+            "original_title": "Memórias Compostas",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": "/g0U2eJl1WT2dcNQhz9V4ZbOjvI2.jpg",
+            "release_date": "2023-08-23",
+            "title": "Memórias Compostas",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99,
+                878
+            ],
+            "id": 1039205,
+            "original_language": "pt",
+            "original_title": "Rasgão",
+            "overview": "",
+            "popularity": 11.34,
+            "poster_path": "/4CLjdbr8aZkN570in4x5ud3cs4g.jpg",
+            "release_date": "2023-08-23",
+            "title": "Rasgão",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 990754,
+            "original_language": "en",
+            "original_title": "Silver Servers",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": "/q7uXMsJXgY5oDo6qkWTrd743xcb.jpg",
+            "release_date": "2023-08-23",
+            "title": "Silver Servers",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5Q2eIBEXLJiuFMD7S1pbp6Sw7PS.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 976864,
+            "original_language": "es",
+            "original_title": "Pájaro mono",
+            "overview": "",
+            "popularity": 11.075,
+            "poster_path": "/5jlWfHj8y3EIOKBN1tPCFQqzna7.jpg",
+            "release_date": "2023-08-23",
+            "title": "Pájaro mono",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3Feq4UV4p2gU6dShAYfveqwWAEf.jpg",
+            "genre_ids": [
+                18,
+                80,
+                9648
+            ],
+            "id": 915935,
+            "original_language": "fr",
+            "original_title": "Anatomie d’une chute",
+            "overview": "",
+            "popularity": 22.894,
+            "poster_path": "/zeQN92DDDGRhRvA8PSMR1nY3FrI.jpg",
+            "release_date": "2023-08-23",
+            "title": "Anatomie d’une chute",
+            "video": false,
+            "vote_average": 10,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tUlUdP04nDWsy372myIHuA2qdNv.jpg",
+            "genre_ids": [
+                28,
+                53,
+                80,
+                18
+            ],
+            "id": 762430,
+            "original_language": "en",
+            "original_title": "Retribution",
+            "overview": "",
+            "popularity": 71.081,
+            "poster_path": "/oUmmY7QWWn7OhKlcPOnirHJpP1F.jpg",
+            "release_date": "2023-08-23",
+            "title": "Retribution",
+            "video": false,
+            "vote_average": 4,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                35
+            ],
+            "id": 1167286,
+            "original_language": "en",
+            "original_title": "Film Bros",
+            "overview": "",
+            "popularity": 1.4,
+            "poster_path": "/wK0PbZ3gSpVLZhRja87VDkHhhr0.jpg",
+            "release_date": "2023-08-22",
+            "title": "Film Bros",
+            "video": false,
+            "vote_average": 10,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99,
+                10770
+            ],
+            "id": 1167179,
+            "original_language": "uk",
+            "original_title": "Без права на дубль",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": "/3vClDIibpiCVPacw76oHD2v9rgG.jpg",
+            "release_date": "2023-08-22",
+            "title": "Без права на дубль",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 1165956,
+            "original_language": "pt",
+            "original_title": "Caixa Preta",
+            "overview": "",
+            "popularity": 5.379,
+            "poster_path": null,
+            "release_date": "2023-08-22",
+            "title": "Caixa Preta",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 1164635,
+            "original_language": "uk",
+            "original_title": "Драм",
+            "overview": "",
+            "popularity": 14.76,
+            "poster_path": "/k3DHg80vAU2ZY3pJxmR3Y7Qffk0.jpg",
+            "release_date": "2023-08-22",
+            "title": "Драм",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1155272,
+            "original_language": "zh",
+            "original_title": "被我弄丢两次的王斤斤",
+            "overview": "",
+            "popularity": 16.297,
+            "poster_path": null,
+            "release_date": "2023-08-22",
+            "title": "被我弄丢两次的王斤斤",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1153037,
+            "original_language": "pt",
+            "original_title": "Flora",
+            "overview": "",
+            "popularity": 14.657,
+            "poster_path": "/1oBuwpfuoINVTo2zZvHawbi7Ias.jpg",
+            "release_date": "2023-08-22",
+            "title": "Flora",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                16,
+                878
+            ],
+            "id": 1153028,
+            "original_language": "pt",
+            "original_title": "Carcinização",
+            "overview": "",
+            "popularity": 15.792,
+            "poster_path": "/exrZFK4jq4XvCfq8se2kfom2Rhh.jpg",
+            "release_date": "2023-08-22",
+            "title": "Carcinização",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1153023,
+            "original_language": "pt",
+            "original_title": "Livra-me",
+            "overview": "",
+            "popularity": 14.725,
+            "poster_path": "/8IA3u6itfFDssrEBP2mqlWB87Iw.jpg",
+            "release_date": "2023-08-22",
+            "title": "Livra-me",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cho8V9AHKpsLNY4oEpJqi4nIq7Q.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1149995,
+            "original_language": "fi",
+            "original_title": "Missä valo hajoaa sirpaleiksi",
+            "overview": "",
+            "popularity": 15.225,
+            "poster_path": "/s812RorHqYMaALMjObkJL4imBnQ.jpg",
+            "release_date": "2023-08-22",
+            "title": "Missä valo hajoaa sirpaleiksi",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 1148057,
+            "original_language": "pt",
+            "original_title": "Da Porta Pra Fora",
+            "overview": "",
+            "popularity": 15.876,
+            "poster_path": "/A33Ewa7x2aNfmn2WCGXl491G70l.jpg",
+            "release_date": "2023-08-22",
+            "title": "Da Porta Pra Fora",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pzvnnpJmCtSZMw44WYVEqldhn17.jpg",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "id": 1143319,
+            "original_language": "en",
+            "original_title": "Puppy Love",
+            "overview": "",
+            "popularity": 45.791,
+            "poster_path": "/oTc03izWZ9UdD3y0HegVV2M0s0J.jpg",
+            "release_date": "2023-08-22",
+            "title": "Puppy Love",
+            "video": false,
+            "vote_average": 8.2,
+            "vote_count": 8
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                10751,
+                12,
+                9648
+            ],
+            "id": 1121603,
+            "original_language": "en",
+            "original_title": "Axel and The Slasten River Incident",
+            "overview": "",
+            "popularity": 14.699,
+            "poster_path": null,
+            "release_date": "2023-08-22",
+            "title": "Axel and The Slasten River Incident",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/y71GeM3u1auwavzL8CKbUv3Vx0T.jpg",
+            "genre_ids": [
+                80,
+                27,
+                9648
+            ],
+            "id": 1044042,
+            "original_language": "es",
+            "original_title": "Invoking Yell",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": "/8LSsyp6MdyqJNHdBVm25taDlNLB.jpg",
+            "release_date": "2023-08-22",
+            "title": "Invoking Yell",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 973173,
+            "original_language": "zh",
+            "original_title": "爱犬奇缘",
+            "overview": "",
+            "popularity": 5.872,
+            "poster_path": "/5QtpTc3f7lBgoDp5EgemysXI4WL.jpg",
+            "release_date": "2023-08-22",
+            "title": "爱犬奇缘",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        }
+    ],
+    "total_pages": 12,
+    "total_results": 240
+}

@@ -1,0 +1,372 @@
+{
+    "page": 12,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/oZlcyZlkL5ohjRl5oaGiyUjj0OB.jpg",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "id": 937949,
+            "original_language": "pt",
+            "original_title": "Mussum: O Filmis",
+            "overview": "",
+            "popularity": 16.23,
+            "poster_path": "/6DXadMzU2dtl8Cx6Ccnw92fJxvX.jpg",
+            "release_date": "2023-08-22",
+            "title": "Mussum: O Filmis",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                10749
+            ],
+            "id": 928333,
+            "original_language": "zh",
+            "original_title": "念念相忘",
+            "overview": "",
+            "popularity": 20.024,
+            "poster_path": "/ucmPo2nRSMWGu9PBnVFvSf0hOw4.jpg",
+            "release_date": "2023-08-22",
+            "title": "念念相忘",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ptzhZVIQ9wKV2kdAJB9ts7CIlLs.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 923150,
+            "original_language": "zh",
+            "original_title": "燃冬",
+            "overview": "",
+            "popularity": 17.724,
+            "poster_path": "/pLrmrkmrSDiSz46PQv02oOC6YAJ.jpg",
+            "release_date": "2023-08-22",
+            "title": "연동",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kqj1anpEoC0p0S76FlQfyJrmkVw.jpg",
+            "genre_ids": [
+                16,
+                35,
+                10402
+            ],
+            "id": 828899,
+            "original_language": "en",
+            "original_title": "Metalocalypse: Army of the Doomstar",
+            "overview": "",
+            "popularity": 74.127,
+            "poster_path": "/sRG64ZJZT7uETcKCJbFvkGlhDrQ.jpg",
+            "release_date": "2023-08-22",
+            "title": "Metalocalypse: Army of the Doomstar",
+            "video": false,
+            "vote_average": 6,
+            "vote_count": 8
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 772265,
+            "original_language": "zh",
+            "original_title": "星际变种",
+            "overview": "",
+            "popularity": 19.114,
+            "poster_path": "/mMidfcVVaESbYdF9Tzgejp3FvPR.jpg",
+            "release_date": "2023-08-22",
+            "title": "星际变种",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                53,
+                27
+            ],
+            "id": 716309,
+            "original_language": "en",
+            "original_title": "Kill",
+            "overview": "",
+            "popularity": 14.76,
+            "poster_path": null,
+            "release_date": "2023-08-22",
+            "title": "Kill",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                53,
+                18
+            ],
+            "id": 1167671,
+            "original_language": "fr",
+            "original_title": "Printemps Papillon",
+            "overview": "",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "2023-08-21",
+            "title": "Printemps Papillon",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                35,
+                18,
+                99
+            ],
+            "id": 1166326,
+            "original_language": "en",
+            "original_title": "Rainbow's Writing",
+            "overview": "",
+            "popularity": 3.842,
+            "poster_path": null,
+            "release_date": "2023-08-21",
+            "title": "Rainbow's Writing",
+            "video": true,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                10402,
+                99
+            ],
+            "id": 1166028,
+            "original_language": "en",
+            "original_title": "Leonard Bernstein's Kaddish Symphony",
+            "overview": "",
+            "popularity": 5.379,
+            "poster_path": "/xt0b1DTkccu4qcHq5j3k4xtAUlV.jpg",
+            "release_date": "2023-08-21",
+            "title": "Leonard Bernstein's Kaddish Symphony",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": true,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1161179,
+            "original_language": "en",
+            "original_title": "The Best Of Sienna Day",
+            "overview": "",
+            "popularity": 0,
+            "poster_path": "/m23QBUJcDJSGsaAQ0EUcZBIPfv2.jpg",
+            "release_date": "2023-08-21",
+            "title": "The Best Of Sienna Day",
+            "video": true,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/eEaDVi1fcy3NsOJI5e7X5DnuvD0.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1160496,
+            "original_language": "ko",
+            "original_title": "땅에 쓰는 시",
+            "overview": "집 앞마당에서 무덤까지, 한강의 샛강, 선유도 공원, 강원도 고성산불의 환경복원 영역까지 맡는 사람들이 있다. 그들은 조경가(Landscape Architect)이다. 우리의 녹록지 않은 삶에 좋은 풍경과 자연을 선물해 주는 조경가 중 올해 82세인 할머니 정영선은 다음 세대를 위해 오늘도 땅에 시를 쓰듯 일을 한다.",
+            "popularity": 22.715,
+            "poster_path": "/xdQpQevRLvWYp8LI3wMCmj8quJ8.jpg",
+            "release_date": "2023-08-21",
+            "title": "땅에 쓰는 시",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1153039,
+            "original_language": "pt",
+            "original_title": "Meu Nome É Leco",
+            "overview": "",
+            "popularity": 5.379,
+            "poster_path": "/12exdxule1trtxwJ2Gwv9FPXEa.jpg",
+            "release_date": "2023-08-21",
+            "title": "Meu Nome É Leco",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gRpnYEI4L4uSXSHrFgf42jDeD89.jpg",
+            "genre_ids": [
+                10749,
+                35
+            ],
+            "id": 1151344,
+            "original_language": "en",
+            "original_title": "The List",
+            "overview": "",
+            "popularity": 19.057,
+            "poster_path": "/8vfyhKkTwvxbV5UuuIMBP0BLILv.jpg",
+            "release_date": "2023-08-21",
+            "title": "The List",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 1149276,
+            "original_language": "en",
+            "original_title": "The Strange Case of Dr Jekyll and Mr Hyde",
+            "overview": "",
+            "popularity": 16.08,
+            "poster_path": "/m57OfMaqWeshh5znjNJVJv8xTcp.jpg",
+            "release_date": "2023-08-21",
+            "title": "The Strange Case of Dr Jekyll and Mr Hyde",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1148060,
+            "original_language": "pt",
+            "original_title": "O Barulho da Noite",
+            "overview": "",
+            "popularity": 21.238,
+            "poster_path": "/2FRX93y4UVBJclxylvttSU4FHZi.jpg",
+            "release_date": "2023-08-21",
+            "title": "O Barulho da Noite",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27,
+                28
+            ],
+            "id": 1144028,
+            "original_language": "en",
+            "original_title": "Wrath of Dracula",
+            "overview": "",
+            "popularity": 26.674,
+            "poster_path": "/xsxOwoSaqh3EhXOXAvgdsg6y4Lw.jpg",
+            "release_date": "2023-08-21",
+            "title": "Wrath of Dracula",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                10751
+            ],
+            "id": 1086670,
+            "original_language": "it",
+            "original_title": "Sherlock Santa",
+            "overview": "",
+            "popularity": 1.4,
+            "poster_path": "/5mmDjSMZfWzlTZvOWHpUdKW3fMx.jpg",
+            "release_date": "2023-08-21",
+            "title": "Sherlock Santa",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 1073038,
+            "original_language": "uk",
+            "original_title": "Мій карпатський дідусь",
+            "overview": "",
+            "popularity": 23.055,
+            "poster_path": "/eVl8fwyyqHLnd2f5MlECjaFvXme.jpg",
+            "release_date": "2023-08-21",
+            "title": "Мій карпатський дідусь",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27,
+                14,
+                10749
+            ],
+            "id": 1018758,
+            "original_language": "en",
+            "original_title": "Frog",
+            "overview": "",
+            "popularity": 26.489,
+            "poster_path": null,
+            "release_date": "2023-08-21",
+            "title": "Frog",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bCy2674QJzyDzWwJ9EpyI19jkaJ.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 896124,
+            "original_language": "es",
+            "original_title": "Historia y Geografía",
+            "overview": "",
+            "popularity": 21.252,
+            "poster_path": null,
+            "release_date": "2023-08-21",
+            "title": "Historia y Geografía",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        }
+    ],
+    "total_pages": 12,
+    "total_results": 240
+}

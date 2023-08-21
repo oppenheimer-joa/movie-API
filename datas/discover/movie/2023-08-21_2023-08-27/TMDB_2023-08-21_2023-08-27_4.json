@@ -1,0 +1,373 @@
+{
+    "page": 4,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                53,
+                80
+            ],
+            "id": 1162449,
+            "original_language": "en",
+            "original_title": "Midnight Hustle",
+            "overview": "",
+            "popularity": 6.522,
+            "poster_path": null,
+            "release_date": "2023-08-25",
+            "title": "Midnight Hustle",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                12
+            ],
+            "id": 1162448,
+            "original_language": "en",
+            "original_title": "Moving Still",
+            "overview": "",
+            "popularity": 5.644,
+            "poster_path": "/3s3ZoUKZ9rIBQIB92r9mdmQG51I.jpg",
+            "release_date": "2023-08-25",
+            "title": "Moving Still",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                35
+            ],
+            "id": 1161887,
+            "original_language": "en",
+            "original_title": "Come Correct",
+            "overview": "",
+            "popularity": 11.752,
+            "poster_path": "/mvsW9nPfHKgXEDnMixN3nzwzTn4.jpg",
+            "release_date": "2023-08-25",
+            "title": "Come Correct",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 1161436,
+            "original_language": "zh",
+            "original_title": "拳后妈妈",
+            "overview": "서른 살의 시시는 WBC 아시아 타이틀 챔피언이자 세 살배기 남자아이를 둔 어머니다. 자신의 커리어를 바꿀 국제복싱연맹 시합에 출전할 기회를 얻은 시시에게는 아들의 양육을 전적으로 맡을 책임 역시 주어진다. 많은 중국 사람이 그러하듯, 시시는 여성의 가장 중요한 역할은 어머니로서의 일이라고 믿는 보수적인 가정에서 태어나고 자랐다. 아들을 출산한 후 시시는 심각한 산후 우울증을 겪었다. 복싱은 시시가 자신의 존재를 세상에 알릴 수 있는 탈출구가 되었다. 다시 운동을 시작하며, 시시는 자신이 내린 선택에 대한 비난을 끊임없이 피해 간다. 시시는 링의 안과 밖에서 모두 승리를 거둘 수 있을까?",
+            "popularity": 5.634,
+            "poster_path": null,
+            "release_date": "2023-08-25",
+            "title": "복싱쉐도우",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xWQlaHuPcllRp9wqPsJqPjCTQcX.jpg",
+            "genre_ids": [
+                28,
+                18,
+                36
+            ],
+            "id": 1161406,
+            "original_language": "pa",
+            "original_title": "Mastaney",
+            "overview": "",
+            "popularity": 6.898,
+            "poster_path": "/8vrlTSiMcNlnCQn6oNcgbbKbSn3.jpg",
+            "release_date": "2023-08-25",
+            "title": "Mastaney",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cepF02mKuCu8imxXbxEky8o0R8b.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1161337,
+            "original_language": "bn",
+            "original_title": "পুতুলনামা",
+            "overview": "무생물을 움직이고, 말하고, 웃고, 춤추고, 울게 만드는 기술은 마다브가 아버지로부터 물려받은 가장 소중한 유산이다. 이렇게 갈고닦은 기술은 이제 마다브의 존재 이유가 되었다. 그러나 인형극의 인기가 급격히 식어가고 자신의 극단이 소멸해 가는 모습을 무력하게 지켜보는 마다브는 이제 이름 없이 사라질지도 모른다는 두려움에 휩싸인다. <끝나지 않는 인형극>은 냉혹한 현실과 열정적인 예술가의 황홀경 사이에 놓인 한 남자의 투쟁과 꿈을 그린다. 이 작품은 자신의 예술 활동을 계속하기 위해 고군분투하는 마다브의 외롭고도 끈질긴 싸움에 보내는 찬사다.",
+            "popularity": 6.186,
+            "poster_path": "/3Uw6PsPXnEiHkvZItpfRX65Wggi.jpg",
+            "release_date": "2023-08-25",
+            "title": "끝나지 않는 인형극",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1159698,
+            "original_language": "mr",
+            "original_title": "Baap Manus",
+            "overview": "",
+            "popularity": 6.509,
+            "poster_path": "/6td8E1gUZPvzLPY4yi4rYBMd6mN.jpg",
+            "release_date": "2023-08-25",
+            "title": "Baap Manus",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99,
+                10402
+            ],
+            "id": 1159247,
+            "original_language": "ja",
+            "original_title": "BE:the ONE",
+            "overview": "",
+            "popularity": 6.003,
+            "poster_path": "/vBAp89Au9ZCXp5PW8njKdyuVprL.jpg",
+            "release_date": "2023-08-25",
+            "title": "BE:the ONE",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jKfojpyRM7EOowu5aux8YT5GGM3.jpg",
+            "genre_ids": [],
+            "id": 1158828,
+            "original_language": "es",
+            "original_title": "Pibas Superpoderosas",
+            "overview": "젊은이들의 삶과 고민, 갈망과 투쟁을 보여 주는 세 인물, 아나, 로레, 밀레의 이야기를 통해 새로운 젠더 관점과 주체적 여성상이 드러난다. 성인이 되는 관문을 앞두고 있는 고등학생 주인공들의 모습은 자기를 표현하고 세상을 변화시키고자 하는 동시대 젊은이들의 욕구를 반영한다.",
+            "popularity": 5.633,
+            "poster_path": "/v23AR9lxN1wXD06q0Ic13xAd07Z.jpg",
+            "release_date": "2023-08-25",
+            "title": "파워퍼프갤스",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9YjVv7VRbWPxBiroYlCbeJw71b7.jpg",
+            "genre_ids": [
+                18,
+                35
+            ],
+            "id": 1157558,
+            "original_language": "gu",
+            "original_title": "૩ એક્કા",
+            "overview": "",
+            "popularity": 6.327,
+            "poster_path": null,
+            "release_date": "2023-08-25",
+            "title": "૩ એક્કા",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                53
+            ],
+            "id": 1157429,
+            "original_language": "hi",
+            "original_title": "अकेली",
+            "overview": "",
+            "popularity": 9.133,
+            "poster_path": "/4eBiqmlak6K5nipdayoGRYH2ON5.jpg",
+            "release_date": "2023-08-25",
+            "title": "अकेली",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                16,
+                99
+            ],
+            "id": 1155570,
+            "original_language": "en",
+            "original_title": "Fragments of Red",
+            "overview": "",
+            "popularity": 6.774,
+            "poster_path": "/i2s8oBpglgyrwWLv21iLgxecVXt.jpg",
+            "release_date": "2023-08-25",
+            "title": "Fragments of Red",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27
+            ],
+            "id": 1155102,
+            "original_language": "en",
+            "original_title": "Werewolf Santa",
+            "overview": "",
+            "popularity": 7.419,
+            "poster_path": "/olJHxyKZhaJer15gHvyrPeceocz.jpg",
+            "release_date": "2023-08-25",
+            "title": "Werewolf Santa",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kLioHTj9NwxTy5o4d5k9RfHAcl6.jpg",
+            "genre_ids": [
+                80,
+                18
+            ],
+            "id": 1155082,
+            "original_language": "ta",
+            "original_title": "ஓங்கி அடிச்சா ஒன்றரை டன் வெயிட்டுடா",
+            "overview": "",
+            "popularity": 6.046,
+            "poster_path": "/6Yg4ArLzeornW3RBnrrzhKnCNUw.jpg",
+            "release_date": "2023-08-25",
+            "title": "ஓங்கி அடிச்சா ஒன்றரை டன் வெயிட்டுடா",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1155059,
+            "original_language": "en",
+            "original_title": "Creeping Death",
+            "overview": "",
+            "popularity": 6.739,
+            "poster_path": "/4EKPDmLBrbFgQocdJrHEjdADtKZ.jpg",
+            "release_date": "2023-08-25",
+            "title": "Creeping Death",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                16,
+                28,
+                14
+            ],
+            "id": 1154660,
+            "original_language": "en",
+            "original_title": "Warrior King",
+            "overview": "",
+            "popularity": 11.187,
+            "poster_path": "/6SHB4hOWs3MZJsyzFxuY5y8d9h.jpg",
+            "release_date": "2023-08-25",
+            "title": "Warrior King",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 1154450,
+            "original_language": "en",
+            "original_title": "Carpet Cowboys",
+            "overview": "",
+            "popularity": 6.777,
+            "poster_path": "/23uWebjExCazsV2fRkraF4EuKzl.jpg",
+            "release_date": "2023-08-25",
+            "title": "Carpet Cowboys",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4Hj6qsS57A5sqrdKrWW5xtQZfyw.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1153862,
+            "original_language": "hi",
+            "original_title": "Love All",
+            "overview": "",
+            "popularity": 6.289,
+            "poster_path": "/qTLRHRJIQLRtsv9Q1rbUgRlE3A2.jpg",
+            "release_date": "2023-08-25",
+            "title": "Love All",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5O20vboewRAooNq70vSVTujJPdv.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1153834,
+            "original_language": "fr",
+            "original_title": "Les grands hommes",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": "/fZUiW87pBFBs5B1i7z5P16nsRDC.jpg",
+            "release_date": "2023-08-25",
+            "title": "Les grands hommes",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2rq8LI4g1WuFbch6SSTs1BTbIm6.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 1151664,
+            "original_language": "pt",
+            "original_title": "Olhares Trêmulos",
+            "overview": "",
+            "popularity": 5.669,
+            "poster_path": "/agPKzUuXjmEdrZXDbxltLnR0h3L.jpg",
+            "release_date": "2023-08-25",
+            "title": "Olhares Trêmulos",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        }
+    ],
+    "total_pages": 12,
+    "total_results": 240
+}

@@ -1,0 +1,373 @@
+{
+    "page": 5,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                80,
+                27
+            ],
+            "id": 1150451,
+            "original_language": "ja",
+            "original_title": "日本統一外伝 山崎一門9 世にも奇妙な山崎一門",
+            "overview": "",
+            "popularity": 6.481,
+            "poster_path": "/j59QKZDdX7yNJ6yr4gqaXpL6AYs.jpg",
+            "release_date": "2023-08-25",
+            "title": "日本統一外伝 山崎一門9 世にも奇妙な山崎一門",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                10751,
+                12
+            ],
+            "id": 1149137,
+            "original_language": "pl",
+            "original_title": "O psie, który jeździł koleją",
+            "overview": "",
+            "popularity": 6.288,
+            "poster_path": "/pgV2dHhQzIH9wHHZRS6zJItdUbT.jpg",
+            "release_date": "2023-08-25",
+            "title": "O psie, który jeździł koleją",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pOHAgKQzRclUV1PNJGScvpFoE1O.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1146462,
+            "original_language": "ku",
+            "original_title": "سێگۆشە",
+            "overview": "차를 운전해 이동하던 여자와 병원에 간 소녀는 각각 다른 방식으로 성적 괴롭힘을 당한다. 별개의 사건으로 보이는 둘의 상황은 우연한 만남으로 점점 더 복잡해진다.",
+            "popularity": 5.636,
+            "poster_path": "/iLLq303gSQI1pkr7nmcaexe0eap.jpg",
+            "release_date": "2023-08-25",
+            "title": "트라이앵글",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                36,
+                18
+            ],
+            "id": 1143225,
+            "original_language": "ta",
+            "original_title": "ஹர்காரா",
+            "overview": "",
+            "popularity": 6.67,
+            "poster_path": "/fIwLD6e0BsoVFMS8aKoPYTlwEEp.jpg",
+            "release_date": "2023-08-25",
+            "title": "ஹர்காரா",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1140812,
+            "original_language": "en",
+            "original_title": "Karen",
+            "overview": "",
+            "popularity": 6.724,
+            "poster_path": null,
+            "release_date": "2023-08-25",
+            "title": "Karen",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4NAMVewV35siXniIYkyGY4eSnk6.jpg",
+            "genre_ids": [
+                18,
+                28,
+                10751,
+                35
+            ],
+            "id": 1140135,
+            "original_language": "vi",
+            "original_title": "Kẻ Ẩn Danh",
+            "overview": "",
+            "popularity": 6.425,
+            "poster_path": "/tOBbhHBbFsRU6pVHGHQnMjtumFR.jpg",
+            "release_date": "2023-08-25",
+            "title": "Kẻ Ẩn Danh",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                28
+            ],
+            "id": 1139698,
+            "original_language": "kn",
+            "original_title": "ಟೋಬಿ",
+            "overview": "",
+            "popularity": 6.969,
+            "poster_path": "/jUbj9f2W1xDvavv2kHy1tePuZch.jpg",
+            "release_date": "2023-08-25",
+            "title": "ಟೋಬಿ",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/dxFAkIPaHitgHySTbytXVokZgNk.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1135727,
+            "original_language": "tl",
+            "original_title": "Sugapa",
+            "overview": "",
+            "popularity": 29.435,
+            "poster_path": "/sY8GRisCOnqs8mDRfOsU5OzOYRX.jpg",
+            "release_date": "2023-08-25",
+            "title": "Sugapa",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                16
+            ],
+            "id": 1135710,
+            "original_language": "sv",
+            "original_title": "Vem är du, Mamma Mu?",
+            "overview": "",
+            "popularity": 6.522,
+            "poster_path": "/sZb8KzZl2lUZMEwDKGTFQo33o8O.jpg",
+            "release_date": "2023-08-25",
+            "title": "Vem är du, Mamma Mu?",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1133039,
+            "original_language": "ja",
+            "original_title": "海辺の恋人",
+            "overview": "",
+            "popularity": 7.106,
+            "poster_path": "/42RIB3PeUlrvwv87HpcjywkmeGV.jpg",
+            "release_date": "2023-08-25",
+            "title": "海辺の恋人",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 1129861,
+            "original_language": "ru",
+            "original_title": "Два капитана",
+            "overview": "",
+            "popularity": 5.626,
+            "poster_path": "/wUuaTgQpG7ZWSt4ferDZWwqgvLx.jpg",
+            "release_date": "2023-08-25",
+            "title": "Два капитана",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                80
+            ],
+            "id": 1126608,
+            "original_language": "zh",
+            "original_title": "绝地追击",
+            "overview": "",
+            "popularity": 11.982,
+            "poster_path": "/ajS9BWiZqswD3HX6bpyJGHGzsMj.jpg",
+            "release_date": "2023-08-25",
+            "title": "绝地追击",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/egLT5zBX70WvctWWnDmayB7RAOR.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1119355,
+            "original_language": "es",
+            "original_title": "Mi soledad tiene alas",
+            "overview": "",
+            "popularity": 9.212,
+            "poster_path": "/mfzDQnWzfPsf1WwIYi81J3rhppf.jpg",
+            "release_date": "2023-08-25",
+            "title": "Mi soledad tiene alas",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                878,
+                10749,
+                35
+            ],
+            "id": 1118801,
+            "original_language": "ta",
+            "original_title": "அடியே",
+            "overview": "",
+            "popularity": 6.005,
+            "poster_path": "/l9AeNt6Ji10QMl3tX2WBsO9cxav.jpg",
+            "release_date": "2023-08-25",
+            "title": "அடியே",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 1109237,
+            "original_language": "dz",
+            "original_title": "The Monk and the Gun",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": null,
+            "release_date": "2023-08-25",
+            "title": "The Monk and the Gun",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                35
+            ],
+            "id": 1087917,
+            "original_language": "en",
+            "original_title": "The Golden Boys",
+            "overview": "",
+            "popularity": 5.663,
+            "poster_path": "/yfsNHFp51aBQfjhELFUJnnnQcLE.jpg",
+            "release_date": "2023-08-25",
+            "title": "The Golden Boys",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/wDbaqPerDMW4LxwycScnYzmT68v.jpg",
+            "genre_ids": [
+                27
+            ],
+            "id": 1084176,
+            "original_language": "en",
+            "original_title": "Demonic Toys: Jack-Attack",
+            "overview": "",
+            "popularity": 9.28,
+            "poster_path": "/b4eTp9fsARaFmQnEQAThVa7NcDk.jpg",
+            "release_date": "2023-08-25",
+            "title": "Demonic Toys: Jack-Attack",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                35
+            ],
+            "id": 1070937,
+            "original_language": "ml",
+            "original_title": "Ramchandra Boss & Co",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": "/fasQ6fsbz7ozWVD4NW9wAv0GJXk.jpg",
+            "release_date": "2023-08-25",
+            "title": "Ramchandra Boss & Co",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lkP6BjP4Om2Ihzrw2LY0Xx9B65M.jpg",
+            "genre_ids": [
+                9648,
+                27
+            ],
+            "id": 1070535,
+            "original_language": "sv",
+            "original_title": "Canceled",
+            "overview": "",
+            "popularity": 8.064,
+            "poster_path": "/xAwZ6aos0dZYb4VQo8lTupHu2Fl.jpg",
+            "release_date": "2023-08-25",
+            "title": "Canceled",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                10749
+            ],
+            "id": 1066741,
+            "original_language": "bn",
+            "original_title": "ওহ! লাভলি",
+            "overview": "",
+            "popularity": 6.544,
+            "poster_path": "/yUWuB9wolhiN0HCQFF1j3EglUQ4.jpg",
+            "release_date": "2023-08-25",
+            "title": "ওহ! লাভলি",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        }
+    ],
+    "total_pages": 12,
+    "total_results": 240
+}

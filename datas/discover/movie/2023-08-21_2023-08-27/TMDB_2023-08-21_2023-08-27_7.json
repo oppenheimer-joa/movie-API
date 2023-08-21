@@ -1,0 +1,377 @@
+{
+    "page": 7,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 840963,
+            "original_language": "es",
+            "original_title": "Armas blancas",
+            "overview": "",
+            "popularity": 6.51,
+            "poster_path": "/lPmr5OeofjwUavxFyh3qkIIdeoU.jpg",
+            "release_date": "2023-08-25",
+            "title": "Armas blancas",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lMZ4KpFi6nhm4VjPvAxUt18HeOx.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 814776,
+            "original_language": "en",
+            "original_title": "Bottoms",
+            "overview": "",
+            "popularity": 26.034,
+            "poster_path": "/i39klBPH7xe7ofHebGS7EnNnbBb.jpg",
+            "release_date": "2023-08-25",
+            "title": "바텀스",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4CJW88pZ5hbFnzb8mvTJqDaXJTn.jpg",
+            "genre_ids": [
+                53,
+                18,
+                10749
+            ],
+            "id": 795254,
+            "original_language": "en",
+            "original_title": "The Grand Bolero",
+            "overview": "",
+            "popularity": 8.002,
+            "poster_path": "/fao2pXyZsW8t43Y5dKcpLyH2XNx.jpg",
+            "release_date": "2023-08-25",
+            "title": "The Grand Bolero",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sQicIWMVw5BEis6YSk0vqZrIlXh.jpg",
+            "genre_ids": [
+                99,
+                10402
+            ],
+            "id": 637698,
+            "original_language": "en",
+            "original_title": "The Elephant 6 Recording Co.",
+            "overview": "",
+            "popularity": 13.839,
+            "poster_path": "/2pFwveOV1BEKwGfa37RgrFze7ut.jpg",
+            "release_date": "2023-08-25",
+            "title": "The Elephant 6 Recording Co.",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1S9gIA3l7q9k9vL9ScTKEguFYmX.jpg",
+            "genre_ids": [
+                16,
+                878
+            ],
+            "id": 215608,
+            "original_language": "ja",
+            "original_title": "機動戦士ガンダムSEED スペシャルエディション 虚空の戦場",
+            "overview": "TV시리즈 50화를 재구성하고 신작 컷을 추가한 총집편으로 3부로 구성되어 있다. 기동전사 건담 3부작 극장판 같은 것이라고 생각하면 좋다.\r 허공의 전장(虚空の戦場): 1-21화\r 아득한 새벽(遥かなる暁): 22-40화\r 명동의 우주(鳴動の宇宙): 41-50화  4:3이었던 TV판과는 달리 16:9로 제작되어 있으며, 신작 컷이 추가되고 TV시리즈와는 다른 부분(레이더 건담이 버스터 건담에 직접 파괴됨, 도미니온의 포격을 막은 후에, 파괴된 스트라이크와 함께 나왔던 무우 라 프라가의 헬멧이 삭제되는 등)이 몇 있다. 녹음도 새로 했으며, 덕분에 니콜 아말피의 경우에는 성우인 마미의 유학으로 인해 박로미로 변경되었다.  신작 컷과 작화붕괴의 수정은 히라이 히사시가 다른 작품을 만들러 간 시기였기 때문에 야마구치 스스무가 담당하였다.  해당 작품의 장면 대부분이 HD 리마스터에 그대로 유용되었고, 기동전사 건담보다 10화는 많은데 3부로 압축하기엔 애시당초 될 리가 없는 것이기 때문에 편집 상태도 그렇게 좋지 않다. 바빠서 TV판 다볼 시간이 없는 경우가 아니라면 이제와서 볼 필요는 없다. HD 리마스터를 볼 것을 권장한다.",
+            "popularity": 9.744,
+            "poster_path": "/nPRgtPjO5HnnKLfMMRDnt4jjtNW.jpg",
+            "release_date": "2023-08-25",
+            "title": "기동전사 건담 SEED - SE01.허공의 전장",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 1167186,
+            "original_language": "uk",
+            "original_title": "Міста та їхні герої",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": "/9Xr3SwFyLolrxA6uRm49CvInVuS.jpg",
+            "release_date": "2023-08-24",
+            "title": "Міста та їхні герої",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1167008,
+            "original_language": "uk",
+            "original_title": "Присвячення Єві",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": "/vyni9FcKzUQB07zADt7HPF9sMGA.jpg",
+            "release_date": "2023-08-24",
+            "title": "Присвячення Єві",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                16,
+                12,
+                35
+            ],
+            "id": 1166613,
+            "original_language": "ru",
+            "original_title": "Руслан и Людмила. Больше, чем сказка",
+            "overview": "",
+            "popularity": 2.744,
+            "poster_path": "/uUceQGbi1u7p62vZ2dqcYkXKWlE.jpg",
+            "release_date": "2023-08-24",
+            "title": "Руслан и Людмила. Больше, чем сказка",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7f4eUSMh5pNF66t3PbUwH5EHe6e.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1166339,
+            "original_language": "en",
+            "original_title": "Amputating Alice",
+            "overview": "",
+            "popularity": 3.842,
+            "poster_path": "/dEJV5eqPGJUORkw0HsgducskWtW.jpg",
+            "release_date": "2023-08-24",
+            "title": "Amputating Alice",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/6mutDzs2BVWWiTcdIHhSPNpm4xs.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1164860,
+            "original_language": "de",
+            "original_title": "Kraft der Utopie – Leben mit Le Corbusier in Chandigarh",
+            "overview": "",
+            "popularity": 8.321,
+            "poster_path": "/eJVw6jSiYMoaUOQeDMraKUKRd5L.jpg",
+            "release_date": "2023-08-24",
+            "title": "Kraft der Utopie – Leben mit Le Corbusier in Chandigarh",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/uDlQK77Iz6UGpGXXDb4U3x6ZfqV.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 1163574,
+            "original_language": "en",
+            "original_title": "Hostile Forces",
+            "overview": "",
+            "popularity": 9.455,
+            "poster_path": "/xulIkobKHZpnG6tL6s2d8wuVcoQ.jpg",
+            "release_date": "2023-08-24",
+            "title": "Hostile Forces",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                53,
+                9648
+            ],
+            "id": 1162446,
+            "original_language": "en",
+            "original_title": "Twisted Neighbor",
+            "overview": "",
+            "popularity": 9.7,
+            "poster_path": null,
+            "release_date": "2023-08-24",
+            "title": "Twisted Neighbor",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xJAuR4pMUUy0GUk0bSd4CkaBHHJ.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1161394,
+            "original_language": "pt",
+            "original_title": "Nada será como antes – a música do Clube da Esquina",
+            "overview": "<클루브 다 에스퀴나: 이전에는 없던 음악들>은 1972년 브라질에서 발매된 앨범 ‘Clube da Esquina’의 탄생 배경을 파고드는 작품이다. 여러 음악 평론가들이 역대 최고의 음반 중 하나로 손꼽는 이 앨범을 통해 밀톤 나시멘토, 로 보르헤스, 토니뇨 호르타, 베토 구에데스, 바그너 티소 등의 뮤지션들이 세상에 알려졌다.",
+            "popularity": 8.029,
+            "poster_path": null,
+            "release_date": "2023-08-24",
+            "title": "클루브 다 에스퀴나: 이전에는 없던 음악들",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 1160500,
+            "original_language": "ko",
+            "original_title": "인생, 뭐 대수인가",
+            "overview": "‘인생이 허무하니까 웃어야지’ 대한민국 최초의 히피 뮤지션 한대수는 오늘도 그렇게 웃는다. 어떤 음악가는 사랑이야기나 희망을 노래하지만, 한대수가 음악을 만들고 노래를 부르는 영감의 원천은 고통이다. 억압된 사회에서 늘 자유를 노래했던 그는 2020년 마지막 앨범을 만든다. 거장의 녹음현장은 즉흥적이고 에너지가 가득하다. 그리고 70살이 넘은 한대수의 목소리는 더욱 깊고 단단해졌다. 그도 어느덧 남편이 되었고 아버지가 되었고 죽음을 생각하는 노인이 되었다. 젊은 시절, 세상을 향해 가시 돋친 비판을 던지던 그였지만 마지막 앨범에 담긴 노래에는 비판보다는 반성이, 세상에 대한 성난 시선보다는 안타까움이 담겨있다. 뉴욕 맨하탄 거리와 서울의 남대문을 오가며 한대수는 인생의 마지막 이야기를 들려준다. 그리고 히피 할배의 웃음소리는 여전히 유쾌하다.",
+            "popularity": 8.028,
+            "poster_path": null,
+            "release_date": "2023-08-24",
+            "title": "인생, 뭐 대수인가",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                16,
+                12,
+                28
+            ],
+            "id": 1160182,
+            "original_language": "en",
+            "original_title": "The Nightwatchers",
+            "overview": "",
+            "popularity": 8.271,
+            "poster_path": "/gzvKBfxYcDLwNqNYM7vV8LisheA.jpg",
+            "release_date": "2023-08-24",
+            "title": "The Nightwatchers",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3mrPvRJried9qiHb1H6gzFcSD3z.jpg",
+            "genre_ids": [
+                99,
+                36,
+                10770
+            ],
+            "id": 1159685,
+            "original_language": "fr",
+            "original_title": "U-96, la véritable histoire de Das Boot",
+            "overview": "사건 발생 후 80년이 흐른 현재, 영화 <특전 유보트>는 40년 전의 이미지와 증언을 통해 예기치 못했던 방식으로 페테르젠이 창조한 픽션 속의 현실을 조명한다. U-96의 일곱 번째 전투 순찰 과정을 픽션으로 담아낸 이 작품의 세계적인 흥행 이후, 해당 잠수함은 히틀러 시대의 잠수함 중에서는 물론 세계적으로도 가장 유명한 잠수함으로 자리매김했다. 그러나 이 특별한 잠수함과 승무원들의 이야기는 허구를 훨씬 뛰어넘는다. <특전 유보트>의 성공은 볼프강 페터젠에게 할리우드로 향하는 문을 열어주었을 뿐만 아니라, 그 이후로 미국 영화계에서 제작된 모든 잠수함 전쟁 영화의 기준을 세웠다. 이는 궁극적으로 히틀러의 프로파간다 이미지와 오늘날 할리우드 영화의 이미지가 지닌 힘 사이에 존재하는 간접적이고 때로는 무의식적인 관계에 대한 더 폭넓은 성찰의 길을 제시한다.",
+            "popularity": 7.741,
+            "poster_path": "/gHylSjrPIkxLIzJq3LobYdMN7N2.jpg",
+            "release_date": "2023-08-24",
+            "title": "전장을 지배하다, 잠수함 U-96",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "id": 1157888,
+            "original_language": "es",
+            "original_title": "Un matrimonio inesperado",
+            "overview": "",
+            "popularity": 8.269,
+            "poster_path": "/ug86Qj8rbTK5jhc0TpadooWmdus.jpg",
+            "release_date": "2023-08-24",
+            "title": "Un matrimonio inesperado",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/a34EQNBob5PWtAn4sKHjgrBwbsN.jpg",
+            "genre_ids": [
+                99,
+                10751
+            ],
+            "id": 1156624,
+            "original_language": "es",
+            "original_title": "Hemshej",
+            "overview": "",
+            "popularity": 8.927,
+            "poster_path": "/4q4Xk5cjnMfMQQ0rfM23SWZcezX.jpg",
+            "release_date": "2023-08-24",
+            "title": "Hemshej",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27
+            ],
+            "id": 1155090,
+            "original_language": "en",
+            "original_title": "Lore",
+            "overview": "",
+            "popularity": 8.326,
+            "poster_path": "/vlufzwIZaohbwElThTq2hZqmfEv.jpg",
+            "release_date": "2023-08-24",
+            "title": "Lore",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2nsvwHArhggYxztpAO47KkF3262.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1153907,
+            "original_language": "en",
+            "original_title": "Explorer: Lost in the Arctic",
+            "overview": "",
+            "popularity": 10.08,
+            "poster_path": "/fxDoLipknI1jEwTldgEiSjFvwtf.jpg",
+            "release_date": "2023-08-24",
+            "title": "Explorer: Lost in the Arctic",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        }
+    ],
+    "total_pages": 12,
+    "total_results": 240
+}

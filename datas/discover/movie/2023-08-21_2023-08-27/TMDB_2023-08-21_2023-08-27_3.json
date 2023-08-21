@@ -1,0 +1,364 @@
+{
+    "page": 3,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/d6nTztbKxNpKJbOKh6nsCfU0PyA.jpg",
+            "genre_ids": [
+                27
+            ],
+            "id": 1151387,
+            "original_language": "en",
+            "original_title": "Lasagna",
+            "overview": "",
+            "popularity": 4.521,
+            "poster_path": "/76ot6yVv7JomAl6EylGU230H6yP.jpg",
+            "release_date": "2023-08-26",
+            "title": "Lasagna",
+            "video": true,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/dkSBDY7kiuoPeNulN3WUNQPgdg2.jpg",
+            "genre_ids": [
+                28
+            ],
+            "id": 1148723,
+            "original_language": "en",
+            "original_title": "Oleksandr Usyk vs. Daniel Dubois",
+            "overview": "",
+            "popularity": 5.315,
+            "poster_path": "/1giyxMJBMXCos9X46EvoNQ8GasX.jpg",
+            "release_date": "2023-08-26",
+            "title": "Oleksandr Usyk vs. Daniel Dubois",
+            "video": true,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sE6RRFtstIrSh7WCoMSQwLRRW4z.jpg",
+            "genre_ids": [
+                10770,
+                10749
+            ],
+            "id": 1146915,
+            "original_language": "en",
+            "original_title": "Napa Ever After",
+            "overview": "",
+            "popularity": 7.31,
+            "poster_path": "/qIZwWGSK2yVqLQdbuIJMd647Onz.jpg",
+            "release_date": "2023-08-26",
+            "title": "Napa Ever After",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27,
+                35
+            ],
+            "id": 1146141,
+            "original_language": "en",
+            "original_title": "Big Easy Queens",
+            "overview": "",
+            "popularity": 5.958,
+            "poster_path": "/4usgxDRLE51v7vzPTDq8kLzZGOn.jpg",
+            "release_date": "2023-08-26",
+            "title": "Big Easy Queens",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27,
+                878
+            ],
+            "id": 1124509,
+            "original_language": "en",
+            "original_title": "Hostile Dimensions",
+            "overview": "",
+            "popularity": 5.611,
+            "poster_path": "/t96dsif2PTzmy6qP98r6gsljlWt.jpg",
+            "release_date": "2023-08-26",
+            "title": "Hostile Dimensions",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27
+            ],
+            "id": 1071779,
+            "original_language": "en",
+            "original_title": "Thorns",
+            "overview": "",
+            "popularity": 6.539,
+            "poster_path": "/8NZqiaFZmNQLnNbMw0ysaQIUFpZ.jpg",
+            "release_date": "2023-08-26",
+            "title": "Thorns",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7lhXfSZTziy3MLPgeLH6f2PxtO6.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1062479,
+            "original_language": "en",
+            "original_title": "Children of the Taliban",
+            "overview": "클레어 포이가 내레이션을 맡은 이 다큐멘터리는 아프가니스탄 카불에 사는 어린이 네 명의 이야기를 다루며, 지난여름 미군 철수 완료 후 탈레반이 정권을 장악한 뒤 극적인 삶의 변화를 겪은 두 소년과 두 소녀에 초점을 맞춘다.",
+            "popularity": 4.775,
+            "poster_path": "/k7Hd7tYP7FoxI9uIMK4DOuNfCqv.jpg",
+            "release_date": "2023-08-26",
+            "title": "탈레반의 아이들",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1053943,
+            "original_language": "en",
+            "original_title": "Spookt",
+            "overview": "",
+            "popularity": 7.052,
+            "poster_path": "/pIwbSTVBkN5cU9v0BFIKPjkgUaT.jpg",
+            "release_date": "2023-08-26",
+            "title": "Spookt",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 1000677,
+            "original_language": "fa",
+            "original_title": "The Dream of a Horse",
+            "overview": "",
+            "popularity": 5.403,
+            "poster_path": "/yBlBM6ue38dBEdqQrMhvQPeMeCB.jpg",
+            "release_date": "2023-08-26",
+            "title": "소녀의 꿈",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 903965,
+            "original_language": "en",
+            "original_title": "Don't Die",
+            "overview": "",
+            "popularity": 5.8,
+            "poster_path": "/jvliAjRvjwHfzOzGhvp2pPWvjZa.jpg",
+            "release_date": "2023-08-26",
+            "title": "Don't Die",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/dfhqU9NOojlHR0WsoBSomzAjj2B.jpg",
+            "genre_ids": [
+                35,
+                18,
+                9648
+            ],
+            "id": 1167479,
+            "original_language": "en",
+            "original_title": "Afraid of Luke",
+            "overview": "",
+            "popularity": 1.4,
+            "poster_path": "/vr3Tb5JoYCIrqdlkorVcTBIezby.jpg",
+            "release_date": "2023-08-25",
+            "title": "Afraid of Luke",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 1167143,
+            "original_language": "en",
+            "original_title": "Your Cologne",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": "/u1Q7Idh1rkMiFPpYWsELyDVRd7a.jpg",
+            "release_date": "2023-08-25",
+            "title": "Your Cologne",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1166904,
+            "original_language": "zh",
+            "original_title": "轻舟欲过万重山",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": "/imUVmhxeQ6t294dDpt8zX0ydMRw.jpg",
+            "release_date": "2023-08-25",
+            "title": "轻舟欲过万重山",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1166897,
+            "original_language": "fa",
+            "original_title": "Home is Home",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": "/nOKKwtNZNVxwrKqiJIEn7VhgE2I.jpg",
+            "release_date": "2023-08-25",
+            "title": "Home is Home",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1166850,
+            "original_language": "en",
+            "original_title": "Tater Tots",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": "/8Fcr5SZ8PqslwE4XXce1B6Ly9sF.jpg",
+            "release_date": "2023-08-25",
+            "title": "Tater Tots",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/wIK0byCYCpS1fpTLTqSVbfZXy1f.jpg",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "id": 1166822,
+            "original_language": "en",
+            "original_title": "The Comeback",
+            "overview": "",
+            "popularity": 2.744,
+            "poster_path": "/AcwwFvwkyHUNyzbmOpcMSnu32DB.jpg",
+            "release_date": "2023-08-25",
+            "title": "The Comeback",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99,
+                10402
+            ],
+            "id": 1166397,
+            "original_language": "es",
+            "original_title": "La música está servida: Mau y Ricky",
+            "overview": "",
+            "popularity": 3.842,
+            "poster_path": null,
+            "release_date": "2023-08-25",
+            "title": "La música está servida: Mau y Ricky",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99,
+                10770
+            ],
+            "id": 1166307,
+            "original_language": "pt",
+            "original_title": "A Música Está Servida: Thiaguinho",
+            "overview": "",
+            "popularity": 3.842,
+            "poster_path": "/tebCWa4ODUqLtkTn6mrblHRuiwA.jpg",
+            "release_date": "2023-08-25",
+            "title": "A Música Está Servida: Thiaguinho",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1163329,
+            "original_language": "es",
+            "original_title": "Posit",
+            "overview": "",
+            "popularity": 5.635,
+            "poster_path": null,
+            "release_date": "2023-08-25",
+            "title": "Posit",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99,
+                10402
+            ],
+            "id": 1163126,
+            "original_language": "en",
+            "original_title": "Wayne Shorter: Zero Gravity",
+            "overview": "",
+            "popularity": 7.848,
+            "poster_path": "/22EqO8GxDw2RLuCaTmBkvWwrREN.jpg",
+            "release_date": "2023-08-25",
+            "title": "Wayne Shorter: Zero Gravity",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        }
+    ],
+    "total_pages": 12,
+    "total_results": 240
+}
