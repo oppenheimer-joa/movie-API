@@ -70,7 +70,7 @@ def get_pf_detail(PF_ID_LIST):
 
     for id in PF_ID_LIST:
         PF_ID = "PF223258"
-        tmp_path = "/api/datas/"
+        tmp_path = "/api/datas/kopis"
         file_name = f"KOPIS_showDetails_{id}.xml"
         xml_file_path = os.path.join(tmp_path, file_name)
 
@@ -82,4 +82,4 @@ def get_pf_detail(PF_ID_LIST):
             file.write(response_body)
 
 
-        return f"{id} DONE \n {response_body}"
+        return response_body
