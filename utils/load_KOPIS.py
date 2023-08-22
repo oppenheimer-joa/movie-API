@@ -4,7 +4,7 @@ import configparser
 from urllib.request import urlopen
 from bs4 import BeautifulSoup as bs
 import datetime
-from mysql import connector
+import mysql.connector
 
 
 ST_DT = datetime.datetime.now()
@@ -14,7 +14,7 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
     config = configparser.ConfigParser()
     config.read('config/config.ini')
     SERVICE_KEY = config.get('KOPIS_KEYS', 'API_KEY')
-    conn = connector.connect(**config) 
+    conn = mysql.connector.connect(**config) 
 
     CPAGE=1
     ROWS= '10'

@@ -1,12 +1,13 @@
 import sys, requests, json, configparser
 from datetime import datetime, timedelta
-from mysql import connector
+import mysql.connector
 
 config = configparser.ConfigParser()
 config.read('config/config.ini')
 api_key = config.get('TMDB', 'API_KEY')
-mysql_config = config.get('MYSQL')
-conn = connector.connect(**mysql_config)
+# mysql_config = config.get('MYSQL')
+# conn = mysql.connector.connect(**mysql_config)
+conn = 'test'
 
 # movie 리스트 가져오는 endPoint
 def load_discoverMovie(now_date):
@@ -207,10 +208,10 @@ def get_TMDB_peopleDetail(people_id):
 # 영화 정보 DB에 저장
 def DB_to_json(date_gte, func):
 
-	config = configparser.ConfigParser()
-	config.read('config/config.ini')
-	mysql_config = config.get('MYSQL')
-	conn = connector.connect(**mysql_config)
+	# config = configparser.ConfigParser()
+	# config.read('config/config.ini')
+	# mysql_config = config.get('MYSQL')
+	# conn = mysql.connector.connect(**mysql_config)
 
 	cursor = conn.cursor()
 	cursor.execute(f"SELECT movieID FROM test WHERE date_gte = {date_gte}")
@@ -223,11 +224,6 @@ def DB_to_json(date_gte, func):
                 
 # 인물 정보 DB에 저장
 def peopleDB_to_json(date_gte):
-
-	config = configparser.ConfigParser()
-	config.read('config/config.ini')
-	mysql_config = config.get('MYSQL')
-	conn = connector.connect(**mysql_config)
         
 	cursor = conn.cursor()
 	cursor.execute(f"SELECT peopleID FROM test WHERE date_gte = {date_gte}")
