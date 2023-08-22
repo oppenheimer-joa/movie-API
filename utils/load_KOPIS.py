@@ -1,13 +1,31 @@
 from urllib.request import urlopen, Request
-import os
-import configparser
-from urllib.request import urlopen
-from bs4 import BeautifulSoup as bs
-import datetime
+import os, configparser, datetime
 import mysql.connector
+import xml.etree.ElementTree as ET
+from bs4 import BeautifulSoup as bs
 
 
 ST_DT = datetime.datetime.now()
+
+def get_ticket_page(code):
+    url = f"https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id={code}&search=db"
+
+    response=urlopen(url)
+    soup=bs(response,'html.parser')
+
+    ticket_link=soup.find_all('div',class_='btnType01')
+
+    ticket_nm=[]
+    ticket_href=[]
+    
+    for ticket in ticket_link:
+        href=ticket.find('a').get('href')
+        txt=ticket.find('a').get_text()
+
+        ticket_nm.append(txt)
+        ticket_href.append(href)
+    
+    return ticket_nm, ticket_href
 
 def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가 되겠지요?)기준 timedelta로 +4주로 계산
 
@@ -82,28 +100,43 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
             # conn.close()
     
 
+#공연별 상세 정보 수집 후 파일 저장
 def get_pf_detail(PF_ID_LIST):
-
-    """
-    db에서 쿼리로 공연 id 받아와서 아래 PF_ID_LIST로 선언
-    """
 
     config = configparser.ConfigParser()
     config.read('config/config.ini')
     SERVICE_KEY = config.get('KOPIS_KEYS', 'API_KEY')
 
+    """
+    db에서 쿼리로 공연 id 받아와서 아래 PF_ID_LIST로 선언
+    """
+
     for id in PF_ID_LIST:
-        PF_ID = "PF223258"
+        # PF_ID = "PF223258"
         tmp_path = "/api/datas/kopis"
         file_name = f"KOPIS_showDetails_{id}.xml"
         xml_file_path = os.path.join(tmp_path, file_name)
 
-        url = f"http://kopis.or.kr/openApi/restful/pblprfr/{PF_ID}?service={SERVICE_KEY}"
+        url = f"http://kopis.or.kr/openApi/restful/pblprfr/{id}?service={SERVICE_KEY}"
         request= Request(url)
-        response_body = urlopen(request).read()
+        xml_data = urlopen(request).read()
 
-        with open(xml_file_path, "wb") as file:
-            file.write(response_body)
+        # XML 데이터 파싱
+        root = ET.fromstring(xml_data)
+        db_element = root.find('.//db')
 
+        # 예매처 크롤링하여 정보 받아오기
+        ticket_nm, ticket_href=get_ticket_page(id) 
 
-        return response_body
+        # tksites 태그 추가
+        ticket_element = ET.SubElement(db_element, 'tksites')
+
+        # 예매처 목록 추가
+        for idx, nm in enumerate(ticket_nm):
+            site_element= ET.SubElement(ticket_element, 'tksite')  
+            site_element.set('href', ticket_href[idx])
+            site_element.text = nm  
+
+        # 수정된 XML 파일 저장
+        tree = ET.ElementTree(root)
+        tree.write(xml_file_path, encoding='utf-8')
