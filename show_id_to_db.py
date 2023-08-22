@@ -2,7 +2,6 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup as bs
 import datetime
 
-
 ST_DT = datetime.datetime.now()
 
 def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가 되겠지요?)기준 timedelta로 +4주로 계산
@@ -18,19 +17,40 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
     url = f'http://www.kopis.or.kr/openApi/restful/prfper?service={SERVICE_KEY}&stdate={start_date}&eddate={end_date}&cpage={CPAGE}&rows={ROWS}'
     result = urlopen(url)
     data = bs(result, 'lxml-xml')
-    pf_id = data.find_all('mt20id')
-    pf_nm = data.find_all('prfnm')
-    pf_author = data.find_all('author')
-    pf_creator = data.find_all('creator')
+    db = data.find_all('db')
+    # print(len(db))
+    
+    id=[]
+    nm=[]
+    author=[]
+    creator=[]
+    
+    for pf in db :
+        pf_id = pf.find('mt20id').text
+        pf_nm = pf.find('prfnm').text
+
+        try:
+            pf_author = pf.find('author').text
+        except:
+            pf_author = pf.find('author')
+
+        try:
+            pf_creator = pf.find('creator').text
+        except:
+            pf_creator = pf.find('creator')
+
+        id.append(pf_id)
+        nm.append(pf_nm)
+        author.append(pf_author)
+        creator.append(pf_creator)
+
 
     data_dict={}
 
-    data_dict['mt20id']=[mt20id.text for mt20id in pf_id]
-    data_dict['name']=[nm.text for nm in pf_nm]
-    data_dict['author']=[author.text for author in pf_author]
-    data_dict['creator']=[creator.text for creator in pf_creator]
-    
-    # print(data_dict)
+    data_dict['mt20id']=id
+    data_dict['name']=nm
+    data_dict['author']=author
+    data_dict['creator']=creator
 
     for idx,id in enumerate(data_dict['mt20id']):
         check_query = f"select * from 테이블명 where mt20id = %s"
