@@ -4,7 +4,6 @@ from mysql import connector
 
 config = configparser.ConfigParser()
 config.read('config/config.ini')
-
 api_key = config.get('TMDB', 'API_KEY')
 mysql_config = config.get('MYSQL')
 conn = connector.connect(**mysql_config)
@@ -54,6 +53,9 @@ def load_discoverMovie(now_date):
 # movie credits를 가져오는 endPoint
 def load_movieCredits(movie_id) :
 
+	config = configparser.ConfigParser()
+	config.read('config/config.ini')
+	api_key = config.get('TMDB', 'API_KEY')
 
 	# 파일 홈 디렉토리
 	# <수정 필요>
@@ -84,6 +86,10 @@ def load_movieCredits(movie_id) :
 # movie 상세정보를 가져오는 endPoint
 def load_movieDetails(movie_id) :
 
+	config = configparser.ConfigParser()
+	config.read('config/config.ini')
+	api_key = config.get('TMDB', 'API_KEY')
+
 	base_url = f"https://api.themoviedb.org/3/movie/{movie_id}"
         
 	headers = {
@@ -109,7 +115,10 @@ def load_movieDetails(movie_id) :
 # movie images를 가져오는 endPoint
 def get_TMDB_movieImages(movie_id):
 
-        
+    config = configparser.ConfigParser()
+	config.read('config/config.ini')
+	api_key = config.get('TMDB', 'API_KEY')
+
 	base_url = f"https://api.themoviedb.org/3/movie/{movie_id}/images"
 	headers = {
 		"Authorization": f"Bearer {api_key}",
@@ -139,6 +148,10 @@ def get_TMDB_movieImages(movie_id):
 # similar movie 정보를 가져오는 endPoint
 def get_TMDB_movieSimilar(movie_id):
 
+	config = configparser.ConfigParser()
+	config.read('config/config.ini')
+	api_key = config.get('TMDB', 'API_KEY')
+
 	base_url = f"https://api.themoviedb.org/3/movie/{movie_id}/similar"
 	headers = {
 		"Authorization": f"Bearer {api_key}",
@@ -166,6 +179,10 @@ def get_TMDB_movieSimilar(movie_id):
 # 영화 인물 정보를 가져오는 endpoint		
 def get_TMDB_peopleDetail(people_id):
 
+	config = configparser.ConfigParser()
+	config.read('config/config.ini')
+	api_key = config.get('TMDB', 'API_KEY')
+
 	
 	base_url = f"https://api.themoviedb.org/3/person/{people_id}"
 	headers = {
@@ -190,6 +207,11 @@ def get_TMDB_peopleDetail(people_id):
 # 영화 정보 DB에 저장
 def DB_to_json(date_gte, func):
 
+	config = configparser.ConfigParser()
+	config.read('config/config.ini')
+	mysql_config = config.get('MYSQL')
+	conn = connector.connect(**mysql_config)
+
 	cursor = conn.cursor()
 	cursor.execute(f"SELECT movieID FROM test WHERE date_gte = {date_gte}")
 	rows = cursor.fetchall()
@@ -201,6 +223,11 @@ def DB_to_json(date_gte, func):
                 
 # 인물 정보 DB에 저장
 def peopleDB_to_json(date_gte):
+
+	config = configparser.ConfigParser()
+	config.read('config/config.ini')
+	mysql_config = config.get('MYSQL')
+	conn = connector.connect(**mysql_config)
         
 	cursor = conn.cursor()
 	cursor.execute(f"SELECT peopleID FROM test WHERE date_gte = {date_gte}")
