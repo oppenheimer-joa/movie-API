@@ -116,7 +116,7 @@ def load_movieDetails(movie_id) :
 # movie images를 가져오는 endPoint
 def get_TMDB_movieImages(movie_id):
 
-    config = configparser.ConfigParser()
+	config = configparser.ConfigParser()
 	config.read('config/config.ini')
 	api_key = config.get('TMDB', 'API_KEY')
 
