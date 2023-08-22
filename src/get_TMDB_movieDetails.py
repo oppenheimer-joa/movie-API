@@ -16,7 +16,7 @@ def get_TMDB_movieDetails(api_key, movieID):
     response = requests.get(base_url, headers=headers)
     response.raise_for_status()  # Will raise an error if the HTTP request returned an unsuccessful status code
     json_data = response.json()
-    
+
     try:
         # 파일 저장
         dir = f"/home/kjh/code/SMS/movie-API/datas/movieDetails/TMDB_movieDetails_{movieID}.json"
@@ -41,11 +41,10 @@ def get_TMDB_movieDetails(api_key, movieID):
 def DB_to_json(date_gte):
     conn = mysql.connector.connect(**config)
     cursor = conn.cursor()
-    cursor.execute(f"SELECT movieID FROM test WHERE date_gte = {date_gte}")
+    cursor.execute(f"SELECT movieID FROM test WHERE date_gte = '{date_gte}'")
     rows = cursor.fetchall()
 
     for row in rows:
         movieID = row[0]
         message = get_TMDB_movieDetails(api_key, movieID)
         print(message)
-    
