@@ -42,7 +42,7 @@ def get_TMDB_movieSimilar(api_key, movieID):
 def DB_to_json(date_gte):
     conn = mysql.connector.connect(**config)
     cursor = conn.cursor()
-    cursor.execute(f"SELECT movieID FROM test WHERE date_gte = {date_gte}")
+    cursor.execute(f"SELECT movieID FROM test WHERE date_gte = '{date_gte}'")
     rows = cursor.fetchall()
 
     for row in rows:

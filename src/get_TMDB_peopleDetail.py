@@ -40,7 +40,7 @@ def get_TMDB_peopleDetail(api_key, peopleID):
 def DB_to_json(date_gte):
     conn = mysql.connector.connect(**config)
     cursor = conn.cursor()
-    cursor.execute(f"SELECT peopleID FROM test WHERE date_gte = {date_gte}")
+    cursor.execute(f"SELECT peopleID FROM test WHERE date_gte = '{date_gte}'")
     rows = cursor.fetchall()
 
     for row in rows:
