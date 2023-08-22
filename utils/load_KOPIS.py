@@ -14,8 +14,9 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
     config = configparser.ConfigParser()
     config.read('config/config.ini')
     SERVICE_KEY = config.get('KOPIS_KEYS', 'API_KEY')
-    # conn = mysql.connector.connect(**config) 
+
     conn = 'test'
+    cur = conn.cursor()
 
     CPAGE=1
     ROWS= '10'
@@ -63,9 +64,9 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
     data_dict['creator']=creator
 
     for idx,id in enumerate(data_dict['mt20id']):
-        check_query = f"select * from 테이블명 where mt20id = %s"
-        conn.excute(check_query,(id,))
-        result = conn.fetchall()
+        check_query = f"select * from kopis_test where mt20id = %s"
+        cur.execute(check_query,(id,))
+        result = cur.fetchall()
         
         if result != []:
             print("중복값 존재. bye")
@@ -75,9 +76,10 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
             author = data_dict['author'][idx]
             creator = data_dict['creator'][idx]
 
-            ex_query = "insert into 테이블명(mt20id,name,author,creator) values (%s,%s,%s,%s)"
-            conn.execute(ex_query,(id,name,author,creator))
-            conn.close()
+            ex_query = "insert into kopis_test(mt20id,name,author,creator) values (%s,%s,%s,%s)"
+            cur.execute(ex_query,(id,name,author,creator))
+            conn.commit()
+            # conn.close()
     
 
 def get_pf_detail(PF_ID_LIST):
