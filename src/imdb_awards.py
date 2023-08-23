@@ -10,6 +10,8 @@ def get_awards(event, year):
         code = 'ev0000147'
     elif event == 'venice':
         code = 'ev0000681'
+    elif event == 'busan': 
+        code = 'ev0004044'
     
     headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
@@ -42,8 +44,8 @@ def get_awards(event, year):
 
 # TEST
 if __name__ == "__main__":
-    years = [2019, 2020, 2021, 2022, 2023]
-    event = 'venice'
+    years = [2019, 2020, 2021, 2022]
+    event = 'busan'
     for year in years:
         get_awards(event, year)
 

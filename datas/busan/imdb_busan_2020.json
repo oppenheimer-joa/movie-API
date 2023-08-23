@@ -1,0 +1,1727 @@
+{
+    "nomineesWidgetModel": {
+        "title": "",
+        "description": "",
+        "refMarker": "ev_nom",
+        "eventEditionSummary": {
+            "awards": [
+                {
+                    "awardName": "New Currents Award",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": "Best Film",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "A Balance",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNzNlZjkxMzEtMmMwZC00MzBlLWIzNzMtNDlkZjNkM2VmMGI3XkEyXkFqcGdeQXVyMjQ2MTk1OTE@._V1_.jpg",
+                                            "imageHeight": 1059,
+                                            "imageWidth": 750,
+                                            "originalName": "Y\u00fbko no tenbin",
+                                            "const": "tt13276230"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Y\u00fbjir\u00f4 Harumoto",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm8499134"
+                                        }
+                                    ],
+                                    "categoryName": "Best Film",
+                                    "winAnnouncementTime": 1617629654,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "New Currents Award",
+                                    "awardNominationId": "an1491088",
+                                    "isWinner": true
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Tri",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMDg1ZmRmMjgtMjg2My00NzA3LWExMDMtNDE0MWM2MGJhODc5XkEyXkFqcGdeQXVyMTM2MDY0OTYx._V1_.jpg",
+                                            "imageHeight": 1416,
+                                            "imageWidth": 1000,
+                                            "originalName": null,
+                                            "const": "tt13705660"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Ruslan Pak",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm4373698"
+                                        }
+                                    ],
+                                    "categoryName": "Best Film",
+                                    "winAnnouncementTime": 1617629654,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "New Currents Award",
+                                    "awardNominationId": "an1491089",
+                                    "isWinner": true
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Summer Blur",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzkxZDgwNGUtODMxNi00N2UwLTgxNTYtYmFlZWIzNjMyZjYxXkEyXkFqcGdeQXVyMTAyNjY5NTY@._V1_.jpg",
+                                            "imageHeight": 4975,
+                                            "imageWidth": 3526,
+                                            "originalName": "Hannan xia ri",
+                                            "const": "tt10629634"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Shuai Han",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm10833779"
+                                        }
+                                    ],
+                                    "categoryName": "Best Film",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "New Currents Award",
+                                    "awardNominationId": "an1391807",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        },
+                        {
+                            "categoryName": "New Currents",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Money Has Four Legs",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYmNmOGQ4YzAtYmFiMC00ODVkLWJmODAtMGY3NDAzNGE5MmVmXkEyXkFqcGdeQXVyNjE5MjQxNDI@._V1_.jpg",
+                                            "imageHeight": 2222,
+                                            "imageWidth": 1500,
+                                            "originalName": null,
+                                            "const": "tt13705702"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Maung Sun",
+                                            "note": "(Director)",
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm12175699"
+                                        }
+                                    ],
+                                    "categoryName": "New Currents",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "New Currents Award",
+                                    "awardNominationId": "an1637477",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0035805"
+                },
+                {
+                    "awardName": "World Cinema",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": null,
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Digger",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMDIzY2NjYzYtODE4MS00ODQ0LTk2NDctN2Q5MmY2M2E0MjViXkEyXkFqcGdeQXVyMjMyMDczMDY@._V1_.jpg",
+                                            "imageHeight": 1802,
+                                            "imageWidth": 1350,
+                                            "originalName": null,
+                                            "const": "tt9389916"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Georgis Grigorakis",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm3306459"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "World Cinema",
+                                    "awardNominationId": "an1575584",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0036758"
+                },
+                {
+                    "awardName": "Sonje Award",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": "Best Asian Short Film",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Kids on Fire",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDI2YjU2NTAtODc0Yi00ZjY5LTk2ZGQtMzE4Y2IwZTY4NTU4XkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg",
+                                            "imageHeight": 12000,
+                                            "imageWidth": 8100,
+                                            "originalName": null,
+                                            "const": "tt12920390"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Kyle Nieva",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BOGVlN2EzMTUtZDc1ZC00MjkxLThkYzMtNGQwOGYxODc3OGEyXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg",
+                                            "imageHeight": 1824,
+                                            "imageWidth": 1368,
+                                            "const": "nm7810409"
+                                        }
+                                    ],
+                                    "categoryName": "Best Asian Short Film",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Sonje Award",
+                                    "awardNominationId": "an1398422",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        },
+                        {
+                            "categoryName": "Best Short Film",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Georgia",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNGY4NjljYTEtMTFiMS00NWI5LTkxYjktNzZmY2UxMzg4Nzc5XkEyXkFqcGdeQXVyNzY3NTU3NzE@._V1_.jpg",
+                                            "imageHeight": 8268,
+                                            "imageWidth": 5847,
+                                            "originalName": null,
+                                            "const": "tt13310158"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Jayil Pak",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm6231716"
+                                        },
+                                        {
+                                            "name": "Boram Kang",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm9728130"
+                                        }
+                                    ],
+                                    "categoryName": "Best Short Film",
+                                    "winAnnouncementTime": 1604124462,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Sonje Award",
+                                    "awardNominationId": "an1412587",
+                                    "isWinner": true
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Mountain Cat",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzYzMTdkZmMtOTM3YS00MjMyLWJlNTEtN2E1YWRlYTM2OGFhXkEyXkFqcGdeQXVyNzcxMTMyMjA@._V1_.jpg",
+                                            "imageHeight": 3435,
+                                            "imageWidth": 2290,
+                                            "originalName": "Shiluus",
+                                            "const": "tt11638406"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Lkhagvadulam Purev-Ochir",
+                                            "note": "(Writer/director)",
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNTM1NmY3NDAtMjRkNS00MmIwLWE5NmEtODcxZjVkODg2NDllXkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_.jpg",
+                                            "imageHeight": 2731,
+                                            "imageWidth": 4096,
+                                            "const": "nm5179820"
+                                        }
+                                    ],
+                                    "categoryName": "Best Short Film",
+                                    "winAnnouncementTime": 1605303207,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Sonje Award",
+                                    "awardNominationId": "an1418975",
+                                    "isWinner": true
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0036806"
+                },
+                {
+                    "awardName": "Kim Ji Seok Award",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": "Window on Asian Cinema",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Drowning in Holy Water",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMDQyNzg1NzUtZjY4Zi00MTIyLTkyOTgtMjg0N2Q0ZWQ3NjcyXkEyXkFqcGdeQXVyMzAyNTM2MDA@._V1_.jpg",
+                                            "imageHeight": 1073,
+                                            "imageWidth": 749,
+                                            "originalName": "Mordan dar abe motahhar",
+                                            "const": "tt11773588"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Navid Mahmoudi",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm6264179"
+                                        }
+                                    ],
+                                    "categoryName": "Window on Asian Cinema",
+                                    "winAnnouncementTime": 1617629654,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Kim Ji Seok Award",
+                                    "awardNominationId": "an1491090",
+                                    "isWinner": true
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "The Slaughterhouse",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BZTQ2ZDU3NGQtNDU0OC00YzhlLWE3NmItZjc5MzQwYTY5NTk3XkEyXkFqcGdeQXVyNjkxOTM4ODY@._V1_.jpg",
+                                            "imageHeight": 800,
+                                            "imageWidth": 600,
+                                            "originalName": "Koshtargah",
+                                            "const": "tt12758660"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Abbas Amini",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm8004220"
+                                        }
+                                    ],
+                                    "categoryName": "Window on Asian Cinema",
+                                    "winAnnouncementTime": 1617629654,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Kim Ji Seok Award",
+                                    "awardNominationId": "an1491091",
+                                    "isWinner": true
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0043431"
+                },
+                {
+                    "awardName": "Flash Forward",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": "Best Film",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Tigers",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BOGRhZmZmM2EtNzVhMC00MzE4LTk4OGUtNzdlN2U4MjgwYmY0XkEyXkFqcGdeQXVyNjM3NzMzNTg@._V1_.jpg",
+                                            "imageHeight": 3543,
+                                            "imageWidth": 2480,
+                                            "originalName": "Tigrar",
+                                            "const": "tt9850488"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Ronnie Sandahl",
+                                            "note": "(director)",
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm2585445"
+                                        }
+                                    ],
+                                    "categoryName": "Best Film",
+                                    "winAnnouncementTime": 1603720666,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Flash Forward",
+                                    "awardNominationId": "an1410470",
+                                    "isWinner": true
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Beasts",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNGNhZDE0MDEtYzZhNi00ZjE5LThjNzctNTUyNjUyNDlkZGNmXkEyXkFqcGdeQXVyMTE5MTkxMDI2._V1_.jpg",
+                                            "imageHeight": 1600,
+                                            "imageWidth": 1200,
+                                            "originalName": "La terre des hommes",
+                                            "const": "tt12440750"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Na\u00ebl Marandin",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm0544828"
+                                        }
+                                    ],
+                                    "categoryName": "Best Film",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Flash Forward",
+                                    "awardNominationId": "an1419505",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Nadia, Butterfly",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BOGIwYjFhNmYtNGZmZS00NGQ2LTkxNzQtYzUxODgwNzcwYmU1XkEyXkFqcGdeQXVyMjUwNDA4OTk@._V1_.jpg",
+                                            "imageHeight": 5520,
+                                            "imageWidth": 3876,
+                                            "originalName": null,
+                                            "const": "tt12439508"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Pascal Plante",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BY2MwM2VjNTktNjNmZS00NmZiLTk2YWMtNjczZWU0MTgyZmFiXkEyXkFqcGdeQXVyMjUwNDA4OTk@._V1_.jpg",
+                                            "imageHeight": 1365,
+                                            "imageWidth": 1030,
+                                            "const": "nm4317824"
+                                        }
+                                    ],
+                                    "categoryName": "Best Film",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Flash Forward",
+                                    "awardNominationId": "an1419506",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Palmyra",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDE4MzEzNGUtM2MwYy00OGI2LTkxMDgtMDI2YjZjNzc0NzFlXkEyXkFqcGdeQXVyMTE0MTc2MTE4._V1_.jpg",
+                                            "imageHeight": 2339,
+                                            "imageWidth": 1654,
+                                            "originalName": null,
+                                            "const": "tt11991432"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Ivan Bolotnikov",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm7940079"
+                                        }
+                                    ],
+                                    "categoryName": "Best Film",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Flash Forward",
+                                    "awardNominationId": "an1419503",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Rival",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNjhlMTQ0YzMtM2ZmNS00NDk1LThjZTUtZGRjY2QwZjk0N2ZmXkEyXkFqcGdeQXVyNjAyMzkzOTQ@._V1_.jpg",
+                                            "imageHeight": 1756,
+                                            "imageWidth": 1242,
+                                            "originalName": "Rivale",
+                                            "const": "tt8897388"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Marcus Lenz",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm0502350"
+                                        }
+                                    ],
+                                    "categoryName": "Best Film",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Flash Forward",
+                                    "awardNominationId": "an1413388",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "The Art of Dying Far Away",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BZWFiYTUwODEtODQ1Zi00NWE0LTliOGEtYmNhMTQ2MWE5NzYzXkEyXkFqcGdeQXVyMzQ4NzM0MjY@._V1_.jpg",
+                                            "imageHeight": 776,
+                                            "imageWidth": 563,
+                                            "originalName": "A Arte de Morrer Longe",
+                                            "const": "tt10121110"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "J\u00falio Alves",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm0023481"
+                                        }
+                                    ],
+                                    "categoryName": "Best Film",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Flash Forward",
+                                    "awardNominationId": "an1419502",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "The Macaluso Sisters",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYmUzMGM4NzQtYTUzYy00M2RhLWFjY2MtNGY4MGMyNjM0ZmQzXkEyXkFqcGdeQXVyMzIwNDY4NDI@._V1_.jpg",
+                                            "imageHeight": 1428,
+                                            "imageWidth": 1000,
+                                            "originalName": "Le sorelle Macaluso",
+                                            "const": "tt12789110"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Emma Dante",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTc3MzYyNzIwMV5BMl5BanBnXkFtZTgwNzA1MjMyMjE@._V1_.jpg",
+                                            "imageHeight": 4288,
+                                            "imageWidth": 2848,
+                                            "const": "nm3061633"
+                                        }
+                                    ],
+                                    "categoryName": "Best Film",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Flash Forward",
+                                    "awardNominationId": "an1419495",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "The Predators",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMGJjMmNiZWYtYWRiYy00YjI2LWFiNmItYjEzN2MxMDVkZjA5XkEyXkFqcGdeQXVyMzIwNDY4NDI@._V1_.jpg",
+                                            "imageHeight": 720,
+                                            "imageWidth": 504,
+                                            "originalName": "I predatori",
+                                            "const": "tt10948820"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Pietro Castellitto",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTM4MzE5OTU0Nl5BMl5BanBnXkFtZTcwNjA2NDc0OA@@._V1_.jpg",
+                                            "imageHeight": 2048,
+                                            "imageWidth": 1363,
+                                            "const": "nm3661207"
+                                        }
+                                    ],
+                                    "categoryName": "Best Film",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Flash Forward",
+                                    "awardNominationId": "an1419496",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Trouble Will Find Us",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMGFhYmY1N2EtNGE0MS00ODkwLWI4ZGUtMGQ2MDVlMTBjNzlmXkEyXkFqcGdeQXVyMjM3MDQ4OTQ@._V1_.jpg",
+                                            "imageHeight": 6720,
+                                            "imageWidth": 4480,
+                                            "originalName": null,
+                                            "const": "tt10826116"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Alexander Milo Bischof",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNmRiNDllZWYtNDJmYS00MDFkLWI5YzEtNmUyNjI2YjdjZTU0XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+                                            "imageHeight": 2048,
+                                            "imageWidth": 1464,
+                                            "const": "nm4927265"
+                                        }
+                                    ],
+                                    "categoryName": "Best Film",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Flash Forward",
+                                    "awardNominationId": "an1412082",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0046761"
+                },
+                {
+                    "awardName": "Asian Cinema",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": "Window on Asian Cinema",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Nazarband",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BOWEwMzMwNGItZjU1My00ZWM3LTljYmQtNzQ4MTZlNzYwYzk1XkEyXkFqcGdeQXVyMTMwNjY5NTU@._V1_.jpg",
+                                            "imageHeight": 3744,
+                                            "imageWidth": 5616,
+                                            "originalName": null,
+                                            "const": "tt10330110"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Suman Mukhopadhyay",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm2655736"
+                                        }
+                                    ],
+                                    "categoryName": "Window on Asian Cinema",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Cinema",
+                                    "awardNominationId": "an1408242",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Where Is Pinki?",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMGZlMDc1ZjYtMjgwMy00ZjVmLTgzOTctNzRjZTc0MGIwOGIyXkEyXkFqcGdeQXVyMTEyMTk1NjA3._V1_.jpg",
+                                            "imageHeight": 2003,
+                                            "imageWidth": 1370,
+                                            "originalName": "Pinki Elli?",
+                                            "const": "tt12670516"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Prithvi Konanur",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm3278010"
+                                        }
+                                    ],
+                                    "categoryName": "Window on Asian Cinema",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Cinema",
+                                    "awardNominationId": "an1511381",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0056629"
+                },
+                {
+                    "awardName": "Wide Angle",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": "Best Asian Short Film",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "The Cloud Is Still There",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjFjODY1MTItNzNlZS00ZWY4LWE4NGYtNDMzZWFlMzBmYjI4XkEyXkFqcGdeQXVyMTAwNzAxNjcy._V1_.jpg",
+                                            "imageHeight": 2400,
+                                            "imageWidth": 1800,
+                                            "originalName": null,
+                                            "const": "tt13289224"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Mickey Lai",
+                                            "note": "(director)",
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm11523011"
+                                        }
+                                    ],
+                                    "categoryName": "Best Asian Short Film",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Wide Angle",
+                                    "awardNominationId": "an1406722",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0056981"
+                },
+                {
+                    "awardName": "FIPRESCI Prize",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": "New Currents",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Summer Blur",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzkxZDgwNGUtODMxNi00N2UwLTgxNTYtYmFlZWIzNjMyZjYxXkEyXkFqcGdeQXVyMTAyNjY5NTY@._V1_.jpg",
+                                            "imageHeight": 4975,
+                                            "imageWidth": 3526,
+                                            "originalName": "Hannan xia ri",
+                                            "const": "tt10629634"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Shuai Han",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm10833779"
+                                        }
+                                    ],
+                                    "categoryName": "New Currents",
+                                    "winAnnouncementTime": 1604028079,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "FIPRESCI Prize",
+                                    "awardNominationId": "an1412034",
+                                    "isWinner": true
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0070208"
+                },
+                {
+                    "awardName": "Asian Contents Award",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": "Best Actor",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Ju Ji-hoon",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzdjOGJhYWUtYTRiOC00YjhkLWI0ZTItMjQwZWU2ZDU1OWQzXkEyXkFqcGdeQXVyNzY1ODU1OTk@._V1_.jpg",
+                                            "imageHeight": 1600,
+                                            "imageWidth": 1200,
+                                            "const": "nm2352559"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Episode #2.1",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BODIxYTc5ODAtM2MxYS00OWQ5LThjYmYtZTg2MmFhNjgyNWQ2XkEyXkFqcGdeQXVyODc4NTA3MzE@._V1_.jpg",
+                                            "imageHeight": 1125,
+                                            "imageWidth": 2000,
+                                            "originalName": null,
+                                            "const": "tt9256448"
+                                        }
+                                    ],
+                                    "categoryName": "Best Actor",
+                                    "winAnnouncementTime": 1603613834,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410131",
+                                    "isWinner": true
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Thanapob Leeratanakachorn",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYmMyZTYxN2EtZDUwMS00MzZhLTkzOGEtNmI3NDIyZmJmNjZiXkEyXkFqcGdeQXVyNzEyMTA5MTU@._V1_.jpg",
+                                            "imageHeight": 3664,
+                                            "imageWidth": 5496,
+                                            "const": "nm6642813"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "In Family We Trust",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjg5MjZmZWYtM2JhZC00ODBkLTk0NjYtYjMwZjcyMTUzM2Y4XkEyXkFqcGdeQXVyMzgxODI0MTk@._V1_.jpg",
+                                            "imageHeight": 1338,
+                                            "imageWidth": 1080,
+                                            "originalName": null,
+                                            "const": "tt8929906"
+                                        }
+                                    ],
+                                    "categoryName": "Best Actor",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410133",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Xian Li",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNmQ1ZTcwNTAtNDI3ZC00YzA0LWI0YTQtYjliYWNjYzQ0Njc1XkEyXkFqcGdeQXVyMjg0MTI5NzQ@._V1_.jpg",
+                                            "imageHeight": 868,
+                                            "imageWidth": 608,
+                                            "const": "nm9112773"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Sword Dynasty",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjAzMThhOWEtMmU4ZC00ZDBiLThkYWMtYTZmN2VjODQ2OGE3XkEyXkFqcGdeQXVyOTE4NzcwNzI@._V1_.jpg",
+                                            "imageHeight": 1080,
+                                            "imageWidth": 720,
+                                            "originalName": "Jian wang chao",
+                                            "const": "tt11372998"
+                                        }
+                                    ],
+                                    "categoryName": "Best Actor",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410132",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        },
+                        {
+                            "categoryName": "Best Actress",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Haru Kuroki",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BODZmNDM2ZTgtN2M4Ni00ZGMzLTg3Y2ItZDZmNWFlZGFlODEyXkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_.jpg",
+                                            "imageHeight": 594,
+                                            "imageWidth": 396,
+                                            "const": "nm4429739"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Nagi's Long Vacation",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BZmNjNTNiNTgtMjM4Yi00YTg1LTg0NDItYWE2ZTZhZGI0OWM3XkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_.jpg",
+                                            "imageHeight": 1000,
+                                            "imageWidth": 680,
+                                            "originalName": null,
+                                            "const": "tt10380168"
+                                        }
+                                    ],
+                                    "categoryName": "Best Actress",
+                                    "winAnnouncementTime": 1603613834,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410136",
+                                    "isWinner": true
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Kim Hee-ae",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzViY2EzYWMtZjU1MS00MmI4LWExOTktM2VjNmJhZTQ0YWY2XkEyXkFqcGdeQXVyNDY5MjMyNTg@._V1_.jpg",
+                                            "imageHeight": 2620,
+                                            "imageWidth": 1770,
+                                            "const": "nm0373432"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "The World of the Married",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BZDcyZDA3OWMtM2M1OC00ZWQ1LWFkMDUtMGVhOGYwMTc1OTY1XkEyXkFqcGdeQXVyNDY5MjMyNTg@._V1_.jpg",
+                                            "imageHeight": 1236,
+                                            "imageWidth": 864,
+                                            "originalName": null,
+                                            "const": "tt12042964"
+                                        }
+                                    ],
+                                    "categoryName": "Best Actress",
+                                    "winAnnouncementTime": 1603771589,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410732",
+                                    "isWinner": true
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Dilraba Dilmurat",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNmRlZTdhMzEtM2U4MS00YTQ0LThmZmUtN2I3YzhiMDA2NzdkXkEyXkFqcGdeQXVyMjg0MTI5NzQ@._V1_.jpg",
+                                            "imageHeight": 824,
+                                            "imageWidth": 640,
+                                            "const": "nm7622097"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Eternal Love of Dream",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BN2NiY2U2NjctZGU0MS00NmE3LTgxODUtYTk2NWViZGViZmNhXkEyXkFqcGdeQXVyMjQ0OTYxOTc@._V1_.jpg",
+                                            "imageHeight": 2519,
+                                            "imageWidth": 1802,
+                                            "originalName": "San sheng san shi zhen shang shu",
+                                            "const": "tt10759336"
+                                        }
+                                    ],
+                                    "categoryName": "Best Actress",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410135",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Kim Hye-su",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTgxMTk0Mjg0OV5BMl5BanBnXkFtZTgwNDM5ODc1MjE@._V1_.jpg",
+                                            "imageHeight": 600,
+                                            "imageWidth": 900,
+                                            "const": "nm0453476"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Hyena",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzZmNjljMWQtMzE5MS00YjIzLTg2MGItMmNmNWE0MzEyYWFhXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg",
+                                            "imageHeight": 1000,
+                                            "imageWidth": 800,
+                                            "originalName": null,
+                                            "const": "tt11534164"
+                                        }
+                                    ],
+                                    "categoryName": "Best Actress",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410134",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        },
+                        {
+                            "categoryName": "Best Asian Drama",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "When the Camellia Blooms",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjM5ODk0MGItOWFjNS00NjUxLWEwM2EtYzBiYjAwNzE0MmE3XkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg",
+                                            "imageHeight": 1429,
+                                            "imageWidth": 1000,
+                                            "originalName": "Dongbaekkkot Pil Muryeop",
+                                            "const": "tt10826064"
+                                        }
+                                    ],
+                                    "secondaryNominees": [],
+                                    "categoryName": "Best Asian Drama",
+                                    "winAnnouncementTime": 1603613834,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410130",
+                                    "isWinner": true
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Hyena",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzZmNjljMWQtMzE5MS00YjIzLTg2MGItMmNmNWE0MzEyYWFhXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg",
+                                            "imageHeight": 1000,
+                                            "imageWidth": 800,
+                                            "originalName": null,
+                                            "const": "tt11534164"
+                                        }
+                                    ],
+                                    "secondaryNominees": [],
+                                    "categoryName": "Best Asian Drama",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410129",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "The Bad Kids",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjRkMWE3YjUtZTQzOS00YTViLWE4MjctMDNhZDg3NDczN2YwXkEyXkFqcGdeQXVyODYyNTM1Nzk@._V1_.jpg",
+                                            "imageHeight": 2998,
+                                            "imageWidth": 2000,
+                                            "originalName": "Yin mi de jiao luo",
+                                            "const": "tt12477942"
+                                        }
+                                    ],
+                                    "secondaryNominees": [],
+                                    "categoryName": "Best Asian Drama",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410128",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        },
+                        {
+                            "categoryName": "Best Creative",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "The Bad Kids",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjRkMWE3YjUtZTQzOS00YTViLWE4MjctMDNhZDg3NDczN2YwXkEyXkFqcGdeQXVyODYyNTM1Nzk@._V1_.jpg",
+                                            "imageHeight": 2998,
+                                            "imageWidth": 2000,
+                                            "originalName": "Yin mi de jiao luo",
+                                            "const": "tt12477942"
+                                        }
+                                    ],
+                                    "secondaryNominees": [],
+                                    "categoryName": "Best Creative",
+                                    "winAnnouncementTime": 1603613834,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410127",
+                                    "isWinner": true
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        },
+                        {
+                            "categoryName": "Best New Actor",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Zishan Rong",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMGI5ZTk4ODMtNGZiOS00NGViLWFkMmMtNTg5ZjgzNTM4MmUwXkEyXkFqcGdeQXVyMjg0MTI5NzQ@._V1_.jpg",
+                                            "imageHeight": 1440,
+                                            "imageWidth": 960,
+                                            "const": "nm8075473"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "The Bad Kids",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjRkMWE3YjUtZTQzOS00YTViLWE4MjctMDNhZDg3NDczN2YwXkEyXkFqcGdeQXVyODYyNTM1Nzk@._V1_.jpg",
+                                            "imageHeight": 2998,
+                                            "imageWidth": 2000,
+                                            "originalName": "Yin mi de jiao luo",
+                                            "const": "tt12477942"
+                                        }
+                                    ],
+                                    "categoryName": "Best New Actor",
+                                    "winAnnouncementTime": 1603613834,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410138",
+                                    "isWinner": true
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Anyu Wang",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm11166232"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Dreaming Back to the Qing Dynasty",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BZTEzODRmMjgtMjg5YS00NzBlLTgyY2MtODI5MTg1NDQzNzZhXkEyXkFqcGdeQXVyNzk0NTA5NQ@@._V1_.jpg",
+                                            "imageHeight": 1120,
+                                            "imageWidth": 800,
+                                            "originalName": "Meng Hui Da Qing",
+                                            "const": "tt11410106"
+                                        }
+                                    ],
+                                    "categoryName": "Best New Actor",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410139",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        },
+                        {
+                            "categoryName": "Best New Actress",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Shengdi Wang",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNmE2YjVjM2MtYjQ1Mi00OTU0LTkwZjEtNzE0MThiNzNiMDhkXkEyXkFqcGdeQXVyOTIxNTAyMzU@._V1_.jpg",
+                                            "imageHeight": 1867,
+                                            "imageWidth": 2800,
+                                            "const": "nm11647252"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "The Bad Kids",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjRkMWE3YjUtZTQzOS00YTViLWE4MjctMDNhZDg3NDczN2YwXkEyXkFqcGdeQXVyODYyNTM1Nzk@._V1_.jpg",
+                                            "imageHeight": 2998,
+                                            "imageWidth": 2000,
+                                            "originalName": "Yin mi de jiao luo",
+                                            "const": "tt12477942"
+                                        }
+                                    ],
+                                    "categoryName": "Best New Actress",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410137",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        },
+                        {
+                            "categoryName": "Best Rising Star",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Eternal Love of Dream",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BN2NiY2U2NjctZGU0MS00NmE3LTgxODUtYTk2NWViZGViZmNhXkEyXkFqcGdeQXVyMjQ0OTYxOTc@._V1_.jpg",
+                                            "imageHeight": 2519,
+                                            "imageWidth": 1802,
+                                            "originalName": "San sheng san shi zhen shang shu",
+                                            "const": "tt10759336"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Dilraba Dilmurat",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNmRlZTdhMzEtM2U4MS00YTQ0LThmZmUtN2I3YzhiMDA2NzdkXkEyXkFqcGdeQXVyMjg0MTI5NzQ@._V1_.jpg",
+                                            "imageHeight": 824,
+                                            "imageWidth": 640,
+                                            "const": "nm7622097"
+                                        }
+                                    ],
+                                    "categoryName": "Best Rising Star",
+                                    "winAnnouncementTime": 1603614167,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410144",
+                                    "isWinner": true
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        },
+                        {
+                            "categoryName": "Excellence Award",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Hyena",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzZmNjljMWQtMzE5MS00YjIzLTg2MGItMmNmNWE0MzEyYWFhXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg",
+                                            "imageHeight": 1000,
+                                            "imageWidth": 800,
+                                            "originalName": null,
+                                            "const": "tt11534164"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Kim Hye-su",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTgxMTk0Mjg0OV5BMl5BanBnXkFtZTgwNDM5ODc1MjE@._V1_.jpg",
+                                            "imageHeight": 600,
+                                            "imageWidth": 900,
+                                            "const": "nm0453476"
+                                        }
+                                    ],
+                                    "categoryName": "Excellence Award",
+                                    "winAnnouncementTime": 1603613834,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410140",
+                                    "isWinner": true
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        },
+                        {
+                            "categoryName": "Technical Achievement Award",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Dreaming Back to the Qing Dynasty",
+                                            "note": "(Make-up)",
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BZTEzODRmMjgtMjg5YS00NzBlLTgyY2MtODI5MTg1NDQzNzZhXkEyXkFqcGdeQXVyNzk0NTA5NQ@@._V1_.jpg",
+                                            "imageHeight": 1120,
+                                            "imageWidth": 800,
+                                            "originalName": "Meng Hui Da Qing",
+                                            "const": "tt11410106"
+                                        }
+                                    ],
+                                    "secondaryNominees": [],
+                                    "categoryName": "Technical Achievement Award",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410142",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Sword Dynasty",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjAzMThhOWEtMmU4ZC00ZDBiLThkYWMtYTZmN2VjODQ2OGE3XkEyXkFqcGdeQXVyOTE4NzcwNzI@._V1_.jpg",
+                                            "imageHeight": 1080,
+                                            "imageWidth": 720,
+                                            "originalName": "Jian wang chao",
+                                            "const": "tt11372998"
+                                        }
+                                    ],
+                                    "secondaryNominees": [],
+                                    "categoryName": "Technical Achievement Award",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410143",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "The Bad Kids",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjRkMWE3YjUtZTQzOS00YTViLWE4MjctMDNhZDg3NDczN2YwXkEyXkFqcGdeQXVyODYyNTM1Nzk@._V1_.jpg",
+                                            "imageHeight": 2998,
+                                            "imageWidth": 2000,
+                                            "originalName": "Yin mi de jiao luo",
+                                            "const": "tt12477942"
+                                        }
+                                    ],
+                                    "secondaryNominees": [],
+                                    "categoryName": "Technical Achievement Award",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Asian Contents Award",
+                                    "awardNominationId": "an1410141",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0070831"
+                },
+                {
+                    "awardName": "Documentary Competition",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": "Wide Angle",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "The Art of Living in Danger",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjY1ODE1ZTQtOTZhNC00YmQ0LWJmMjgtM2Q3ZTc1OTFkZTAyXkEyXkFqcGdeQXVyMTI1OTMzNjg@._V1_.jpg",
+                                            "imageHeight": 4961,
+                                            "imageWidth": 3508,
+                                            "originalName": null,
+                                            "const": "tt13547396"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Mina Keshavarz",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGNlMzk4MDQtOWQ3MS00YTE4LTg3NDctZDFiMmJiMDAzZmU2XkEyXkFqcGdeQXVyMTI1OTMzNjg@._V1_.jpg",
+                                            "imageHeight": 1080,
+                                            "imageWidth": 780,
+                                            "const": "nm6564198"
+                                        }
+                                    ],
+                                    "categoryName": "Wide Angle",
+                                    "winAnnouncementTime": 1610067097,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Documentary Competition",
+                                    "awardNominationId": "an1444911",
+                                    "isWinner": true
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0071675"
+                },
+                {
+                    "awardName": "NETPAC Award",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": null,
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Fighter",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjUxYmZhMGQtNjg0Mi00MWUxLThlOTUtYzM3MGQ3MmRhZTM5XkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_.jpg",
+                                            "imageHeight": 1830,
+                                            "imageWidth": 1280,
+                                            "originalName": "Paiteo",
+                                            "const": "tt13988990"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Jero Yun",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm4160313"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": 1617629654,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "NETPAC Award",
+                                    "awardNominationId": "an1491093",
+                                    "isWinner": true
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0073615"
+                },
+                {
+                    "awardName": "Mecenat Award",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": "Best Documentary",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Self-portrait 2020",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "originalName": "Selpeu-poteuleiteu 2020",
+                                            "const": "tt14708580"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Lee Dong-woo",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm9787884"
+                                        }
+                                    ],
+                                    "categoryName": "Best Documentary",
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Mecenat Award",
+                                    "awardNominationId": "an1513307",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0073619"
+                },
+                {
+                    "awardName": "Actor & Actress of the Year Award",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": "Best Actress",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Seong-mi Lim",
+                                            "note": "(actress)",
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm5671999"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Fighter",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjUxYmZhMGQtNjg0Mi00MWUxLThlOTUtYzM3MGQ3MmRhZTM5XkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_.jpg",
+                                            "imageHeight": 1830,
+                                            "imageWidth": 1280,
+                                            "originalName": "Paiteo",
+                                            "const": "tt13988990"
+                                        }
+                                    ],
+                                    "categoryName": "Best Actress",
+                                    "winAnnouncementTime": 1617629654,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "Actor & Actress of the Year Award",
+                                    "awardNominationId": "an1491092",
+                                    "isWinner": true
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0073838"
+                },
+                {
+                    "awardName": "KBS Independent Film Award",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": null,
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Limecrime",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BODgzMmFkZDktNzA2OS00NDk4LTk0ZGEtMDNmMWQ1NjJlZTcyXkEyXkFqcGdeQXVyMTA4NTQwNjY4._V1_.jpg",
+                                            "imageHeight": 1429,
+                                            "imageWidth": 1000,
+                                            "originalName": null,
+                                            "const": "tt13994440"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Yoo Jaewook",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm12297275"
+                                        },
+                                        {
+                                            "name": "Seunghwan Lee",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm9031186"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": 1617629654,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardName": "KBS Independent Film Award",
+                                    "awardNominationId": "an1491094",
+                                    "isWinner": true
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0074059"
+                }
+            ],
+            "requestKey": {
+                "year": 2020,
+                "occurrence": 1,
+                "preferredLanguage": "en",
+                "preferredRegion": "US",
+                "userRegion": "KR",
+                "eventId": "ev0004044"
+            },
+            "eventName": "Busan International Film Festival",
+            "eventEditionId": "ee0123092",
+            "eventId": "ev0004044",
+            "occurrence": 1,
+            "year": 2020
+        },
+        "alwaysDisplayAwardNames": true,
+        "shouldDisplayNotes": true,
+        "showOnlyPremiumCategories": false,
+        "mobile": false
+    }
+}
