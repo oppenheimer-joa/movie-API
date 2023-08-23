@@ -5005,8 +5005,6 @@
                     "id": "aw0000019"
                 }
             ],
-            "eventId": "ev0000003",
-            "occurrence": 1,
             "requestKey": {
                 "year": 2020,
                 "occurrence": 1,
@@ -5017,6 +5015,8 @@
             },
             "eventName": "Academy Awards, USA",
             "eventEditionId": "ee0109333",
+            "eventId": "ev0000003",
+            "occurrence": 1,
             "year": 2020
         },
         "alwaysDisplayAwardNames": true,

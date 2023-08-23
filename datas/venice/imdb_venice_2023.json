@@ -3492,6 +3492,9 @@
                     "id": "aw0093593"
                 }
             ],
+            "eventEditionId": "ee0157978",
+            "eventId": "ev0000681",
+            "occurrence": 1,
             "requestKey": {
                 "year": 2023,
                 "occurrence": 1,
@@ -3501,9 +3504,6 @@
                 "eventId": "ev0000681"
             },
             "eventName": "Venice Film Festival",
-            "eventEditionId": "ee0157978",
-            "eventId": "ev0000681",
-            "occurrence": 1,
             "year": 2023
         },
         "alwaysDisplayAwardNames": true,

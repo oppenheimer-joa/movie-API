@@ -6591,6 +6591,9 @@
                     "id": "aw0105084"
                 }
             ],
+            "eventEditionId": "ee0107327",
+            "eventId": "ev0000147",
+            "occurrence": 1,
             "requestKey": {
                 "year": 2019,
                 "occurrence": 1,
@@ -6600,9 +6603,6 @@
                 "eventId": "ev0000147"
             },
             "eventName": "Cannes Film Festival",
-            "eventEditionId": "ee0107327",
-            "eventId": "ev0000147",
-            "occurrence": 1,
             "year": 2019
         },
         "alwaysDisplayAwardNames": true,

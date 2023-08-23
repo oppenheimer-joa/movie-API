@@ -7418,8 +7418,7 @@
                 }
             ],
             "eventEditionId": "ee0129840",
-            "eventId": "ev0000681",
-            "occurrence": 1,
+            "eventName": "Venice Film Festival",
             "requestKey": {
                 "year": 2021,
                 "occurrence": 1,
@@ -7428,7 +7427,8 @@
                 "userRegion": "KR",
                 "eventId": "ev0000681"
             },
-            "eventName": "Venice Film Festival",
+            "eventId": "ev0000681",
+            "occurrence": 1,
             "year": 2021
         },
         "alwaysDisplayAwardNames": true,
