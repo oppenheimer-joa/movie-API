@@ -18,8 +18,7 @@ MYSQL_USER = config.get('MYSQL', 'MYSQL_USER')
 MYSQL_DB = config.get('MYSQL', 'MYSQL_DB')
 
 
-# conn = mysql.connector.connect(host=MYSQL_HOST, password=MYSQL_PWD, port=MYSQL_PORT, user=MYSQL_USER, database=MYSQL_DB)
-conn = mysql.connector.connect(host='localhost', password='mysql0930', port=3306, user='root', database='culture')
+conn = mysql.connector.connect(host=MYSQL_HOST, password=MYSQL_PWD, port=MYSQL_PORT, user=MYSQL_USER, database=MYSQL_DB)
 cur = conn.cursor()
 
 def get_ticket_page(code):
