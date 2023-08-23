@@ -1,0 +1,523 @@
+{
+    "nomineesWidgetModel": {
+        "title": "",
+        "description": "",
+        "refMarker": "ev_nom",
+        "eventEditionSummary": {
+            "awards": [
+                {
+                    "awardName": "Cinefondation Award",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": null,
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Agap\u00e9",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BODAyN2FmZTMtOGFmZi00ODJjLWI2MTktZDNjZjk3NGZiNGRhXkEyXkFqcGdeQXVyMzYzMDYyNDQ@._V1_.jpg",
+                                            "imageHeight": 9921,
+                                            "imageWidth": 7016,
+                                            "originalName": null,
+                                            "const": "tt11320234"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "M\u00e1rk Beleznai",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm11033445"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1483650",
+                                    "awardName": "Cinefondation Award",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Taipei Suicide Story",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNWNlMGJkZjQtOGE5MC00NTcwLWJlN2MtZTllYjI0NmZjZjBkXkEyXkFqcGdeQXVyMjM1MjQ0MzE@._V1_.jpg",
+                                            "imageHeight": 2381,
+                                            "imageWidth": 1684,
+                                            "originalName": "Anmian lushe",
+                                            "const": "tt11232334"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "KEFF",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm10211219"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1503438",
+                                    "awardName": "Cinefondation Award",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0001329"
+                },
+                {
+                    "awardName": "Palme d'Or - Best Short Film",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": null,
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "I Am Afraid to Forget Your Face",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMDEwMGMwYzAtMjMzMi00ODQwLTllNzQtMjM3MmIyOWUxM2NhXkEyXkFqcGdeQXVyODIzNTM1NjY@._V1_.jpg",
+                                            "imageHeight": 2048,
+                                            "imageWidth": 1448,
+                                            "originalName": null,
+                                            "const": "tt12594020"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Sameh Alaa",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNjA1NzU3ZTctYThmYy00ZDIwLWJjOWUtMGJhOWZkNzQzZTIxXkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_.jpg",
+                                            "imageHeight": 536,
+                                            "imageWidth": 1024,
+                                            "const": "nm4767014"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": 1604753019,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1415797",
+                                    "awardName": "Palme d'Or - Best Short Film",
+                                    "isWinner": true
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Benjamin, Benny, Ben",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzg4MTI4NGYtYjRiMC00MTc5LTg3ZjctMzIyNDA4MWJjODgzXkEyXkFqcGdeQXVyNTk0NzgxOQ@@._V1_.jpg",
+                                            "imageHeight": 1707,
+                                            "imageWidth": 1280,
+                                            "originalName": null,
+                                            "const": "tt12575606"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Paul Shkordoff",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm11684040"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1415801",
+                                    "awardName": "Palme d'Or - Best Short Film",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Blue Fear",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjM0MGRlZjYtMjBkNy00MjE0LTljN2UtYmY5N2EyMzQ3ZmZiXkEyXkFqcGdeQXVyMjg0NDI1MjU@._V1_.jpg",
+                                            "imageHeight": 446,
+                                            "imageWidth": 297,
+                                            "originalName": "Filles bleues, peur blanche",
+                                            "const": "tt10346180"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Lola Halifa-Legrand",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm8070652"
+                                        },
+                                        {
+                                            "name": "Marie Jacotey",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm10700636"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1415802",
+                                    "awardName": "Palme d'Or - Best Short Film",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Camille Contactless",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMThlOWU5ZmEtY2ZlZC00ZThiLWFhNGItYzQ4NGVmMTliYjgyXkEyXkFqcGdeQXVyNDc1NjE1Nzc@._V1_.jpg",
+                                            "imageHeight": 509,
+                                            "imageWidth": 448,
+                                            "originalName": "Camille sans contact",
+                                            "const": "tt10834312"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Paul Nouhet",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm10926764"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1415798",
+                                    "awardName": "Palme d'Or - Best Short Film",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "David",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BZTNmMDdmZmYtMDE4Ny00OWY0LWJlOTUtZTM2ODNjMjcwZGQ1XkEyXkFqcGdeQXVyNjA3MjgyNDM@._V1_.jpg",
+                                            "imageHeight": 12000,
+                                            "imageWidth": 8100,
+                                            "originalName": null,
+                                            "const": "tt12974818"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Zach Woods",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjA3MzQ4MzQ4MV5BMl5BanBnXkFtZTgwOTA2OTQ4NjE@._V1_.jpg",
+                                            "imageHeight": 2048,
+                                            "imageWidth": 1362,
+                                            "const": "nm2046855"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1415799",
+                                    "awardName": "Palme d'Or - Best Short Film",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Motorway 65",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BODMzZThhZGYtM2U1ZC00ZGI4LWJiNjItZDRkYmVkMDY2NzNhXkEyXkFqcGdeQXVyMTI0MjI0NTc0._V1_.jpg",
+                                            "imageHeight": 2015,
+                                            "imageWidth": 1415,
+                                            "originalName": null,
+                                            "const": "tt12561066"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Evi Kalogiropoulou",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm11678394"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1415803",
+                                    "awardName": "Palme d'Or - Best Short Film",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Mountain Cat",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzYzMTdkZmMtOTM3YS00MjMyLWJlNTEtN2E1YWRlYTM2OGFhXkEyXkFqcGdeQXVyNzcxMTMyMjA@._V1_.jpg",
+                                            "imageHeight": 3435,
+                                            "imageWidth": 2290,
+                                            "originalName": "Shiluus",
+                                            "const": "tt11638406"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Lkhagvadulam Purev-Ochir",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNTM1NmY3NDAtMjRkNS00MmIwLWE5NmEtODcxZjVkODg2NDllXkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_.jpg",
+                                            "imageHeight": 2731,
+                                            "imageWidth": 4096,
+                                            "const": "nm5179820"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1415805",
+                                    "awardName": "Palme d'Or - Best Short Film",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Son of Sodom",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BZWEzMDMyNzItMTNiOS00ZDJhLTk3MmQtMmZlZTA5YWExODNhXkEyXkFqcGdeQXVyODc1NTEwODA@._V1_.jpg",
+                                            "imageHeight": 2835,
+                                            "imageWidth": 1984,
+                                            "originalName": null,
+                                            "const": "tt12629626"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Theo Montoya",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm9788789"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1415806",
+                                    "awardName": "Palme d'Or - Best Short Film",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Stephanie",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDg3ODNlNDktYmQ0MS00NGUzLThiNGItZmZiZWZkNjQzOTBjXkEyXkFqcGdeQXVyNTY0Mzg4NzA@._V1_.jpg",
+                                            "imageHeight": 4961,
+                                            "imageWidth": 3508,
+                                            "originalName": null,
+                                            "const": "tt8448860"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Leonardo Van Dijl",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm5938185"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1417130",
+                                    "awardName": "Palme d'Or - Best Short Film",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "Sudden Light",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGJmOTA0MzktZmIzZC00MmU2LTlmYjktNjRiZDQ4OGQxNjJiXkEyXkFqcGdeQXVyMTA5MzEzOTg@._V1_.jpg",
+                                            "imageHeight": 3508,
+                                            "imageWidth": 2368,
+                                            "originalName": null,
+                                            "const": "tt10204976"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Sophie Littman",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm6531664"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1415808",
+                                    "awardName": "Palme d'Or - Best Short Film",
+                                    "isWinner": false
+                                },
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "The Lamb of God",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BYTRjMTQ2YjUtNzc2OC00ZWJkLWFmNDgtMTcxYTE0ZDlhYmE0XkEyXkFqcGdeQXVyNjg1NTY4MA@@._V1_.jpg",
+                                            "imageHeight": 2048,
+                                            "imageWidth": 1449,
+                                            "originalName": "O Cordeiro de Deus",
+                                            "const": "tt12589818"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "David Pinheiro Vicente",
+                                            "note": null,
+                                            "imageUrl": null,
+                                            "imageHeight": 0,
+                                            "imageWidth": 0,
+                                            "const": "nm9545297"
+                                        }
+                                    ],
+                                    "categoryName": null,
+                                    "winAnnouncementTime": null,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1415804",
+                                    "awardName": "Palme d'Or - Best Short Film",
+                                    "isWinner": false
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0001318"
+                },
+                {
+                    "awardName": "Gan Foundation Support for Distribution",
+                    "trivia": [],
+                    "categories": [
+                        {
+                            "categoryName": "Gan Foundation Award for Distribution",
+                            "nominations": [
+                                {
+                                    "primaryNominees": [
+                                        {
+                                            "name": "After Love",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMmEyNjJhZWYtOTE0Ny00MzIyLTgxODgtMzJhMmU2ZjJmNmJhXkEyXkFqcGdeQXVyMTEyNDU4OTcx._V1_.jpg",
+                                            "imageHeight": 12000,
+                                            "imageWidth": 8103,
+                                            "originalName": null,
+                                            "const": "tt10692788"
+                                        }
+                                    ],
+                                    "secondaryNominees": [
+                                        {
+                                            "name": "Aleem Khan",
+                                            "note": null,
+                                            "imageUrl": "https://m.media-amazon.com/images/M/MV5BNjBhZmQ3NWYtMzgxMi00NjY5LWFlNzYtMzFjNjE2OGU0NTY1XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+                                            "imageHeight": 1985,
+                                            "imageWidth": 1359,
+                                            "const": "nm2746993"
+                                        }
+                                    ],
+                                    "categoryName": "Gan Foundation Award for Distribution",
+                                    "winAnnouncementTime": 1616071656,
+                                    "notes": null,
+                                    "characterNames": [],
+                                    "songNames": [],
+                                    "episodeNames": [],
+                                    "awardNominationId": "an1483752",
+                                    "awardName": "Gan Foundation Support for Distribution",
+                                    "isWinner": true
+                                }
+                            ],
+                            "isPremiumCategory": false
+                        }
+                    ],
+                    "id": "aw0017193"
+                }
+            ],
+            "eventEditionId": "ee0124733",
+            "eventId": "ev0000147",
+            "occurrence": 1,
+            "requestKey": {
+                "year": 2020,
+                "occurrence": 1,
+                "preferredLanguage": "en",
+                "preferredRegion": "US",
+                "userRegion": "KR",
+                "eventId": "ev0000147"
+            },
+            "eventName": "Cannes Film Festival",
+            "year": 2020
+        },
+        "alwaysDisplayAwardNames": true,
+        "shouldDisplayNotes": true,
+        "showOnlyPremiumCategories": false,
+        "mobile": false
+    }
+}
