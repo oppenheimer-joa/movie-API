@@ -30,7 +30,9 @@ def cannes_awards(year):
     except Exception as e:
         return f'imdb_cannes_{year}.json : Failed {str(e)}'
 
-years = [2019, 2020, 2021, 2022, 2023]
-for year in years:
-    cannes_awards(year)
+# TEST
+if __name__ == "__main__":
+    years = [2019, 2020, 2021, 2022, 2023]
+    for year in years:
+        cannes_awards(year)
 
