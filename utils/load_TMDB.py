@@ -9,6 +9,7 @@ api_key = config.get('TMDB', 'API_KEY')
 # conn = mysql.connector.connect(**mysql_config)
 conn = 'test'
 
+
 # movie 리스트 가져오는 endPoint
 def load_discoverMovie(now_date):
 
@@ -17,7 +18,7 @@ def load_discoverMovie(now_date):
 	api_key = config.get('TMDB', 'API_KEY')
 
 	# 파일 홈 디렉토리
-	home_dir = "api/datas"
+	home_dir = "api//datas"
 
 	# Date 파라미터 입력
 	date_argv = now_date
@@ -60,7 +61,7 @@ def load_movieCredits(movie_id) :
 
 	# 파일 홈 디렉토리
 	# <수정 필요>
-	home_dir = "api/datas/TMDB/credit"
+	home_dir = "api//datas/TMDB/credit"
 
 	# 영화ID 파라미터 입력
 	# movie_id = sys.argv[1]
@@ -138,7 +139,7 @@ def get_TMDB_movieImages(movie_id):
 	else:
 		try:
 			# 파일 저장
-			dir = f"/api/datas/TMDB/images/TMDB_movieImages_{movie_id}.json"
+			dir = f"api//datas/TMDB/images/TMDB_movieImages_{movie_id}.json"
 			with open (dir, "w", encoding="utf-8") as file:
 				json.dump(json_data, file, indent=4, ensure_ascii=False)
 			return f'TMDB_movieImages_{movie_id}.json : Data received'
@@ -168,7 +169,7 @@ def get_TMDB_movieSimilar(movie_id):
 	else:
 		try:
 			# 파일 저장
-			dir = f"api/datas/TMDB/similar/TMDB_movieSimilar_{movie_id}.json"
+			dir = f"api//datas/TMDB/similar/TMDB_movieSimilar_{movie_id}.json"
 			with open (dir, "w", encoding="utf-8") as file:
 				json.dump(json_data, file, indent=4, ensure_ascii=False)
 			return f'TMDB_movieSimilar_{movie_id}.json : Data received'
@@ -197,7 +198,7 @@ def get_TMDB_peopleDetail(people_id):
 		
 	try:
 		# 파일 저장
-		dir = f"api/datas/TMDB/people_detail/TMDB_peopleDetails_{people_id}.json"
+		dir = f"api//datas/TMDB/people_detail/TMDB_peopleDetails_{people_id}.json"
 		with open (dir, "w", encoding="utf-8") as file:
 			json.dump(json_data, file, indent=4, ensure_ascii=False)
 		return f'TMDB_peopleDetails_{people_id}.json : Data received'
@@ -208,13 +209,8 @@ def get_TMDB_peopleDetail(people_id):
 # 영화 정보 DB에 저장
 def DB_to_json(date_gte, func):
 
-	# config = configparser.ConfigParser()
-	# config.read('config/config.ini')
-	# mysql_config = config.get('MYSQL')
-	# conn = mysql.connector.connect(**mysql_config)
-
 	cursor = conn.cursor()
-	cursor.execute(f"SELECT movieID FROM test WHERE date_gte = {date_gte}")
+	cursor.execute(f"SELECT movie_id FROM movie WHERE created_at = '{date_gte}'")
 	rows = cursor.fetchall()
 
 	for row in rows:
@@ -226,7 +222,7 @@ def DB_to_json(date_gte, func):
 def peopleDB_to_json(date_gte):
         
 	cursor = conn.cursor()
-	cursor.execute(f"SELECT peopleID FROM test WHERE date_gte = {date_gte}")
+	cursor.execute(f"SELECT people_id FROM people WHERE created_at = '{date_gte}'")
 	rows = cursor.fetchall()
 
 	for row in rows:

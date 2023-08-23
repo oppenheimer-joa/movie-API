@@ -5,7 +5,22 @@ import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup as bs
 
 
-ST_DT = datetime.datetime.now()
+# ST_DT = datetime.datetime.now()
+
+config = configparser.ConfigParser()
+config.read('config/config.ini')
+
+SERVICE_KEY = config.get('KOPIS_KEYS', 'API_KEY')
+MYSQL_HOST = config.get('MYSQL', 'MYSQL_HOST')
+MYSQL_PWD = config.get('MYSQL', 'MYSQL_PWD')
+MYSQL_PORT = config.get('MYSQL', 'MYSQL_PORT')
+MYSQL_USER = config.get('MYSQL', 'MYSQL_USER')
+MYSQL_DB = config.get('MYSQL', 'MYSQL_DB')
+
+
+# conn = mysql.connector.connect(host=MYSQL_HOST, password=MYSQL_PWD, port=MYSQL_PORT, user=MYSQL_USER, database=MYSQL_DB)
+conn = mysql.connector.connect(host='localhost', password='mysql0930', port=3306, user='root', database='culture')
+cur = conn.cursor()
 
 def get_ticket_page(code):
     url = f"https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id={code}&search=db"
@@ -31,13 +46,11 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
 
     config = configparser.ConfigParser()
     config.read('config/config.ini')
-    SERVICE_KEY = config.get('KOPIS_KEYS', 'API_KEY')
+    
 
-    conn = 'test'
-    cur = conn.cursor()
 
     CPAGE=1
-    ROWS= '10'
+    ROWS= '1'
 
     end_date= (start_date + datetime.timedelta(weeks=4)).strftime("%Y%m%d")
     start_date= start_date.strftime("%Y%m%d")
@@ -82,7 +95,7 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
     data_dict['creator']=creator
 
     for idx,id in enumerate(data_dict['mt20id']):
-        check_query = f"select * from kopis_test where mt20id = %s"
+        check_query = f"SELECT * FROM performance WHERE pf_id = %s"
         cur.execute(check_query,(id,))
         result = cur.fetchall()
         
@@ -94,14 +107,14 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
             author = data_dict['author'][idx]
             creator = data_dict['creator'][idx]
 
-            ex_query = "insert into kopis_test(mt20id,name,author,creator) values (%s,%s,%s,%s)"
+            ex_query = "INSERT INTO performance(pf_id, pf_nm, author, creator) VALUES (%s,%s,%s,%s)"
             cur.execute(ex_query,(id,name,author,creator))
             conn.commit()
             # conn.close()
     
 
 #공연별 상세 정보 수집 후 파일 저장
-def get_pf_detail(PF_ID_LIST):
+def get_pf_detail(ST_DT):
 
     config = configparser.ConfigParser()
     config.read('config/config.ini')
@@ -110,10 +123,18 @@ def get_pf_detail(PF_ID_LIST):
     """
     db에서 쿼리로 공연 id 받아와서 아래 PF_ID_LIST로 선언
     """
+    # 확인용 string
+    new_file = ''
+
+    PF_ID_LIST = []
+    select_query = f'SELECT pf_id FROM performance WHERE created_at = "{ST_DT}"'
+    cur.execute(select_query)
+    PF_ID_LISTS = cur.fetchall()
+    PF_ID_LIST = [x[0] for x in PF_ID_LISTS]
 
     for id in PF_ID_LIST:
         # PF_ID = "PF223258"
-        tmp_path = "/api/datas/kopis"
+        tmp_path = "api/datas/kopis"
         file_name = f"KOPIS_showDetails_{id}.xml"
         xml_file_path = os.path.join(tmp_path, file_name)
 
@@ -140,3 +161,9 @@ def get_pf_detail(PF_ID_LIST):
         # 수정된 XML 파일 저장
         tree = ET.ElementTree(root)
         tree.write(xml_file_path, encoding='utf-8')
+
+
+        new_file += str(xml_file_path)
+
+
+    return new_file

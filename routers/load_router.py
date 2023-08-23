@@ -11,8 +11,9 @@ router = APIRouter()
 async def get_pf_detail_routes():
 
     #DB에서 코드가 날라와야함
-    PF_ID_LIST = ['PF223258', 'PF223038', 'PF222985', 'PF222956']
-    return get_pf_detail(PF_ID_LIST)
+    ST_DT = datetime.datetime.now().strftime('%Y-%m-%d')
+    # PF_ID_LIST = ['PF223258', 'PF223038', 'PF222985', 'PF222956']
+    return get_pf_detail(ST_DT)
 
 #공연 코드 DB에 적재
 @router.get("/kopis/perfomance-to-db")
