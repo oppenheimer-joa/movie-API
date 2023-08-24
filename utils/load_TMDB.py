@@ -2,15 +2,8 @@ import sys, os, requests, json, configparser
 from datetime import datetime, timedelta
 import mysql.connector
 
-config = configparser.ConfigParser()
-config.read('config/config.ini')
-api_key = config.get('TMDB', 'API_KEY')
-# mysql_config = config.get('MYSQL')
-# conn = mysql.connector.connect(**mysql_config)
-conn = 'test'
-
 # movie 리스트 가져오는 endPoint
-def load_discoverMovie(now_date):
+def load_discoverMovie(date):
 
 	config = configparser.ConfigParser()
 	config.read('config/config.ini')
@@ -20,7 +13,7 @@ def load_discoverMovie(now_date):
 	home_dir = "api/datas/TMDB/lists"
 
 	# Date 파라미터 입력
-	date_argv = now_date
+	date_argv = date
 	date_gte = datetime.strptime(date_argv, "%Y-%m-%d")
 	date_lte = date_gte + timedelta(days=6)
 
@@ -52,187 +45,238 @@ def load_discoverMovie(now_date):
 
 
 # movie credits를 가져오는 endPoint
-def load_movieCredits(movie_id) :
+def load_movieCredits(date) :
 
 	config = configparser.ConfigParser()
 	config.read('config/config.ini')
 	api_key = config.get('TMDB', 'API_KEY')
+ 
+	# MySQL 연결정보
+	host = config.get('MYSQL', 'MYSQL_HOST')
+	user = config.get('MYSQL', 'MYSQL_USER')
+	password = config.get('MYSQL', 'MYSQL_PWD')
+	database = config.get('MYSQL', 'MYSQL_DB')
 
-	# 파일 홈 디렉토리
-	# <수정 필요>
-	home_dir = "api/datas/TMDB/credit"
-
-	# 영화ID 파라미터 입력
-	# movie_id = sys.argv[1]
-	# movie_id = 1101609
-
-	# request 요청 파라미터
-	language = "ko-KR"
-
-	# request 요청
-	url = f"https://api.themoviedb.org/3/movie/{movie_id}/credits"
-	headers = {
-		"accept": "application/json",
-		"Authorization": f"Bearer {api_key}"
-	}
-	response = requests.get(url, headers=headers).json()
-
-	# 파일 저장
-	json_path = f"{home_dir}/TMDB_movieCredits_{movie_id}.json"
-	with open(json_path, "w", encoding="utf-8") as file:
-		json.dump(response, file, indent=4, ensure_ascii=False)
-		print(f"LOAD SUCCEED : {url}")
-
-
-# movie 상세정보를 가져오는 endPoint
-def load_movieDetails(movie_id) :
-
-	config = configparser.ConfigParser()
-	config.read('config/config.ini')
-	api_key = config.get('TMDB', 'API_KEY')
-
-	base_url = f"https://api.themoviedb.org/3/movie/{movie_id}"
-        
-	headers = {
-        "Authorization": f"Bearer {api_key}",
-        "accept": "application/json"
-    }
-        
-	response = requests.get(base_url, headers=headers)
-	response.raise_for_status()  # Will raise an error if the HTTP request returned an unsuccessful status code
-	json_data = response.json()\
-          
-	try:
-		# 파일 저장
-		dir = f"api/datas/TMDB/detail/{movie_id}.json"
-		with open (dir, "w", encoding="utf-8") as file:
-			json.dump(json_data, file, indent=4, ensure_ascii=False)
-		return f'TMDB_movieDetails_{movie_id}.json : Data received'
-
-	except Exception as e:
-		return f'TMDB_movieDetails_{movie_id}.json : No Data {str(e)}'
-		
-
-# movie images를 가져오는 endPoint
-def get_TMDB_movieImages(movie_id):
-
-	config = configparser.ConfigParser()
-	config.read('config/config.ini')
-	api_key = config.get('TMDB', 'API_KEY')
-
-	base_url = f"https://api.themoviedb.org/3/movie/{movie_id}/images"
-	headers = {
-		"Authorization": f"Bearer {api_key}",
-		"accept": "application/json"
-	}
-#    params = {
-#        "movie_id": movie_id
-#    }
-
-	response = requests.get(base_url, headers=headers)
-	response.raise_for_status()  # Will raise an error if the HTTP request returned an unsuccessful status code
-	json_data = response.json()
-		
-	if all(not json_data[key] for key in ["backdrops", "logos", "posters"]):
-		return f'TMDB_movieImages_{movie_id}.json : No Data'
-	else:
-		try:
-			# 파일 저장
-			dir = f"/api/datas/TMDB/images/TMDB_movieImages_{movie_id}.json"
-			with open (dir, "w", encoding="utf-8") as file:
-				json.dump(json_data, file, indent=4, ensure_ascii=False)
-			return f'TMDB_movieImages_{movie_id}.json : Data received'
-		except Exception as e:
-			return f'TMDB_movieImages_{movie_id}.json : Error {str(e)}'
-
-
-# similar movie 정보를 가져오는 endPoint
-def get_TMDB_movieSimilar(movie_id):
-
-	config = configparser.ConfigParser()
-	config.read('config/config.ini')
-	api_key = config.get('TMDB', 'API_KEY')
-
-	base_url = f"https://api.themoviedb.org/3/movie/{movie_id}/similar"
-	headers = {
-		"Authorization": f"Bearer {api_key}",
-		"accept": "application/json"
-	}
-	
-	response = requests.get(base_url, headers=headers)
-	response.raise_for_status()  # Will raise an error if the HTTP request returned an unsuccessful status code
-	json_data = response.json()
-		
-	if not json_data['results']:
-		return f'TMDB_movieSimilar_{movie_id}.json : No Data'
-	else:
-		try:
-			# 파일 저장
-			dir = f"api/datas/TMDB/similar/TMDB_movieSimilar_{movie_id}.json"
-			with open (dir, "w", encoding="utf-8") as file:
-				json.dump(json_data, file, indent=4, ensure_ascii=False)
-			return f'TMDB_movieSimilar_{movie_id}.json : Data received'
-		except Exception as e:
-			return f'TMDB_movieSimilar_{movie_id}.json : Error {str(e)}'
-		
-
-# 영화 인물 정보를 가져오는 endpoint		
-def get_TMDB_peopleDetail(people_id):
-
-	config = configparser.ConfigParser()
-	config.read('config/config.ini')
-	api_key = config.get('TMDB', 'API_KEY')
-
-	
-	base_url = f"https://api.themoviedb.org/3/person/{people_id}"
-	headers = {
-		"Authorization": f"Bearer {api_key}",
-		"accept": "application/json"
-	}
-
-	response = requests.get(base_url, headers=headers)
-	response.raise_for_status()  # Will raise an error if the HTTP request returned an unsuccessful status code
-	json_data = response.json()
-		
-	try:
-		# 파일 저장
-		dir = f"api/datas/TMDB/people_detail/TMDB_peopleDetails_{people_id}.json"
-		with open (dir, "w", encoding="utf-8") as file:
-			json.dump(json_data, file, indent=4, ensure_ascii=False)
-		return f'TMDB_peopleDetails_{people_id}.json : Data received'
-	except Exception as e:
-		return f'TMDB_peopleDetails_{people_id}.json : No Data {str(e)}'
-
-
-# 영화 정보 DB에 저장
-def DB_to_json(date_gte, func):
-
-	# config = configparser.ConfigParser()
-	# config.read('config/config.ini')
-	# mysql_config = config.get('MYSQL')
-	# conn = mysql.connector.connect(**mysql_config)
-
+	# MySQL 연결
+	conn = mysql.connector.connect(host=host,
+                                   user=user,
+                                   password=password,
+                                   database=database)
 	cursor = conn.cursor()
-	cursor.execute(f"SELECT movieID FROM test WHERE date_gte = {date_gte}")
+	cursor.execute(f"SELECT movie_id FROM movie WHERE created_at = {date}")
 	rows = cursor.fetchall()
 
 	for row in rows:
 		movie_id = row[0]
-		message = func(movie_id)
-		print(message)
-                
+		# 파일 홈 디렉토리
+		# <수정 필요>
+		home_dir = "api/datas/TMDB/credit"
 
-# 인물 정보 DB에 저장
-def peopleDB_to_json(date_gte):
-        
+		# 영화ID 파라미터 입력
+		# movie_id = sys.argv[1]
+		# movie_id = 1101609
+
+		# request 요청 파라미터
+		language = "ko-KR"
+
+		# request 요청
+		url = f"https://api.themoviedb.org/3/movie/{movie_id}/credits"
+		headers = {
+			"accept": "application/json",
+			"Authorization": f"Bearer {api_key}"
+		}
+		response = requests.get(url, headers=headers).json()
+
+		# 파일 저장
+		json_path = f"{home_dir}/TMDB_movieCredits_{movie_id}.json"
+		with open(json_path, "w", encoding="utf-8") as file:
+			json.dump(response, file, indent=4, ensure_ascii=False)
+			print(f"LOAD SUCCEED : {url}")
+
+
+# movie 상세정보를 가져오는 endPoint
+def load_movieDetails(date) :
+
+	config = configparser.ConfigParser()
+	config.read('config/config.ini')
+	api_key = config.get('TMDB', 'API_KEY')
+ 	
+  	# MySQL 연결정보
+	host = config.get('MYSQL', 'MYSQL_HOST')
+	user = config.get('MYSQL', 'MYSQL_USER')
+	password = config.get('MYSQL', 'MYSQL_PWD')
+	database = config.get('MYSQL', 'MYSQL_DB')
+
+	# MySQL 연결
+	conn = mysql.connector.connect(host=host,
+                                   user=user,
+                                   password=password,
+                                   database=database)
 	cursor = conn.cursor()
-	cursor.execute(f"SELECT peopleID FROM test WHERE date_gte = {date_gte}")
+	cursor.execute(f"SELECT movie_id FROM movie WHERE created_at = {date}")
+	rows = cursor.fetchall()
+
+	for row in rows:
+		movie_id = row[0]
+		base_url = f"https://api.themoviedb.org/3/movie/{movie_id}"
+	
+		headers = {
+    	    "Authorization": f"Bearer {api_key}",
+    	    "accept": "application/json"
+    	}
+	
+		response = requests.get(base_url, headers=headers)
+		response.raise_for_status()  # Will raise an error if the HTTP request returned an unsuccessful status code
+		json_data = response.json()
+		
+		try:
+			# 파일 저장
+			dir = f"api/datas/TMDB/detail/{movie_id}.json"
+			with open (dir, "w", encoding="utf-8") as file:
+				json.dump(json_data, file, indent=4, ensure_ascii=False)
+			return f'TMDB_movieDetails_{movie_id}.json : Data received'
+
+		except Exception as e:
+			return f'TMDB_movieDetails_{movie_id}.json : No Data {str(e)}'
+		
+
+# movie images를 가져오는 endPoint
+def get_TMDB_movieImages(date):
+
+	config = configparser.ConfigParser()
+	config.read('config/config.ini')
+	api_key = config.get('TMDB', 'API_KEY')
+ 
+	# MySQL 연결정보
+	host = config.get('MYSQL', 'MYSQL_HOST')
+	user = config.get('MYSQL', 'MYSQL_USER')
+	password = config.get('MYSQL', 'MYSQL_PWD')
+	database = config.get('MYSQL', 'MYSQL_DB')
+
+	# MySQL 연결
+	conn = mysql.connector.connect(host=host,
+                                   user=user,
+                                   password=password,
+                                   database=database)
+	cursor = conn.cursor()
+	cursor.execute(f"SELECT movie_id FROM movie WHERE created_at = {date}")
+	rows = cursor.fetchall()
+
+	for row in rows:
+		movie_id = row[0]
+		base_url = f"https://api.themoviedb.org/3/movie/{movie_id}/images"
+		headers = {
+			"Authorization": f"Bearer {api_key}",
+			"accept": "application/json"
+		}
+
+		response = requests.get(base_url, headers=headers)
+		response.raise_for_status()  # Will raise an error if the HTTP request returned an unsuccessful status code
+		json_data = response.json()
+
+		if all(not json_data[key] for key in ["backdrops", "logos", "posters"]):
+			return f'TMDB_movieImages_{movie_id}.json : No Data'
+		else:
+			try:
+				# 파일 저장
+				dir = f"/api/datas/TMDB/images/TMDB_movieImages_{movie_id}.json"
+				with open (dir, "w", encoding="utf-8") as file:
+					json.dump(json_data, file, indent=4, ensure_ascii=False)
+				return f'TMDB_movieImages_{movie_id}.json : Data received'
+			except Exception as e:
+				return f'TMDB_movieImages_{movie_id}.json : Error {str(e)}'
+
+
+# similar movie 정보를 가져오는 endPoint
+def get_TMDB_movieSimilar(date):
+
+	config = configparser.ConfigParser()
+	config.read('config/config.ini')
+	api_key = config.get('TMDB', 'API_KEY')
+
+	# MySQL 연결정보
+	host = config.get('MYSQL', 'MYSQL_HOST')
+	user = config.get('MYSQL', 'MYSQL_USER')
+	password = config.get('MYSQL', 'MYSQL_PWD')
+	database = config.get('MYSQL', 'MYSQL_DB')
+
+	# MySQL 연결
+	conn = mysql.connector.connect(host=host,
+                                   user=user,
+                                   password=password,
+                                   database=database)
+	cursor = conn.cursor()
+	cursor.execute(f"SELECT movie_id FROM movie WHERE created_at = {date}")
+	rows = cursor.fetchall()
+
+	for row in rows:
+		movie_id = row[0]
+		base_url = f"https://api.themoviedb.org/3/movie/{movie_id}/similar"
+		headers = {
+			"Authorization": f"Bearer {api_key}",
+			"accept": "application/json"
+		}
+
+		response = requests.get(base_url, headers=headers)
+		response.raise_for_status()  # Will raise an error if the HTTP request returned an unsuccessful status code
+		json_data = response.json()
+
+		if not json_data['results']:
+			return f'TMDB_movieSimilar_{movie_id}.json : No Data'
+		else:
+			try:
+				# 파일 저장
+				dir = f"api/datas/TMDB/similar/TMDB_movieSimilar_{movie_id}.json"
+				with open (dir, "w", encoding="utf-8") as file:
+					json.dump(json_data, file, indent=4, ensure_ascii=False)
+				return f'TMDB_movieSimilar_{movie_id}.json : Data received'
+			except Exception as e:
+				return f'TMDB_movieSimilar_{movie_id}.json : Error {str(e)}'
+		
+
+# 영화 인물 정보를 가져오는 endpoint		
+def get_TMDB_peopleDetail(date):
+
+	config = configparser.ConfigParser()
+	config.read('config/config.ini')
+	api_key = config.get('TMDB', 'API_KEY')
+
+	# MySQL 연결정보
+	host = config.get('MYSQL', 'MYSQL_HOST')
+	user = config.get('MYSQL', 'MYSQL_USER')
+	password = config.get('MYSQL', 'MYSQL_PWD')
+	database = config.get('MYSQL', 'MYSQL_DB')
+
+	# MySQL 연결
+	conn = mysql.connector.connect(host=host,
+                                   user=user,
+                                   password=password,
+                                   database=database)
+	cursor = conn.cursor()
+	cursor.execute(f"SELECT people_id FROM people WHERE created_at = {date}")
 	rows = cursor.fetchall()
 
 	for row in rows:
 		people_id = row[0]
-		message = get_TMDB_peopleDetail(people_id)
-		print(message)
+		base_url = f"https://api.themoviedb.org/3/person/{people_id}"
+		headers = {
+			"Authorization": f"Bearer {api_key}",
+			"accept": "application/json"
+		}
+
+		response = requests.get(base_url, headers=headers)
+		response.raise_for_status()  # Will raise an error if the HTTP request returned an unsuccessful status code
+		json_data = response.json()
+
+		try:
+			# 파일 저장
+			dir = f"api/datas/TMDB/people_detail/TMDB_peopleDetails_{people_id}.json"
+			with open (dir, "w", encoding="utf-8") as file:
+				json.dump(json_data, file, indent=4, ensure_ascii=False)
+			return f'TMDB_peopleDetails_{people_id}.json : Data received'
+		except Exception as e:
+			return f'TMDB_peopleDetails_{people_id}.json : No Data {str(e)}'
+                
 
 
 # 영화ID를 DB에 저장
