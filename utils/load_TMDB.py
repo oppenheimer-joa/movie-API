@@ -10,7 +10,7 @@ def load_discoverMovie(date):
 	api_key = config.get('TMDB', 'API_KEY')
 
 	# 파일 홈 디렉토리
-	home_dir = "api/datas/TMDB/lists"
+	home_dir = "/api/datas/TMDB/lists"
 
 	# Date 파라미터 입력
 	date_argv = date
@@ -131,7 +131,7 @@ def load_movieDetails(date) :
 		
 		try:
 			# 파일 저장
-			dir = f"api/datas/TMDB/detail/{movie_id}.json"
+			dir = f"/api/datas/TMDB/detail/TMDB_movieDetails_{movie_id}.json"
 			with open (dir, "w", encoding="utf-8") as file:
 				json.dump(json_data, file, indent=4, ensure_ascii=False)
 			return f'TMDB_movieDetails_{movie_id}.json : Data received'
@@ -226,7 +226,7 @@ def get_TMDB_movieSimilar(date):
 		else:
 			try:
 				# 파일 저장
-				dir = f"api/datas/TMDB/similar/TMDB_movieSimilar_{movie_id}.json"
+				dir = f"/api/datas/TMDB/similar/TMDB_movieSimilar_{movie_id}.json"
 				with open (dir, "w", encoding="utf-8") as file:
 					json.dump(json_data, file, indent=4, ensure_ascii=False)
 				return f'TMDB_movieSimilar_{movie_id}.json : Data received'
@@ -270,7 +270,7 @@ def get_TMDB_peopleDetail(date):
 
 		try:
 			# 파일 저장
-			dir = f"api/datas/TMDB/people_detail/TMDB_peopleDetails_{people_id}.json"
+			dir = f"/api/datas/TMDB/people_detail/TMDB_peopleDetails_{people_id}.json"
 			with open (dir, "w", encoding="utf-8") as file:
 				json.dump(json_data, file, indent=4, ensure_ascii=False)
 			return f'TMDB_peopleDetails_{people_id}.json : Data received'
