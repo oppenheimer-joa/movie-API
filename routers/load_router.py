@@ -2,7 +2,7 @@ import os
 from fastapi import APIRouter, Request
 from utils.load_KOPIS import *
 from utils.load_TMDB import *
-from utils.load_spotifiy import *
+from utils.load_spotify import *
 import datetime
 
 router = APIRouter()
@@ -55,7 +55,7 @@ async def get_tmdb_people_details_routes(peopleCode:str):
 
 @router.get("/spotify/movie-ost")
 async def get_spotify_ost_routes(movieCode:str):
-    token = get_h_spotify_token
+    token = get_h_spotify_token()
     movieName = "엘리멘탈"
     return get_soundtrack(movieName, token)
 
