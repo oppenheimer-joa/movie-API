@@ -10,7 +10,6 @@ router = APIRouter()
 #공연 세부 정보 수집
 @router.get("/kopis/information")
 async def get_pf_detail_routes():
-
     #DB에서 코드가 날라와야함
     PF_ID_LIST = ['PF223258', 'PF223038', 'PF222985', 'PF222956']
     return get_pf_detail(PF_ID_LIST)
@@ -55,6 +54,14 @@ async def get_tmdb_people_details_routes(peopleCode:str):
 
 @router.get("/spotify/movie-ost")
 async def get_spotify_ost_routes(movieCode:str):
+    """
+    <h3> 영화 OST 정보 적재 </h3>
+
+    DB의 영화코드를 기반으로 해당 영화의 OST정보를 저장합니다. 
+
+    **Update Frequency** : 1 Week <br>
+    **Recommand call** : 1 call per Week
+    """
     token = get_h_spotify_token()
     movieName = "엘리멘탈"
     return get_soundtrack(movieName, token)

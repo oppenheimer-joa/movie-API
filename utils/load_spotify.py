@@ -1,5 +1,6 @@
 import json, requests, configparser
 
+
 #spotify OST 정보는 DB에 밀어넣어진 데이터 기반 날짜로 가지고와서 리스트로 반환하거나 하면 될듯? 아니면 airflow 한테 맡겨도 되고ㅎㅎ
 
 def get_h_spotify_token():
