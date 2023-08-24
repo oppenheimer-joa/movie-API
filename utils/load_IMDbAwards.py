@@ -31,7 +31,8 @@ def get_awards(event, year):
     fn_data = json.loads(pr_data)
 
     # json 파일로 적재
-    dir = f'api/datas/{event}/imdb_{event}_{year}.json'
+    dir = f'/home/kjh/code/SMS/movie-API/datas/IMDb/{event}/imdb_{event}_{year}.json'
+    # dir = f'api/datas/IMDb/{event}/imdb_{event}_{year}.json' : 개발서버 경로
     try:
         with open (dir, 'w', encoding="utf-8") as file:
             json.dump(fn_data, file, indent=4)
