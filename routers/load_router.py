@@ -3,6 +3,7 @@ from fastapi import APIRouter, Request
 from utils.load_KOPIS import *
 from utils.load_TMDB import *
 from utils.load_spotify import *
+from utils.load_BoxOffice import *
 import datetime
 
 router = APIRouter()
@@ -68,10 +69,12 @@ async def get_spotify_ost_routes(movieCode:str):
     return get_soundtrack(movieName, token)
 
 
-
-
-
 # 일별 + 지역 코드 일별 박스오피스 순위 및 정보 수집
 @router.get("/kobis/daily-boxoffice")
 async def get_daily_box_office_routes(now_date:str, area_code:str):
     return get_daily_box_office(now_date, area_code)
+
+# 기본 지역 코드 DB 적재
+@router.get("/kobis/baseArea-code")
+async def update_movie_location_code_routes():
+    return update_movie_location_code()

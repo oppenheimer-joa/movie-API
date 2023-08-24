@@ -13,7 +13,7 @@ def get_daily_box_office(now_date, area_code):
     }
     params = {
         "key": SERVICE_KEY,
-        "targetDt": date,
+        "targetDt": now_date,
         "wideAreaCd": area_code
     }
     response = requests.get(url=service_url, headers=headers, params=params).json()
@@ -43,7 +43,8 @@ def update_movie_location_code():
     conn = mysql.connector.connect(host=host,
                                    user=user,
                                    password=password,
-                                   database=database)
+                                   database=database,
+                                   charset='utf8mb4')
     cursor = conn.cursor()
 
     url = "http://kobis.or.kr/kobisopenapi/webservice/rest/code/searchCodeList.json"
@@ -53,8 +54,9 @@ def update_movie_location_code():
     }
     resp_data = requests.get(url=url, params=params).json()
 
-    insert_query = "INSERT INTO codes (location_code, location_name) VALUES (%s, %s)"
+    insert_query = "INSERT INTO movie_location (location_code, location_name) VALUES (%s, %s)"
     for data in resp_data['codes']:
-        cursor.execute(insert_query, (data['fullCd'], data['korNm']))
-
+        values = (data['fullCd'], data['korNm'])
+        cursor.execute(insert_query, values)
+        conn.commit()
     conn.close()
