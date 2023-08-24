@@ -1,7 +1,8 @@
 import requests, datetime, json, os, configparser
 import pandas as pd
 
-def get_daily_box_office(date:str):
+#date형식 YYYYmmdd
+def get_daily_box_office(now_date, area_code):
     config = configparser.ConfigParser()
     config.read('config/config.ini')
     SERVICE_KEY = config.get('KOBIS_KEYS', 'API_KEY')
@@ -12,11 +13,18 @@ def get_daily_box_office(date:str):
     }
     params = {
         "key": SERVICE_KEY,
-        "targetDt": date
+        "targetDt": date,
+        "wideAreaCd": area_code
     }
     response = requests.get(url=service_url, headers=headers, params=params).json()
-    """
-    파일 write 코드입력 필
-    """
 
-def 
+    data_path = "/api/datas/kobis"
+    json_name = f"{now_date}_{area_code}_boxOffice.json"
+    json_path = f"{data_path}/{json_name}"
+
+    try:
+        with open(json_path, "w") as file:
+            json.dump(response, file, indent=4, ensure_ascii=False)
+        return f"{json_name} load compelete!"
+    except Exception as e:
+        return f"{json_name} load failed!"

@@ -52,6 +52,7 @@ async def get_tmdb_moive_similar_routes(movieCode:str):
 async def get_tmdb_people_details_routes(peopleCode:str):
     return get_TMDB_peopleDetail(peopleCode)
 
+# spotify 영화 OST 수집
 @router.get("/spotify/movie-ost")
 async def get_spotify_ost_routes(movieCode:str):
     """
@@ -68,3 +69,9 @@ async def get_spotify_ost_routes(movieCode:str):
 
 
 
+
+
+# 일별 + 지역 코드 일별 박스오피스 순위 및 정보 수집
+@router.get("/kobis/daily-boxoffice")
+async def get_daily_box_office_routes(now_date:str, area_code:str):
+    return get_daily_box_office(now_date, area_code)
