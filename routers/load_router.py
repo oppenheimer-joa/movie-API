@@ -44,8 +44,8 @@ async def get_tmdb_movie_images_routes(movieCode:str):
     return get_TMDB_movieImages(movieCode)
 
 #TMDB 비슷한 영화 케이터링 데이터 수집
-@router.get("/tmdb/moive-similar")
-async def get_tmdb_moive_similar_routes(movieCode:str):
+@router.get("/tmdb/movie-similar")
+async def get_tmdb_movie_similar_routes(movieCode:str):
     return get_TMDB_movieSimilar(movieCode)
 
 #TMDB 출연진 및 배우 및 기타 인원 정보 수집
