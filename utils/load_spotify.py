@@ -1,5 +1,7 @@
 import json, requests, configparser
 
+#spotify OST 정보는 DB에 밀어넣어진 데이터 기반 날짜로 가지고와서 리스트로 반환하거나 하면 될듯? 아니면 airflow 한테 맡겨도 되고ㅎㅎ
+
 def get_h_spotify_token():
 
     config = configparser.ConfigParser()
@@ -44,6 +46,6 @@ def get_soundtrack(movie_name, access_token):
     try:
         with open(json_path, "w") as file:
             json.dump(response, file, indent=4, ensure_ascii=False)
-        return f"{json_name} load compelete!"  # 파일 쓰기 성공 시 파일명 리턴
+        return f"{json_name} load compelete!"
     except Exception as e:
-        return f"{json_name} load failed!"  # 파일 쓰기 실패 시 메시지 리턴
+        return f"{json_name} load failed!"
