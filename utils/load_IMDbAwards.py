@@ -32,7 +32,7 @@ def get_awards(event, year):
 
     # json 파일로 적재
     # dir = f'/home/kjh/code/SMS/movie-API/datas/IMDb/{event}/imdb_{event}_{year}.json'
-    base_dir = f"api/datas/IMDB"
+    base_dir = f"api/datas/IMDb"
     file_name = f"imdb_{event}_{year}.json"
     dir = os.path.join(base_dir, file_name)
     try:
