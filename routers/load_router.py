@@ -2,7 +2,7 @@ import os
 from fastapi import APIRouter, Request
 from utils.load_KOPIS import *
 from utils.load_TMDB import *
-from utils.load_spotifiy import *
+#from utils.load_spotifiy import *
 from utils.load_IMDbAwards import *
 import datetime
 

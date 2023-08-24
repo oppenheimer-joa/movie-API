@@ -1,4 +1,4 @@
-import requests, json
+import requests, json, os
 from bs4 import BeautifulSoup
 
 def get_awards(event, year):
@@ -32,7 +32,9 @@ def get_awards(event, year):
 
     # json 파일로 적재
     # dir = f'/home/kjh/code/SMS/movie-API/datas/IMDb/{event}/imdb_{event}_{year}.json'
-    dir = f'api/datas/IMDb/{event}/imdb_{event}_{year}.json'
+    base_dir = f"api/datas/IMDB"
+    file_name = f"imdb_{event}_{year}.json"
+    dir = os.path.join(base_dir, file_name)
     try:
         with open (dir, 'w', encoding="utf-8") as file:
             json.dump(fn_data, file, indent=4)
@@ -41,10 +43,3 @@ def get_awards(event, year):
     
     except Exception as e:
         return f'imdb_{event}_{year}.json : Failed {str(e)}'
-
-# TEST
-if __name__ == "__main__":
-    years = [2019, 2020, 2021, 2022]
-    event = 'busan'
-    for year in years:
-        get_awards(event, year)
