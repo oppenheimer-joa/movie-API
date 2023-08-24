@@ -51,3 +51,13 @@ async def get_tmdb_moive_similar_routes(movieCode:str):
 @router.get("/tmdb/people-details")
 async def get_tmdb_people_details_routes(peopleCode:str):
     return get_TMDB_peopleDetail(peopleCode)
+
+#TMDB 영화ID 데이터 DB 적재
+@router.get("/tmdb/mysql/movie")
+async def insert_movie_lists(date_gte:str):
+    return make_movieList(date_gte)
+
+#TMDB 인물ID 데이터 DB 적재
+@router.get("/tmdb/mysql/people")
+async def insert_people_lists(date_gte:str):
+    return make_peopleList(date_gte)
