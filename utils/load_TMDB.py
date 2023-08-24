@@ -10,7 +10,7 @@ def load_discoverMovie(date):
 	api_key = config.get('TMDB', 'API_KEY')
 
 	# 파일 홈 디렉토리
-	home_dir = "/api/datas/TMDB/lists"
+	home_dir = "./datas/TMDB/lists"
 
 	# Date 파라미터 입력
 	date_argv = date
@@ -63,14 +63,14 @@ def load_movieCredits(date) :
                                    password=password,
                                    database=database)
 	cursor = conn.cursor()
-	cursor.execute(f"SELECT movie_id FROM movie WHERE created_at = {date}")
+	cursor.execute("SELECT movie_id FROM movie WHERE created_at = %s", (date,))
 	rows = cursor.fetchall()
-
+ 
 	for row in rows:
 		movie_id = row[0]
 		# 파일 홈 디렉토리
 		# <수정 필요>
-		home_dir = "api/datas/TMDB/credit"
+		home_dir = "./datas/TMDB/credit"
 
 		# 영화ID 파라미터 입력
 		# movie_id = sys.argv[1]
@@ -113,8 +113,10 @@ def load_movieDetails(date) :
                                    password=password,
                                    database=database)
 	cursor = conn.cursor()
-	cursor.execute(f"SELECT movie_id FROM movie WHERE created_at = {date}")
+	cursor.execute("SELECT movie_id FROM movie WHERE created_at = %s", (date,))
 	rows = cursor.fetchall()
+
+	results = []
 
 	for row in rows:
 		movie_id = row[0]
@@ -131,13 +133,15 @@ def load_movieDetails(date) :
 		
 		try:
 			# 파일 저장
-			dir = f"/api/datas/TMDB/detail/TMDB_movieDetails_{movie_id}.json"
+			dir = f"./datas/TMDB/detail/TMDB_movieDetails_{movie_id}.json"
 			with open (dir, "w", encoding="utf-8") as file:
 				json.dump(json_data, file, indent=4, ensure_ascii=False)
-			return f'TMDB_movieDetails_{movie_id}.json : Data received'
+			results.append(f'TMDB_movieDetails_{movie_id}.json : Data received')
 
 		except Exception as e:
-			return f'TMDB_movieDetails_{movie_id}.json : No Data {str(e)}'
+			results.append(f'TMDB_movieDetails_{movie_id}.json : No Data {str(e)}')
+
+	return results
 		
 
 # movie images를 가져오는 endPoint
@@ -159,8 +163,10 @@ def get_TMDB_movieImages(date):
                                    password=password,
                                    database=database)
 	cursor = conn.cursor()
-	cursor.execute(f"SELECT movie_id FROM movie WHERE created_at = {date}")
+	cursor.execute("SELECT movie_id FROM movie WHERE created_at = %s", (date,))
 	rows = cursor.fetchall()
+
+	results = []
 
 	for row in rows:
 		movie_id = row[0]
@@ -175,16 +181,17 @@ def get_TMDB_movieImages(date):
 		json_data = response.json()
 
 		if all(not json_data[key] for key in ["backdrops", "logos", "posters"]):
-			return f'TMDB_movieImages_{movie_id}.json : No Data'
+			results.append(f'TMDB_movieImages_{movie_id}.json : No Data')
 		else:
 			try:
 				# 파일 저장
-				dir = f"/api/datas/TMDB/images/TMDB_movieImages_{movie_id}.json"
+				dir = f"./datas/TMDB/images/TMDB_movieImages_{movie_id}.json"
 				with open (dir, "w", encoding="utf-8") as file:
 					json.dump(json_data, file, indent=4, ensure_ascii=False)
-				return f'TMDB_movieImages_{movie_id}.json : Data received'
+				results.append(f'TMDB_movieImages_{movie_id}.json : Data received')
 			except Exception as e:
-				return f'TMDB_movieImages_{movie_id}.json : Error {str(e)}'
+				results.append(f'TMDB_movieImages_{movie_id}.json : Error {str(e)}')
+	return results
 
 
 # similar movie 정보를 가져오는 endPoint
@@ -206,8 +213,10 @@ def get_TMDB_movieSimilar(date):
                                    password=password,
                                    database=database)
 	cursor = conn.cursor()
-	cursor.execute(f"SELECT movie_id FROM movie WHERE created_at = {date}")
+	cursor.execute("SELECT movie_id FROM movie WHERE created_at = %s", (date,))
 	rows = cursor.fetchall()
+
+	results = []
 
 	for row in rows:
 		movie_id = row[0]
@@ -222,16 +231,17 @@ def get_TMDB_movieSimilar(date):
 		json_data = response.json()
 
 		if not json_data['results']:
-			return f'TMDB_movieSimilar_{movie_id}.json : No Data'
+			results.append(f'TMDB_movieSimilar_{movie_id}.json : No Data')
 		else:
 			try:
 				# 파일 저장
-				dir = f"/api/datas/TMDB/similar/TMDB_movieSimilar_{movie_id}.json"
+				dir = f"./datas/TMDB/similar/TMDB_movieSimilar_{movie_id}.json"
 				with open (dir, "w", encoding="utf-8") as file:
 					json.dump(json_data, file, indent=4, ensure_ascii=False)
-				return f'TMDB_movieSimilar_{movie_id}.json : Data received'
+				results.append(f'TMDB_movieSimilar_{movie_id}.json : Data received')
 			except Exception as e:
-				return f'TMDB_movieSimilar_{movie_id}.json : Error {str(e)}'
+				results.append(f'TMDB_movieSimilar_{movie_id}.json : Error {str(e)}')
+	return results
 		
 
 # 영화 인물 정보를 가져오는 endpoint		
@@ -253,8 +263,10 @@ def get_TMDB_peopleDetail(date):
                                    password=password,
                                    database=database)
 	cursor = conn.cursor()
-	cursor.execute(f"SELECT people_id FROM people WHERE created_at = {date}")
+	cursor.execute("SELECT people_id FROM people WHERE created_at = %s", (date,))
 	rows = cursor.fetchall()
+
+	results = []
 
 	for row in rows:
 		people_id = row[0]
@@ -270,12 +282,13 @@ def get_TMDB_peopleDetail(date):
 
 		try:
 			# 파일 저장
-			dir = f"/api/datas/TMDB/people_detail/TMDB_peopleDetails_{people_id}.json"
+			dir = f"./datas/TMDB/people_detail/TMDB_peopleDetails_{people_id}.json"
 			with open (dir, "w", encoding="utf-8") as file:
 				json.dump(json_data, file, indent=4, ensure_ascii=False)
-			return f'TMDB_peopleDetails_{people_id}.json : Data received'
+			results.append(f'TMDB_peopleDetails_{people_id}.json : Data received')
 		except Exception as e:
-			return f'TMDB_peopleDetails_{people_id}.json : No Data {str(e)}'
+			results.append(f'TMDB_peopleDetails_{people_id}.json : No Data {str(e)}')
+	return results
                 
 
 
