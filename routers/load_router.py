@@ -2,6 +2,7 @@ import os
 from fastapi import APIRouter, Request
 from utils.load_KOPIS import *
 from utils.load_TMDB import *
+from utils.load_spotifiy import *
 import datetime
 
 router = APIRouter()
@@ -51,3 +52,12 @@ async def get_tmdb_moive_similar_routes(movieCode:str):
 @router.get("/tmdb/people-details")
 async def get_tmdb_people_details_routes(peopleCode:str):
     return get_TMDB_peopleDetail(peopleCode)
+
+@router.get("/spotify/movie-ost")
+async def get_spotify_ost_routes(movieCode:str):
+    token = get_h_spotify_token
+    movieName = "엘리멘탈"
+    return get_soundtrack(movieName, token)
+
+
+
