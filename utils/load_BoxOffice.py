@@ -1,5 +1,5 @@
 import requests, datetime, json, os, configparser
-import pandas as pd
+import mysql.connector
 
 #date형식 YYYYmmdd
 def get_daily_box_office(now_date, area_code):
@@ -28,3 +28,33 @@ def get_daily_box_office(now_date, area_code):
         return f"{json_name} load compelete!"
     except Exception as e:
         return f"{json_name} load failed!"
+
+def update_movie_location_code():
+    config = configparser.ConfigParser()
+    config.read('config/config.ini')
+    SERVICE_KEY = config.get('KOBIS_KEYS', 'API_KEY')
+
+    host = config.get('MYSQL', 'MYSQL_HOST')
+    user = config.get('MYSQL', 'MYSQL_USER')
+    password = config.get('MYSQL', 'MYSQL_PWD')
+    database = config.get('MYSQL', 'MYSQL_DB')
+
+    # MySQL 연결
+    conn = mysql.connector.connect(host=host,
+                                   user=user,
+                                   password=password,
+                                   database=database)
+    cursor = conn.cursor()
+
+    url = "http://kobis.or.kr/kobisopenapi/webservice/rest/code/searchCodeList.json"
+    params = {
+        "key" : SERVICE_KEY,
+        "comCode" : "0105000000"
+    }
+    resp_data = requests.get(url=url, params=params).json()
+
+    insert_query = "INSERT INTO codes (location_code, location_name) VALUES (%s, %s)"
+    for data in resp_data['codes']:
+        cursor.execute(insert_query, (data['fullCd'], data['korNm']))
+
+    conn.close()
