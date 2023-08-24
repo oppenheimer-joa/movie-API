@@ -63,5 +63,5 @@ async def get_spotify_ost_routes(movieCode:str):
 #IMDb 영화제(Academy, Cannes, Venice, Busan) 수상내역 크롤링
 @router.get("/imdb/awards")
 async def get_imdb_awards(event:str, year:int):
-    return get_awards(event, year)
+    return get_awards(event, year) 
 
