@@ -348,7 +348,7 @@ def make_movieList(date_gte):
             original_title = result["original_title"]
 
             # 쿼리 생성
-            QUERY = f"INSERT INTO movie(movie_id, movie_nm) VALUES (%s, %s)"
+            QUERY = "INSERT INTO movie(movie_id, movie_nm) VALUES (%s, %s)"
             values = (id, original_title)
 
             # 데이터 적재
@@ -430,7 +430,7 @@ def make_peopleList(date_gte):
         print(f"{id} & {original_name}")
 
         # 쿼리 생성
-        QUERY = f"INSERT INTO people(people_id, people_nm) VALUES (%s, %s)"
+        QUERY = "INSERT INTO people(people_id, people_nm) VALUES (%s, %s)"
         print(QUERY)
         values = (id, original_name)
 
