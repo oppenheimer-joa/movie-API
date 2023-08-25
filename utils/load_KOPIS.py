@@ -124,7 +124,7 @@ def get_pf_detail(ST_DT):
     new_file = ''
 
     PF_ID_LIST = []
-    select_query = 'SELECT pf_id FROM performance WHERE created_at = "%s"'
+    select_query = 'SELECT pf_id FROM performance WHERE created_at = %s'
     cur.execute(select_query, (ST_DT,))
     PF_ID_LISTS = cur.fetchall()
     PF_ID_LIST = [x[0] for x in PF_ID_LISTS]
