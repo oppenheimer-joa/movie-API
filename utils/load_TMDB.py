@@ -302,7 +302,7 @@ def make_movieList(date_gte):
 
     # config parse
     config = configparser.ConfigParser()
-    config.read('/Users/kimdohoon/git/etc/config.ini')
+    config.read('config/config.ini')
 
     # MySQL 연결정보
     host = config.get('MYSQL', 'MYSQL_HOST')
@@ -363,7 +363,7 @@ def make_peopleList(date_gte):
 
     # config parse
     config = configparser.ConfigParser()
-    config.read('/Users/kimdohoon/git/etc/config.ini')
+    config.read('config/config.ini')
 
     # MySQL 연결정보
     host = config.get('MYSQL', 'MYSQL_HOST')
