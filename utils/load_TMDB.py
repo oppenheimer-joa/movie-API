@@ -1,4 +1,4 @@
-import sys, os, requests, json, configparser
+import requests, json, configparser
 from datetime import datetime, timedelta
 import mysql.connector
 
@@ -74,12 +74,7 @@ def load_movieCredits(date) :
 	for row in rows:
 		movie_id = row[0]
 		# 파일 홈 디렉토리
-		# <수정 필요>
 		home_dir = "./datas/TMDB/credit"
-
-		# 영화ID 파라미터 입력
-		# movie_id = sys.argv[1]
-		# movie_id = 1101609
 
 		# request 요청 파라미터
 		language = "ko-KR"
@@ -384,7 +379,6 @@ def make_peopleList(date_gte):
     # 쿼리 생성
     QUERY = f"""SELECT movie_id from movie
                 WHERE created_at = '{date_gte}'"""
-    print(QUERY)
 
     # 데이터 추출
     cursor.execute(QUERY)
@@ -427,11 +421,10 @@ def make_peopleList(date_gte):
         # 데이터 추출
         id = person["id"]
         original_name = person["original_name"]
-        print(f"{id} & {original_name}")
 
         # 쿼리 생성
         QUERY = "INSERT INTO people(people_id, people_nm) VALUES (%s, %s)"
-        print(QUERY)
+
         values = (id, original_name)
 
         # 데이터 적재
