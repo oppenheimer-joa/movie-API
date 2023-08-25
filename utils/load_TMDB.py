@@ -332,7 +332,7 @@ def make_movieList(date_gte):
     for page in range(1, 501):
 
         # request 요청
-        url = f"https://api.themoviedb.org/3/discover/movie?include_adult={include_adult}&include_video=true&language={language}&primary_release_date.gte={date_gte}&primary_release_date.lte={date_lte}&page={page}&sort_by=primary_release_date.desc"
+        url = f"https://api.themoviedb.org/3/discover/movie?include_adult={include_adult}&include_video=true&language={language}&primary_release_date.gte={date}&primary_release_date.lte={date_lte}&page={page}&sort_by=primary_release_date.desc"
         headers = {
             "accept": "application/json",
             "Authorization": f"Bearer {tmdb_key}"
@@ -340,6 +340,7 @@ def make_movieList(date_gte):
         results = requests.get(url, headers=headers).json()["results"]
         if len(results) == 0: break
 
+		message = []
         # 각 result별 작업 수행
         for result in results:
 
@@ -352,8 +353,14 @@ def make_movieList(date_gte):
             values = (id, original_title)
 
             # 데이터 적재
-            cursor.execute(QUERY, values)
-            conn.commit()
+	        try:
+	        	cursor.execute(QUERY, values)
+	        	conn.commit()
+				message.append(f'{id} & {original_title} : succeed')
+	        except Exception as e:
+	            message.append(f'{id} & {original_title} : failed' {str(e)})
+	    return message
+ 
 
 
 # 사람ID를 DB에 저장
@@ -417,7 +424,7 @@ def make_peopleList(date_gte):
                 people_list.append(item)
                 unique_ids.add(id_value)
         
-
+	results = []
     # 각 result별 작업 수행
     for person in people_list:
 
@@ -431,5 +438,12 @@ def make_peopleList(date_gte):
         values = (id, original_name)
 
         # 데이터 적재
-        cursor.execute(QUERY, values)
-        conn.commit()
+        try:
+        	cursor.execute(QUERY, values)
+        	conn.commit()
+			results.append(f'{id} & {original_name} : succeed')
+        except Exception as e:
+            results.append(f'{id} & {original_name} : failed' {str(e)})
+    return results
+            
+        
