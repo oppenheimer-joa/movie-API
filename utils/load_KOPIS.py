@@ -92,7 +92,7 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
     data_dict['creator']=creator
 
     for idx,id in enumerate(data_dict['mt20id']):
-        check_query = "SELECT * FROM performance WHERE pf_id = %s"
+        check_query = f"SELECT * FROM performance WHERE pf_id = %s"
         cur.execute(check_query,(id,))
         result = cur.fetchall()
         
@@ -124,8 +124,8 @@ def get_pf_detail(ST_DT):
     new_file = ''
 
     PF_ID_LIST = []
-    select_query = 'SELECT pf_id FROM performance WHERE created_at = %s'
-    cur.execute(select_query, (ST_DT,))
+    select_query = f'SELECT pf_id FROM performance WHERE created_at = "{ST_DT}"'
+    cur.execute(select_query)
     PF_ID_LISTS = cur.fetchall()
     PF_ID_LIST = [x[0] for x in PF_ID_LISTS]
 
