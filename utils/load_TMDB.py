@@ -358,7 +358,7 @@ def make_movieList(date_gte):
 	        	conn.commit()
 				message.append(f'{id} & {original_title} : succeed')
 	        except Exception as e:
-	            message.append(f'{id} & {original_title} : failed' {str(e)})
+	            message.append(f'{id} & {original_title} : failed {str(e)}')
 	    return message
  
 
@@ -443,7 +443,7 @@ def make_peopleList(date_gte):
         	conn.commit()
 			results.append(f'{id} & {original_name} : succeed')
         except Exception as e:
-            results.append(f'{id} & {original_name} : failed' {str(e)})
+            results.append(f'{id} & {original_name} : failed {str(e)}')
     return results
             
         
