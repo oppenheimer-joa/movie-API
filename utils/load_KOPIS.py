@@ -131,7 +131,7 @@ def get_pf_detail(ST_DT):
 
     for id in PF_ID_LIST:
         # PF_ID = "PF223258"
-        tmp_path = "api//datas/kopis"
+        tmp_path = "./datas/kopis"
         file_name = f"KOPIS_showDetails_{id}.xml"
         xml_file_path = os.path.join(tmp_path, file_name)
 
