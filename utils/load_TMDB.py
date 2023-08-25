@@ -24,6 +24,8 @@ def load_discoverMovie(date):
 	primary_release_date_gte = date_gte.strftime("%Y-%m-%d")
 	primary_release_date_lte = date_lte.strftime("%Y-%m-%d")
 
+	results = []
+
 	# 페이지 제한 이내의 request 요청
 	for page in range(1, 501):
 		url = f"https://api.themoviedb.org/3/discover/movie?include_adult={include_adult}&include_video=true&language={language}&primary_release_date.gte={primary_release_date_gte}&primary_release_date.lte={primary_release_date_lte}&page={page}&sort_by=primary_release_date.desc"
@@ -41,7 +43,8 @@ def load_discoverMovie(date):
 		json_path = f"{home_dir}/TMDB_{date_range}_{page}.json"
 		with open(json_path, "w") as file:
 			json.dump(response, file, indent=4, ensure_ascii=False)
-		print(f"LOAD SUCCEED : {url}")
+		results.append(f"LOAD SUCCEED : {url}")
+	return results
 
 
 # movie credits를 가져오는 endPoint
@@ -65,6 +68,8 @@ def load_movieCredits(date) :
 	cursor = conn.cursor()
 	cursor.execute("SELECT movie_id FROM movie WHERE created_at = %s", (date,))
 	rows = cursor.fetchall()
+ 
+	results = []
  
 	for row in rows:
 		movie_id = row[0]
@@ -91,8 +96,8 @@ def load_movieCredits(date) :
 		json_path = f"{home_dir}/TMDB_movieCredits_{movie_id}.json"
 		with open(json_path, "w", encoding="utf-8") as file:
 			json.dump(response, file, indent=4, ensure_ascii=False)
-			print(f"LOAD SUCCEED : {url}")
-
+			results.append(f"LOAD SUCCEED : {url}")
+	return results
 
 # movie 상세정보를 가져오는 endPoint
 def load_movieDetails(date) :
