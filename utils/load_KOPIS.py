@@ -4,9 +4,7 @@ import mysql.connector
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup as bs
 
-
-# ST_DT = datetime.datetime.now()
-
+# config 정보 load
 config = configparser.ConfigParser()
 config.read('config/config.ini')
 
@@ -17,10 +15,11 @@ MYSQL_PORT = config.get('MYSQL', 'MYSQL_PORT')
 MYSQL_USER = config.get('MYSQL', 'MYSQL_USER')
 MYSQL_DB = config.get('MYSQL', 'MYSQL_DB')
 
-
+# mysql connector
 conn = mysql.connector.connect(host=MYSQL_HOST, password=MYSQL_PWD, port=MYSQL_PORT, user=MYSQL_USER, database=MYSQL_DB)
 cur = conn.cursor()
 
+# 티켓 페이지 크롤러 함수
 def get_ticket_page(code):
     url = f"https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id={code}&search=db"
 
@@ -41,15 +40,15 @@ def get_ticket_page(code):
     
     return ticket_nm, ticket_href
 
+
+# date 기준 4주 동안 공연 기간이 속하고 & DB에 없는 데이터 insert 함수
 def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가 되겠지요?)기준 timedelta로 +4주로 계산
 
     config = configparser.ConfigParser()
     config.read('config/config.ini')
     
-
-
     CPAGE=1
-    ROWS= '1'
+    ROWS= '10'   # 가져오는 행수 : 실제 deploy 시에는 100000개 가져오기
 
     end_date= (start_date + datetime.timedelta(weeks=4)).strftime("%Y%m%d")
     start_date= start_date.strftime("%Y%m%d")
@@ -87,7 +86,6 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
 
 
     data_dict={}
-
     data_dict['mt20id']=id
     data_dict['name']=nm
     data_dict['author']=author
@@ -112,7 +110,7 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
             # conn.close()
     
 
-#공연별 상세 정보 수집 후 파일 저장
+# 공연별 상세 정보 수집 후 xml 파일 저장
 def get_pf_detail(ST_DT):
 
     config = configparser.ConfigParser()
