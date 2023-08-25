@@ -39,8 +39,8 @@ def get_soundtrack(movie_name, access_token):
     response = requests.get('https://api.spotify.com/v1/search', params=params, headers=headers).json()
 
     # file save
-    # serverPath -> api/datas/spotify
-    data_path = "/Users/jesse/Documents/sms/API/datas/spotify"
+    data_path = "/api/datas/spotify"
+    #data_path = "/Users/jesse/Documents/sms/API/datas/spotify"
     json_name = f"spotify_{movie_name}.json"
     json_path = f"{data_path}/{json_name}"
 
