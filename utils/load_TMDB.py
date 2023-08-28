@@ -68,7 +68,7 @@ def load_movieCredits(date) :
 	cursor = conn.cursor()
 	cursor.execute("SELECT movie_id FROM movie WHERE created_at = %s", (date,))
 	rows = cursor.fetchall()
- 
+
 	results = []
  
 	for row in rows:
