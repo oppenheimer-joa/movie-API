@@ -48,7 +48,8 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
     config.read('config/config.ini')
     
     CPAGE=1
-    ROWS= '10'   # 가져오는 행수 : 실제 deploy 시에는 100000개 가져오기
+    ROWS= '10000'   # 가져오는 행수 : 실제 deploy 시에는 100000개 가져오기
+    db_insert_cnt = 0
 
     end_date= (start_date + datetime.timedelta(weeks=4)).strftime("%Y%m%d")
     start_date= start_date.strftime("%Y%m%d")
@@ -107,7 +108,9 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
             ex_query = "INSERT INTO performance(pf_id, pf_nm, author, creator) VALUES (%s,%s,%s,%s)"
             cur.execute(ex_query,(id,name,author,creator))
             conn.commit()
+            db_insert_cnt += 1 
             # conn.close()
+    return db_insert_cnt
     
 
 # 공연별 상세 정보 수집 후 xml 파일 저장
@@ -132,7 +135,7 @@ def get_pf_detail(ST_DT):
     for id in PF_ID_LIST:
         # PF_ID = "PF223258"
         tmp_path = "./datas/kopis"
-        file_name = f"KOPIS_showDetails_{id}.xml"
+        file_name = f"KOPIS_showDetails_{ST_DT}_{id}.xml"
         xml_file_path = os.path.join(tmp_path, file_name)
 
         url = f"http://kopis.or.kr/openApi/restful/pblprfr/{id}?service={SERVICE_KEY}"

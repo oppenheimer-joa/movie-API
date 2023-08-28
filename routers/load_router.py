@@ -77,8 +77,7 @@ async def get_spotify_ost_routes(movieCode:str):
     **Recommand call** : 1 call per Week
     """
     token = get_h_spotify_token()
-    movieName = "엘리멘탈"
-    return get_soundtrack(movieName, token)
+    return get_soundtrack(movieCode, token)
 
 #IMDb 영화제(Academy, Cannes, Venice, Busan) 수상내역 크롤링
 @router.get("/imdb/award")
