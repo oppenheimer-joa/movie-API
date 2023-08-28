@@ -17,7 +17,9 @@ async def check_boxoffice_routes()
 	return BoxOffice_file_check()
 
 # TMDB 데이터 정합성 체크
-
+@router.get("/check/tmdb/"):
+async def check_tmdb_routes(xcom:int, category:str, date:str)
+	return tmdb_file_check(xcom, category,date)
 
 # KOPIS (공연) 데이터 정합성 체크
 @router.get("/check/kopis/")
@@ -25,3 +27,4 @@ async def check_kopis_routes(st_dt:str, db_cnt:int)
 	return kopis_file_check(st_dt, db_cnt)
 
 # Spotify 데이터 정합성 체크
+@router
