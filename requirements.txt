@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+configParser
+beautifulsoup4
+mysql.connector
+requests
+lxml
