@@ -55,7 +55,7 @@ def get_mt20id(ST_DT): # end_date는 Dag에서 start_date(execution_date가 되�
     END_DT= (ST_DT + datetime.timedelta(weeks=4)).strftime("%Y%m%d")
     ST_DT= ST_DT.strftime("%Y%m%d")
 
-    url = f'http://www.kopis.or.kr/openApi/restful/prfper?service={SERVICE_KEY}&stdate={ST_DT}&eddate={END_DT}&cpage={CPAGE}&rows={ROWS}'
+    url = f'http://www.kopis.or.kr/openApi/restful/pblprfr?service={SERVICE_KEY}&stdate={ST_DT}&eddate={END_DT}&cpage={CPAGE}&rows={ROWS}'
 
     result = urlopen(url)
     data = bs(result, 'lxml-xml')
@@ -64,34 +64,16 @@ def get_mt20id(ST_DT): # end_date는 Dag에서 start_date(execution_date가 되�
     
     id=[]
     nm=[]
-    author=[]
-    creator=[]
     
     for pf in db :
         pf_id = pf.find('mt20id').text
         pf_nm = pf.find('prfnm').text
-
-        try:
-            pf_author = pf.find('author').text
-        except:
-            pf_author = pf.find('author')
-
-        try:
-            pf_creator = pf.find('creator').text
-        except:
-            pf_creator = pf.find('creator')
-
         id.append(pf_id)
         nm.append(pf_nm)
-        author.append(pf_author)
-        creator.append(pf_creator)
-
 
     data_dict={}
     data_dict['mt20id']=id
     data_dict['name']=nm
-    data_dict['author']=author
-    data_dict['creator']=creator
 
     for idx,id in enumerate(data_dict['mt20id']):
         check_query = f"SELECT * FROM performance WHERE pf_id = %s"
@@ -99,15 +81,12 @@ def get_mt20id(ST_DT): # end_date는 Dag에서 start_date(execution_date가 되�
         result = cur.fetchall()
         
         if result != []:
-            print("중복값 존재. bye")
+            pass
 
         else:
             name = data_dict['name'][idx]
-            author = data_dict['author'][idx]
-            creator = data_dict['creator'][idx]
-
-            ex_query = "INSERT INTO performance(pf_id, pf_nm, author, creator) VALUES (%s,%s,%s,%s)"
-            cur.execute(ex_query,(id,name,author,creator))
+            ex_query = "INSERT INTO performance(pf_id, pf_nm) VALUES (%s,%s,%s,%s)"
+            cur.execute(ex_query,(id,name))
             conn.commit()
             db_insert_cnt += 1 
             # conn.close()
