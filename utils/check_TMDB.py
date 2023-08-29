@@ -21,9 +21,9 @@ def TMDB_file_check(xcom:int ,category:str, date:str):
     db_count = 2
     date = date
     dir = ''
-    if category == 'discoverMovie' :
-        dir = f"./datas/TMDB/lists"
-    elif category == 'movieCredits' :
+    # if category == 'discoverMovie' :
+    #     dir = f"./datas/TMDB/lists"
+    if category == 'movieCredits' :
         dir = f"./datas/TMDB/credit"
     elif category == 'movieDetails' :
         dir = f"./datas/TMDB/detail"
