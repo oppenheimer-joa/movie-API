@@ -15,7 +15,7 @@ async def get_pf_detail_routes(date:str):
     return get_pf_detail(date)
 
 #공연 코드 DB에 적재
-@router.get("/kopis/perfomance-to-db")
+@router.get("/kopis/performance-to-db")
 async def get_mt20id_routes(date:str):
     return get_mt20id(date)
 
