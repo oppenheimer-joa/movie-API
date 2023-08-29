@@ -48,7 +48,7 @@ def get_mt20id(ST_DT): # end_date는 Dag에서 start_date(execution_date가 되�
     config.read('config/config.ini')
     
     CPAGE=1
-    ROWS= '10000'   # 가져오는 행수 : 실제 deploy 시에는 100000개 가져오기
+    ROWS= '100'   # 가져오는 행수 : 실제 deploy 시에는 100000개 가져오기
     db_insert_cnt = 0
 
     ST_DT = datetime.datetime.strptime(ST_DT, '%Y-%m-%d')
