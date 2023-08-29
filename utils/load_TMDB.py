@@ -357,9 +357,15 @@ def make_movieList(date_gte):
             # 데이터 추출
             id = result["id"]
             original_title = result["original_title"]
+            adult = result["adult"]
+	        
+			# 쿼리 생성
+            QUERY = None;
+            if adult == False:
+                QUERY = "INSERT INTO movie(movie_id, date_gte, movie_nm) VALUES (%s, %s, %s)"
+            elif adult == True:
+                QUERY = "INSERT INTO movie_adult(movie_id, date_gte, movie_nm) VALUES (%s, %s, %s)"
 
-            # 쿼리 생성
-            QUERY = "INSERT INTO movie(movie_id, date_gte, movie_nm) VALUES (%s, %s, %s)"
             values = (id, date_gte, original_title)
 
             # 데이터 적재
