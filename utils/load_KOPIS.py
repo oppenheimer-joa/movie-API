@@ -42,7 +42,7 @@ def get_ticket_page(code):
 
 
 # date 기준 4주 동안 공연 기간이 속하고 & DB에 없는 데이터 insert 함수
-def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가 되겠지요?)기준 timedelta로 +4주로 계산
+def get_mt20id(ST_DT): # end_date는 Dag에서 start_date(execution_date가 되겠지요?)기준 timedelta로 +4주로 계산
 
     config = configparser.ConfigParser()
     config.read('config/config.ini')
