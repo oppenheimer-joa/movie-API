@@ -51,11 +51,12 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
     ROWS= '10000'   # 가져오는 행수 : 실제 deploy 시에는 100000개 가져오기
     db_insert_cnt = 0
 
-    end_date= (start_date + datetime.timedelta(weeks=4)).strftime("%Y%m%d")
-    start_date= start_date.strftime("%Y%m%d")
-    print(start_date,end_date)
+    ST_DT = datetime.datetime.strptime(ST_DT, '%Y-%m-%d')
+    END_DT= (ST_DT + datetime.timedelta(weeks=4)).strftime("%Y%m%d")
+    ST_DT= ST_DT.strftime("%Y%m%d")
 
-    url = f'http://www.kopis.or.kr/openApi/restful/prfper?service={SERVICE_KEY}&stdate={start_date}&eddate={end_date}&cpage={CPAGE}&rows={ROWS}'
+    url = f'http://www.kopis.or.kr/openApi/restful/prfper?service={SERVICE_KEY}&stdate={ST_DT}&eddate={END_DT}&cpage={CPAGE}&rows={ROWS}'
+
     result = urlopen(url)
     data = bs(result, 'lxml-xml')
     db = data.find_all('db')

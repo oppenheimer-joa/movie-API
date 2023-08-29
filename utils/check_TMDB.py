@@ -17,8 +17,8 @@ import glob, os
 #인물 상세정보 : TMDB_peopleDetails_222497_2023-08-25.json  # <인물_ID>, <개봉_시작일_앞>
 
 def TMDB_file_check(xcom:int ,category:str, date:str):
-    #db_count = xcom
-    db_count = 2
+    db_count = xcom
+    # db_count = 2
     date = date
     dir = ''
     # if category == 'discoverMovie' :
