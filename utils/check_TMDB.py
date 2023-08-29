@@ -18,30 +18,31 @@ import glob, os
 
 def TMDB_file_check(xcom:int ,category:str, date:str):
     db_count = xcom
-    # db_count = 2
     date = date
     dir = ''
-    # if category == 'discoverMovie' :
-    #     dir = f"./datas/TMDB/lists"
     if category == 'movieCredits' :
         dir = f"./datas/TMDB/credit"
     elif category == 'movieDetails' :
         dir = f"./datas/TMDB/detail"
-        #TEST
-        #dir = f'/home/kjh/code/SMS/movie-API/datas/TMDB/detail'
     elif category == 'movieImages' :
         dir = f"./datas/TMDB/images"
     elif category == 'movieSimilar' :
         dir = f"./datas/TMDB/similar"
     elif category == 'peopleDetail' :
         dir = f'./datas/TMDB/people_detail'
-
+        
     # 해당 경로 내 JSON 파일 리스트
     all_files = glob.glob(os.path.join(dir, "*.json"))
     filtered_files = [f for f in all_files if date in f]
     json_counts = len(filtered_files)
-        
-    if json_counts == db_count :
-        return f'{dir} has {json_counts} files'
-    else:
-        return '1'
+
+    if category in ['movieCredits', 'movieDetails', 'peopleDetail']:
+        if json_counts == db_count :
+            return f'{dir} has {json_counts} files'
+        else:
+            return '1'
+    elif category in ['movieImages', 'movieSimilar']:
+        if json_counts >= 1 :
+            return f'{dir} has {json_counts} files'
+        else:
+            return '1'
