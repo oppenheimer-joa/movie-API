@@ -1,16 +1,12 @@
-import json, requests, configparser, mysql.connector
+import json, requests
 from datetime import datetime
-
+from lib.modules import *
 
 #spotify OST 정보는 DB에 밀어넣어진 데이터 기반 날짜로 가지고와서 리스트로 반환하거나 하면 될듯? 아니면 airflow 한테 맡겨도 되고ㅎㅎ
-
 def get_h_spotify_token():
 
-    config = configparser.ConfigParser()
-    config.read('config/config.ini')
-
-    client_id = config.get('SPOTIFY', 'client_id')
-    client_sc = config.get('SPOTIFY', 'client_sc')
+    client_id = get_config('SPOTIFY', 'client_id')
+    client_sc = get_config('SPOTIFY', 'client_sc')
 
     # requests
     headers = {
@@ -25,26 +21,13 @@ def get_h_spotify_token():
 
 #movie_id 를 DB에서 빨아온 movie_nm 으로 교체 후 진행
 def get_soundtrack(movie_code, access_token):
+    # db connection
+    conn = db_conn()
+    cur = conn.cursor()
 
-    config = configparser.ConfigParser()
-    config.read('config/config.ini')
- 
-    # MySQL 연결정보
-    host = config.get('MYSQL', 'MYSQL_HOST')
-    user = config.get('MYSQL', 'MYSQL_USER')
-    password = config.get('MYSQL', 'MYSQL_PWD')
-    database = config.get('MYSQL', 'MYSQL_DB')
-
-    # MySQL 연결
-    conn = mysql.connector.connect(host=host,
-                                   user=user,
-                                   password=password,
-                                   database=database)
-    cursor = conn.cursor()
     query = f"select * from movie_all where movie_id = '{movie_code}'"
-
-    cursor.execute(query)
-    raw_data = cursor.fetchall()
+    cur.execute(query)
+    raw_data = cur.fetchall()
 
     movie_year = datetime.strftime(raw_data[0][1], '%Y')
     movie_name = raw_data[0][2]
@@ -71,7 +54,9 @@ def get_soundtrack(movie_code, access_token):
     try:
         with open(json_path, "w") as file:
             json.dump(response, file, indent=4, ensure_ascii=False)
+        conn.close()
         return f"{json_name} load compelete!"
     except Exception as e:
+        conn.close()
         return f"{json_name} load failed!"
 

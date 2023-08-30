@@ -39,7 +39,7 @@ def get_awards(event, year):
         with open (dir, 'w', encoding="utf-8") as file:
             json.dump(fn_data, file, indent=4)
 
-        return f'imdb_{event}_{year}.json : Data Saved'
+        return f'imdb_{event}_{year}.json load compelete!'
     
-    except Exception as e:
-        return f'imdb_{event}_{year}.json : Failed {str(e)}'
+    except:
+        return f'imdb_{event}_{year}.json load failed!'
