@@ -316,9 +316,9 @@ def make_movieList(date_gte):
             try : 
                 cursor.execute(QUERY, values)
                 conn.commit()
-                message.append(f'{id} : {original_title} - DATA LOAD COMPLETE!')
+                message.append(f'{id} : {date_gte} : {original_title} - DATA LOAD COMPLETE!')
             except : 
-                message.append(f'{id} : {original_title} - DATA DUPLICATED!')
+                message.append(f'{id} : {date_gte} :{original_title} - DATA DUPLICATED!')
 
     conn.close()
     return message
@@ -387,9 +387,9 @@ def make_peopleList(date_gte):
         try : 
             cursor.execute(QUERY, values)
             conn.commit()
-            message.append(f'{id} : {original_name} - DATA LOAD COMPLETE!')
+            message.append(f'{id} : {date_gte} :{original_name} - DATA LOAD COMPLETE!')
         except :
-            message.append(f'{id} : {original_name} - DATA DUPLICATED')
+            message.append(f'{id} : {date_gte} :{original_name} - DATA DUPLICATED')
 
     conn.close()
     return message
