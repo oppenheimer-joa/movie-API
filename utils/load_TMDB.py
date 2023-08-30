@@ -1,13 +1,11 @@
-import requests, json, configparser
+import requests, json
 from datetime import datetime, timedelta
-import mysql.connector
+from lib.modules import *
 
 # movie 리스트 가져오는 endPoint
 def load_discoverMovie(date):
 
-	config = configparser.ConfigParser()
-	config.read('config/config.ini')
-	api_key = config.get('TMDB', 'API_KEY')
+	api_key = get_config('TMDB', 'API_KEY')
 
 	# 파일 홈 디렉토리
 	home_dir = "./datas/TMDB/lists"
@@ -41,33 +39,29 @@ def load_discoverMovie(date):
 		date_range = f"{primary_release_date_gte}_{primary_release_date_lte}"
 
 		json_path = f"{home_dir}/TMDB_{date_range}_{page}.json"
-		with open(json_path, "w") as file:
-			json.dump(response, file, indent=4, ensure_ascii=False)
-		results.append(f"TMDB_{date_range}_{page}.json : DATA SAVED")
+		try: 
+			with open(json_path, "w") as file:
+				json.dump(response, file, indent=4, ensure_ascii=False)
+			results.append(f"TMDB_{date_range}_{page}.json : DATA LOAD COMPLETE!")
+
+		except Exception as e:
+			results.append(f"TMDB_{date_range}_{page}.json : DATA LOAD FAILED!")
+	
+	conn.close()
 	return results
 
 
 # movie credits를 가져오는 endPoint
 def load_movieCredits(date) :
 
-	config = configparser.ConfigParser()
-	config.read('config/config.ini')
-	api_key = config.get('TMDB', 'API_KEY')
+	api_key = get_config('TMDB', 'API_KEY')
  
 	db_counts = 0
-  
-	# MySQL 연결정보
-	host = config.get('MYSQL', 'MYSQL_HOST')
-	user = config.get('MYSQL', 'MYSQL_USER')
-	password = config.get('MYSQL', 'MYSQL_PWD')
-	database = config.get('MYSQL', 'MYSQL_DB')
 
 	# MySQL 연결
-	conn = mysql.connector.connect(host=host,
-                                   user=user,
-                                   password=password,
-                                   database=database)
+	conn = db_conn()
 	cursor = conn.cursor()
+
 	cursor.execute("SELECT movie_id FROM movie WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
 	db_counts = len(rows)
@@ -92,32 +86,28 @@ def load_movieCredits(date) :
 
 		# 파일 저장
 		json_path = f"{home_dir}/TMDB_movieCredits_{movie_id}_{date}.json"
-		with open(json_path, "w", encoding="utf-8") as file:
-			json.dump(response, file, indent=4, ensure_ascii=False)
-			results.append(f"TMDB_movieCredits_{movie_id}_{date}.json : DATA SAVED")
+
+		try:
+			with open(json_path, "w", encoding="utf-8") as file:
+				json.dump(response, file, indent=4, ensure_ascii=False)
+			results.append(f"TMDB_movieCredits_{movie_id}_{date}.json : DATA LOAD COMPLETE!")
+
+		except Exception as e:
+			results.append(f"TMDB_movieCredits_{movie_id}_{date}.json : DATA LOAD FAILED!")
+
+	conn.close()
 	return db_counts, results
 
 # movie 상세정보를 가져오는 endPoint
 def load_movieDetails(date) :
 
-	config = configparser.ConfigParser()
-	config.read('config/config.ini')
-	api_key = config.get('TMDB', 'API_KEY')
- 	
-	db_counts = 0 
- 
-  	# MySQL 연결정보
-	host = config.get('MYSQL', 'MYSQL_HOST')
-	user = config.get('MYSQL', 'MYSQL_USER')
-	password = config.get('MYSQL', 'MYSQL_PWD')
-	database = config.get('MYSQL', 'MYSQL_DB')
+	api_key = get_config('TMDB', 'API_KEY')
 
-	# MySQL 연결
-	conn = mysql.connector.connect(host=host,
-                                   user=user,
-                                   password=password,
-                                   database=database)
+	db_counts = 0 
+
+	conn = db_conn()
 	cursor = conn.cursor()
+
 	cursor.execute("SELECT movie_id FROM movie WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
 	db_counts = len(rows)
@@ -142,39 +132,29 @@ def load_movieDetails(date) :
 			dir = f"./datas/TMDB/detail/TMDB_movieDetails_{movie_id}_{date}.json"
 			with open (dir, "w", encoding="utf-8") as file:
 				json.dump(json_data, file, indent=4, ensure_ascii=False)
-			results.append(f'TMDB_movieDetails_{movie_id}_{date}.json : DATA SAVED')
+			results.append(f'TMDB_movieDetails_{movie_id}_{date}.json : DATA LOAD COMPLETE!')
 
 		except Exception as e:
-			results.append(f'TMDB_movieDetails_{movie_id}_{date}.json : ERROR - {str(e)}')
+			results.append(f'TMDB_movieDetails_{movie_id}_{date}.json : DATA LOAD FAILED!')
 
+	conn.close()
 	return db_counts, results
 		
 
 # movie images를 가져오는 endPoint
 def get_TMDB_movieImages(date):
 
-	config = configparser.ConfigParser()
-	config.read('config/config.ini')
-	api_key = config.get('TMDB', 'API_KEY')
+	api_key = get_config('TMDB', 'API_KEY')
  
 	db_counts = 0
- 
-	# MySQL 연결정보
-	host = config.get('MYSQL', 'MYSQL_HOST')
-	user = config.get('MYSQL', 'MYSQL_USER')
-	password = config.get('MYSQL', 'MYSQL_PWD')
-	database = config.get('MYSQL', 'MYSQL_DB')
 
-	# MySQL 연결
-	conn = mysql.connector.connect(host=host,
-                                   user=user,
-                                   password=password,
-                                   database=database)
+	conn = db_conn()
 	cursor = conn.cursor()
+
 	cursor.execute("SELECT movie_id FROM movie WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
 	db_counts = len(rows)
- 
+
 	results = []
 
 	for row in rows:
@@ -197,33 +177,24 @@ def get_TMDB_movieImages(date):
 				dir = f"./datas/TMDB/images/TMDB_movieImages_{movie_id}_{date}.json"
 				with open (dir, "w", encoding="utf-8") as file:
 					json.dump(json_data, file, indent=4, ensure_ascii=False)
-				results.append(f'TMDB_movieImages_{movie_id}_{date}.json : DATA SAVED')
+				results.append(f'TMDB_movieImages_{movie_id}_{date}.json : DATA LOAD COMPLETE!')
 			except Exception as e:
-				results.append(f'TMDB_movieImages_{movie_id}_{date}.json : ERROR - {str(e)}')
+				results.append(f'TMDB_movieImages_{movie_id}_{date}.json : DATA LOAD FAILED!')
+
+	conn.close()
 	return db_counts, results
 
 
 # similar movie 정보를 가져오는 endPoint
 def get_TMDB_movieSimilar(date):
 
-	config = configparser.ConfigParser()
-	config.read('config/config.ini')
-	api_key = config.get('TMDB', 'API_KEY')
-
-	# MySQL 연결정보
-	host = config.get('MYSQL', 'MYSQL_HOST')
-	user = config.get('MYSQL', 'MYSQL_USER')
-	password = config.get('MYSQL', 'MYSQL_PWD')
-	database = config.get('MYSQL', 'MYSQL_DB')
+	api_key = get_config('TMDB', 'API_KEY')
 
 	db_counts = 0
  
-	# MySQL 연결
-	conn = mysql.connector.connect(host=host,
-                                   user=user,
-                                   password=password,
-                                   database=database)
+	conn = db_conn()
 	cursor = conn.cursor()
+
 	cursor.execute("SELECT movie_id FROM movie WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
 	db_counts = len(rows)
@@ -250,33 +221,24 @@ def get_TMDB_movieSimilar(date):
 				dir = f"./datas/TMDB/similar/TMDB_movieSimilar_{movie_id}_{date}.json"
 				with open (dir, "w", encoding="utf-8") as file:
 					json.dump(json_data, file, indent=4, ensure_ascii=False)
-				results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : DATA SAVED')
+				results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : DATA LOAD COMPLETE!')
 			except Exception as e:
-				results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : ERROR - {str(e)}')
+				results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : DATA LOAD FAILED!')
+
+	conn.close()
 	return db_counts, results
 		
 
 # 영화 인물 정보를 가져오는 endpoint		
 def get_TMDB_peopleDetail(date):
 
-	config = configparser.ConfigParser()
-	config.read('config/config.ini')
-	api_key = config.get('TMDB', 'API_KEY')
+	api_key = get_config('TMDB', 'API_KEY')
 
 	db_counts = 0
- 
-	# MySQL 연결정보
-	host = config.get('MYSQL', 'MYSQL_HOST')
-	user = config.get('MYSQL', 'MYSQL_USER')
-	password = config.get('MYSQL', 'MYSQL_PWD')
-	database = config.get('MYSQL', 'MYSQL_DB')
 
-	# MySQL 연결
-	conn = mysql.connector.connect(host=host,
-                                   user=user,
-                                   password=password,
-                                   database=database)
+	conn = db_conn()
 	cursor = conn.cursor()
+
 	cursor.execute("SELECT people_id FROM people WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
 	db_counts = len(rows)
@@ -300,9 +262,11 @@ def get_TMDB_peopleDetail(date):
 			dir = f"./datas/TMDB/people_detail/TMDB_peopleDetails_{people_id}_{date}.json"
 			with open (dir, "w", encoding="utf-8") as file:
 				json.dump(json_data, file, indent=4, ensure_ascii=False)
-			results.append(f'TMDB_peopleDetails_{people_id}_{date}.json : DATA SAVED')
+			results.append(f'TMDB_peopleDetails_{people_id}_{date}.json : DATA LOAD COMPLETE!')
 		except Exception as e:
-			results.append(f'TMDB_peopleDetails_{people_id}_{date}.json : ERROR - {str(e)}')
+			results.append(f'TMDB_peopleDetails_{people_id}_{date}.json : DATA LOAD FAIELD!')
+
+	conn.close()
 	return db_counts, results
                 
 
@@ -310,21 +274,7 @@ def get_TMDB_peopleDetail(date):
 # 영화ID를 DB에 저장
 def make_movieList(date_gte):
 
-    # config parse
-    config = configparser.ConfigParser()
-    config.read('config/config.ini')
-
-    # MySQL 연결정보
-    host = config.get('MYSQL', 'MYSQL_HOST')
-    user = config.get('MYSQL', 'MYSQL_USER')
-    password = config.get('MYSQL', 'MYSQL_PWD')
-    database = config.get('MYSQL', 'MYSQL_DB')
-
-	# MySQL 연결
-    conn = mysql.connector.connect(host=host,
-                                   user=user,
-                                   password=password,
-                                   database=database)
+    conn = db_conn()
     cursor = conn.cursor()
 
     # date range 설정
@@ -333,7 +283,7 @@ def make_movieList(date_gte):
     date_lte = date_lte.strftime("%Y-%m-%d")
 
     # request parameter
-    tmdb_key = config.get("TMDB", "API_KEY")
+    tmdb_key = get_config("TMDB", "API_KEY")
     include_adult = "true"
     language = "ko-KR"
 
@@ -366,39 +316,26 @@ def make_movieList(date_gte):
             try : 
                 cursor.execute(QUERY, values)
                 conn.commit()
-                message.append(f'{id} : {original_title} - DATA SAVED')
+                message.append(f'{id} : {original_title} - DATA LOAD COMPLETE!')
             except : 
-                message.append(f'{id} : {original_title} - DATA DUPLICATED')
+                message.append(f'{id} : {original_title} - DATA DUPLICATED!')
+
+    conn.close()
     return message
 
 
 # 사람ID를 DB에 저장
 def make_peopleList(date_gte):
 
-    # config parse
-    config = configparser.ConfigParser()
-    config.read('config/config.ini')
-
-    # MySQL 연결정보
-    host = config.get('MYSQL', 'MYSQL_HOST')
-    user = config.get('MYSQL', 'MYSQL_USER')
-    password = config.get('MYSQL', 'MYSQL_PWD')
-    database = config.get('MYSQL', 'MYSQL_DB')
-
-	# MySQL 연결
-    conn = mysql.connector.connect(host=host,
-                                   user=user,
-                                   password=password,
-                                   database=database)
+    conn = db_conn()
     cursor = conn.cursor()
 
     # request parameter
-    tmdb_key = config.get("TMDB", "API_KEY")
+    tmdb_key = get_config("TMDB", "API_KEY")
 
     # 쿼리 생성
     QUERY = f"""SELECT movie_id from movie
                 WHERE date_gte = '{date_gte}'"""
-    print(QUERY)
 
     # 데이터 추출
     cursor.execute(QUERY)
@@ -441,7 +378,6 @@ def make_peopleList(date_gte):
         # 데이터 추출
         id = person["id"]
         original_name = person["original_name"]
-        #print(f"{id} & {original_name}")
 
         # 쿼리 생성
         QUERY = "INSERT INTO people(people_id, date_gte, people_nm) VALUES (%s, %s, %s)"
@@ -451,8 +387,9 @@ def make_peopleList(date_gte):
         try : 
             cursor.execute(QUERY, values)
             conn.commit()
-            message.append(f'{id} : {original_name} - DATA SAVED')
+            message.append(f'{id} : {original_name} - DATA LOAD COMPLETE!')
         except :
             message.append(f'{id} : {original_name} - DATA DUPLICATED')
 
+    conn.close()
     return message
