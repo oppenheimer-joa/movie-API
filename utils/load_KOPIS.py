@@ -69,7 +69,7 @@ def get_mt20id(ST_DT): # end_date는 Dag에서 start_date(execution_date기준 t
 
         else:
             name = data_dict['name'][idx]
-            ex_query = "INSERT INTO performance(pf_id, pf_nm) VALUES (%s,%s,%s,%s)"
+            ex_query = "INSERT INTO performance(pf_id, pf_nm) VALUES (%s,%s)"
             cur.execute(ex_query,(id,name))
             conn.commit()
             db_insert_cnt += 1 
