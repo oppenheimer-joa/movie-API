@@ -12,6 +12,7 @@ def spotify_file_check(now_date):
     password = config.get('MYSQL', 'MYSQL_PWD')
     database = config.get('MYSQL', 'MYSQL_DB')
 
+
     # MySQL 연결
     conn = mysql.connector.connect(host=host,
                                    user=user,
