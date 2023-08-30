@@ -54,6 +54,8 @@ def load_movieCredits(date) :
 	config.read('config/config.ini')
 	api_key = config.get('TMDB', 'API_KEY')
  
+	db_counts = 0
+  
 	# MySQL 연결정보
 	host = config.get('MYSQL', 'MYSQL_HOST')
 	user = config.get('MYSQL', 'MYSQL_USER')
@@ -68,6 +70,7 @@ def load_movieCredits(date) :
 	cursor = conn.cursor()
 	cursor.execute("SELECT movie_id FROM movie WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
+	db_counts = len(rows)
  
 	results = []
  
@@ -92,7 +95,7 @@ def load_movieCredits(date) :
 		with open(json_path, "w", encoding="utf-8") as file:
 			json.dump(response, file, indent=4, ensure_ascii=False)
 			results.append(f"TMDB_movieCredits_{movie_id}_{date}.json : DATA SAVED")
-	return results
+	return db_counts, results
 
 # movie 상세정보를 가져오는 endPoint
 def load_movieDetails(date) :
@@ -101,6 +104,8 @@ def load_movieDetails(date) :
 	config.read('config/config.ini')
 	api_key = config.get('TMDB', 'API_KEY')
  	
+	db_counts = 0 
+ 
   	# MySQL 연결정보
 	host = config.get('MYSQL', 'MYSQL_HOST')
 	user = config.get('MYSQL', 'MYSQL_USER')
@@ -115,7 +120,8 @@ def load_movieDetails(date) :
 	cursor = conn.cursor()
 	cursor.execute("SELECT movie_id FROM movie WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
-
+	db_counts = len(rows)
+ 
 	results = []
 
 	for row in rows:
@@ -141,7 +147,7 @@ def load_movieDetails(date) :
 		except Exception as e:
 			results.append(f'TMDB_movieDetails_{movie_id}_{date}.json : ERROR - {str(e)}')
 
-	return results
+	return db_counts, results
 		
 
 # movie images를 가져오는 endPoint
@@ -150,6 +156,8 @@ def get_TMDB_movieImages(date):
 	config = configparser.ConfigParser()
 	config.read('config/config.ini')
 	api_key = config.get('TMDB', 'API_KEY')
+ 
+	db_counts = 0
  
 	# MySQL 연결정보
 	host = config.get('MYSQL', 'MYSQL_HOST')
@@ -165,7 +173,8 @@ def get_TMDB_movieImages(date):
 	cursor = conn.cursor()
 	cursor.execute("SELECT movie_id FROM movie WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
-
+	db_counts = len(rows)
+ 
 	results = []
 
 	for row in rows:
@@ -191,7 +200,7 @@ def get_TMDB_movieImages(date):
 				results.append(f'TMDB_movieImages_{movie_id}_{date}.json : DATA SAVED')
 			except Exception as e:
 				results.append(f'TMDB_movieImages_{movie_id}_{date}.json : ERROR - {str(e)}')
-	return results
+	return db_counts, results
 
 
 # similar movie 정보를 가져오는 endPoint
@@ -207,6 +216,8 @@ def get_TMDB_movieSimilar(date):
 	password = config.get('MYSQL', 'MYSQL_PWD')
 	database = config.get('MYSQL', 'MYSQL_DB')
 
+	db_counts = 0
+ 
 	# MySQL 연결
 	conn = mysql.connector.connect(host=host,
                                    user=user,
@@ -215,7 +226,8 @@ def get_TMDB_movieSimilar(date):
 	cursor = conn.cursor()
 	cursor.execute("SELECT movie_id FROM movie WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
-
+	db_counts = len(rows)
+ 
 	results = []
 
 	for row in rows:
@@ -241,7 +253,7 @@ def get_TMDB_movieSimilar(date):
 				results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : DATA SAVED')
 			except Exception as e:
 				results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : ERROR - {str(e)}')
-	return results
+	return db_counts, results
 		
 
 # 영화 인물 정보를 가져오는 endpoint		
@@ -251,6 +263,8 @@ def get_TMDB_peopleDetail(date):
 	config.read('config/config.ini')
 	api_key = config.get('TMDB', 'API_KEY')
 
+	db_counts = 0
+ 
 	# MySQL 연결정보
 	host = config.get('MYSQL', 'MYSQL_HOST')
 	user = config.get('MYSQL', 'MYSQL_USER')
@@ -265,7 +279,8 @@ def get_TMDB_peopleDetail(date):
 	cursor = conn.cursor()
 	cursor.execute("SELECT people_id FROM people WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
-
+	db_counts = len(rows)
+ 
 	results = []
 
 	for row in rows:
@@ -288,7 +303,7 @@ def get_TMDB_peopleDetail(date):
 			results.append(f'TMDB_peopleDetails_{people_id}_{date}.json : DATA SAVED')
 		except Exception as e:
 			results.append(f'TMDB_peopleDetails_{people_id}_{date}.json : ERROR - {str(e)}')
-	return results
+	return db_counts, results
                 
 
 
