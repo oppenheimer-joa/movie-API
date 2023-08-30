@@ -11,19 +11,13 @@ router = APIRouter()
 
 #공연 세부 정보 수집
 @router.get("/kopis/information")
-async def get_pf_detail_routes():
-    #DB에서 코드가 날라와야함
-    ST_DT = datetime.datetime.now().strftime('%Y-%m-%d')
-    # PF_ID_LIST = ['PF223258', 'PF223038', 'PF222985', 'PF222956']
-    return get_pf_detail(ST_DT)
+async def get_pf_detail_routes(date:str):
+    return get_pf_detail(date)
 
 #공연 코드 DB에 적재
-@router.get("/kopis/perfomance-to-db")
-async def get_mt20id_routes():
-
-    # 날짜를 어디서 쏠지 정하지 않아 현재 api 서버 시간을 grep
-    ST_DT = datetime.datetime.now()
-    return get_mt20id(ST_DT)
+@router.get("/kopis/performance-to-db")
+async def get_mt20id_routes(date:str):
+    return get_mt20id(date)
 
 #TMDB 영화코드 DB 적재
 @router.get("/tmdb/discover-movie")
@@ -77,8 +71,7 @@ async def get_spotify_ost_routes(movieCode:str):
     **Recommand call** : 1 call per Week
     """
     token = get_h_spotify_token()
-    movieName = "엘리멘탈"
-    return get_soundtrack(movieName, token)
+    return get_soundtrack(movieCode, token)
 
 #IMDb 영화제(Academy, Cannes, Venice, Busan) 수상내역 크롤링
 @router.get("/imdb/award")

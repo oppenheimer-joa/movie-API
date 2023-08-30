@@ -43,7 +43,7 @@ def load_discoverMovie(date):
 		json_path = f"{home_dir}/TMDB_{date_range}_{page}.json"
 		with open(json_path, "w") as file:
 			json.dump(response, file, indent=4, ensure_ascii=False)
-		results.append(f"LOAD SUCCEED : {url}")
+		results.append(f"TMDB_{date_range}_{page}.json : DATA SAVED")
 	return results
 
 
@@ -54,6 +54,8 @@ def load_movieCredits(date) :
 	config.read('config/config.ini')
 	api_key = config.get('TMDB', 'API_KEY')
  
+	db_counts = 0
+  
 	# MySQL 연결정보
 	host = config.get('MYSQL', 'MYSQL_HOST')
 	user = config.get('MYSQL', 'MYSQL_USER')
@@ -66,8 +68,9 @@ def load_movieCredits(date) :
                                    password=password,
                                    database=database)
 	cursor = conn.cursor()
-	cursor.execute("SELECT movie_id FROM movie WHERE created_at = %s", (date,))
+	cursor.execute("SELECT movie_id FROM movie WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
+	db_counts = len(rows)
  
 	results = []
  
@@ -88,11 +91,11 @@ def load_movieCredits(date) :
 		response = requests.get(url, headers=headers).json()
 
 		# 파일 저장
-		json_path = f"{home_dir}/TMDB_movieCredits_{movie_id}.json"
+		json_path = f"{home_dir}/TMDB_movieCredits_{movie_id}_{date}.json"
 		with open(json_path, "w", encoding="utf-8") as file:
 			json.dump(response, file, indent=4, ensure_ascii=False)
-			results.append(f"LOAD SUCCEED : {url}")
-	return results
+			results.append(f"TMDB_movieCredits_{movie_id}_{date}.json : DATA SAVED")
+	return db_counts, results
 
 # movie 상세정보를 가져오는 endPoint
 def load_movieDetails(date) :
@@ -101,6 +104,8 @@ def load_movieDetails(date) :
 	config.read('config/config.ini')
 	api_key = config.get('TMDB', 'API_KEY')
  	
+	db_counts = 0 
+ 
   	# MySQL 연결정보
 	host = config.get('MYSQL', 'MYSQL_HOST')
 	user = config.get('MYSQL', 'MYSQL_USER')
@@ -113,9 +118,10 @@ def load_movieDetails(date) :
                                    password=password,
                                    database=database)
 	cursor = conn.cursor()
-	cursor.execute("SELECT movie_id FROM movie WHERE created_at = %s", (date,))
+	cursor.execute("SELECT movie_id FROM movie WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
-
+	db_counts = len(rows)
+ 
 	results = []
 
 	for row in rows:
@@ -133,15 +139,15 @@ def load_movieDetails(date) :
 		
 		try:
 			# 파일 저장
-			dir = f"./datas/TMDB/detail/TMDB_movieDetails_{movie_id}.json"
+			dir = f"./datas/TMDB/detail/TMDB_movieDetails_{movie_id}_{date}.json"
 			with open (dir, "w", encoding="utf-8") as file:
 				json.dump(json_data, file, indent=4, ensure_ascii=False)
-			results.append(f'TMDB_movieDetails_{movie_id}.json : Data received')
+			results.append(f'TMDB_movieDetails_{movie_id}_{date}.json : DATA SAVED')
 
 		except Exception as e:
-			results.append(f'TMDB_movieDetails_{movie_id}.json : No Data {str(e)}')
+			results.append(f'TMDB_movieDetails_{movie_id}_{date}.json : ERROR - {str(e)}')
 
-	return results
+	return db_counts, results
 		
 
 # movie images를 가져오는 endPoint
@@ -150,6 +156,8 @@ def get_TMDB_movieImages(date):
 	config = configparser.ConfigParser()
 	config.read('config/config.ini')
 	api_key = config.get('TMDB', 'API_KEY')
+ 
+	db_counts = 0
  
 	# MySQL 연결정보
 	host = config.get('MYSQL', 'MYSQL_HOST')
@@ -163,9 +171,10 @@ def get_TMDB_movieImages(date):
                                    password=password,
                                    database=database)
 	cursor = conn.cursor()
-	cursor.execute("SELECT movie_id FROM movie WHERE created_at = %s", (date,))
+	cursor.execute("SELECT movie_id FROM movie WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
-
+	db_counts = len(rows)
+ 
 	results = []
 
 	for row in rows:
@@ -181,17 +190,17 @@ def get_TMDB_movieImages(date):
 		json_data = response.json()
 
 		if all(not json_data[key] for key in ["backdrops", "logos", "posters"]):
-			results.append(f'TMDB_movieImages_{movie_id}.json : No Data')
+			results.append(f'TMDB_movieImages_{movie_id}_{date}.json : NO DATA')
 		else:
 			try:
 				# 파일 저장
-				dir = f"./datas/TMDB/images/TMDB_movieImages_{movie_id}.json"
+				dir = f"./datas/TMDB/images/TMDB_movieImages_{movie_id}_{date}.json"
 				with open (dir, "w", encoding="utf-8") as file:
 					json.dump(json_data, file, indent=4, ensure_ascii=False)
-				results.append(f'TMDB_movieImages_{movie_id}.json : Data received')
+				results.append(f'TMDB_movieImages_{movie_id}_{date}.json : DATA SAVED')
 			except Exception as e:
-				results.append(f'TMDB_movieImages_{movie_id}.json : Error {str(e)}')
-	return results
+				results.append(f'TMDB_movieImages_{movie_id}_{date}.json : ERROR - {str(e)}')
+	return db_counts, results
 
 
 # similar movie 정보를 가져오는 endPoint
@@ -207,15 +216,18 @@ def get_TMDB_movieSimilar(date):
 	password = config.get('MYSQL', 'MYSQL_PWD')
 	database = config.get('MYSQL', 'MYSQL_DB')
 
+	db_counts = 0
+ 
 	# MySQL 연결
 	conn = mysql.connector.connect(host=host,
                                    user=user,
                                    password=password,
                                    database=database)
 	cursor = conn.cursor()
-	cursor.execute("SELECT movie_id FROM movie WHERE created_at = %s", (date,))
+	cursor.execute("SELECT movie_id FROM movie WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
-
+	db_counts = len(rows)
+ 
 	results = []
 
 	for row in rows:
@@ -231,17 +243,17 @@ def get_TMDB_movieSimilar(date):
 		json_data = response.json()
 
 		if not json_data['results']:
-			results.append(f'TMDB_movieSimilar_{movie_id}.json : No Data')
+			results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : NO DATA')
 		else:
 			try:
 				# 파일 저장
-				dir = f"./datas/TMDB/similar/TMDB_movieSimilar_{movie_id}.json"
+				dir = f"./datas/TMDB/similar/TMDB_movieSimilar_{movie_id}_{date}.json"
 				with open (dir, "w", encoding="utf-8") as file:
 					json.dump(json_data, file, indent=4, ensure_ascii=False)
-				results.append(f'TMDB_movieSimilar_{movie_id}.json : Data received')
+				results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : DATA SAVED')
 			except Exception as e:
-				results.append(f'TMDB_movieSimilar_{movie_id}.json : Error {str(e)}')
-	return results
+				results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : ERROR - {str(e)}')
+	return db_counts, results
 		
 
 # 영화 인물 정보를 가져오는 endpoint		
@@ -251,6 +263,8 @@ def get_TMDB_peopleDetail(date):
 	config.read('config/config.ini')
 	api_key = config.get('TMDB', 'API_KEY')
 
+	db_counts = 0
+ 
 	# MySQL 연결정보
 	host = config.get('MYSQL', 'MYSQL_HOST')
 	user = config.get('MYSQL', 'MYSQL_USER')
@@ -263,9 +277,10 @@ def get_TMDB_peopleDetail(date):
                                    password=password,
                                    database=database)
 	cursor = conn.cursor()
-	cursor.execute("SELECT people_id FROM people WHERE created_at = %s", (date,))
+	cursor.execute("SELECT people_id FROM people WHERE date_gte = %s", (date,))
 	rows = cursor.fetchall()
-
+	db_counts = len(rows)
+ 
 	results = []
 
 	for row in rows:
@@ -282,13 +297,13 @@ def get_TMDB_peopleDetail(date):
 
 		try:
 			# 파일 저장
-			dir = f"./datas/TMDB/people_detail/TMDB_peopleDetails_{people_id}.json"
+			dir = f"./datas/TMDB/people_detail/TMDB_peopleDetails_{people_id}_{date}.json"
 			with open (dir, "w", encoding="utf-8") as file:
 				json.dump(json_data, file, indent=4, ensure_ascii=False)
-			results.append(f'TMDB_peopleDetails_{people_id}.json : Data received')
+			results.append(f'TMDB_peopleDetails_{people_id}_{date}.json : DATA SAVED')
 		except Exception as e:
-			results.append(f'TMDB_peopleDetails_{people_id}.json : No Data {str(e)}')
-	return results
+			results.append(f'TMDB_peopleDetails_{people_id}_{date}.json : ERROR - {str(e)}')
+	return db_counts, results
                 
 
 
@@ -320,14 +335,15 @@ def make_movieList(date_gte):
     # request parameter
     tmdb_key = config.get("TMDB", "API_KEY")
     include_adult = "true"
-    include_video = "true"
     language = "ko-KR"
 
+    message = []
+ 
     # 페이지 제한 이내의 request 요청
     for page in range(1, 501):
 
         # request 요청
-        url = f"https://api.themoviedb.org/3/discover/movie?include_adult={include_adult}&include_video=true&language={language}&primary_release_date.gte={date_gte}&primary_release_date.lte={date_lte}&page={page}&sort_by=primary_release_date.desc"
+        url = f"https://api.themoviedb.org/3/discover/movie?include_adult={include_adult}&include_video=true&language={language}&primary_release_date.gte={date_gte}&primary_release_date.lte={date_lte}&page={page}&sort_by=primary_release_date.asc"
         headers = {
             "accept": "application/json",
             "Authorization": f"Bearer {tmdb_key}"
@@ -343,14 +359,17 @@ def make_movieList(date_gte):
             original_title = result["original_title"]
 
             # 쿼리 생성
-            QUERY = "INSERT INTO movie(movie_id, movie_nm) VALUES (%s, %s)"
-            values = (id, original_title)
+            QUERY = "INSERT INTO movie(movie_id, date_gte, movie_nm) VALUES (%s, %s, %s)"
+            values = (id, date_gte, original_title)
 
             # 데이터 적재
             try : 
                 cursor.execute(QUERY, values)
                 conn.commit()
-            except : print(f"Duplicated : {id}")
+                message.append(f'{id} : {original_title} - DATA SAVED')
+            except : 
+                message.append(f'{id} : {original_title} - DATA DUPLICATED')
+    return message
 
 
 # 사람ID를 DB에 저장
@@ -378,7 +397,8 @@ def make_peopleList(date_gte):
 
     # 쿼리 생성
     QUERY = f"""SELECT movie_id from movie
-                WHERE created_at = '{date_gte}'"""
+                WHERE date_gte = '{date_gte}'"""
+    print(QUERY)
 
     # 데이터 추출
     cursor.execute(QUERY)
@@ -414,21 +434,25 @@ def make_peopleList(date_gte):
                 people_list.append(item)
                 unique_ids.add(id_value)
         
-
+    message = []
     # 각 result별 작업 수행
     for person in people_list:
 
         # 데이터 추출
         id = person["id"]
         original_name = person["original_name"]
+        #print(f"{id} & {original_name}")
 
         # 쿼리 생성
-        QUERY = "INSERT INTO people(people_id, people_nm) VALUES (%s, %s)"
-
-        values = (id, original_name)
+        QUERY = "INSERT INTO people(people_id, date_gte, people_nm) VALUES (%s, %s, %s)"
+        values = (id, date_gte, original_name)
 
         # 데이터 적재
         try : 
             cursor.execute(QUERY, values)
             conn.commit()
-        except : print(f"Duplicated : {id}")
+            message.append(f'{id} : {original_name} - DATA SAVED')
+        except :
+            message.append(f'{id} : {original_name} - DATA DUPLICATED')
+
+    return message
