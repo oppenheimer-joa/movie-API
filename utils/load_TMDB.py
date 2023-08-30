@@ -47,7 +47,6 @@ def load_discoverMovie(date):
 		except Exception as e:
 			results.append(f"TMDB_{date_range}_{page}.json : DATA LOAD FAILED!")
 	
-	conn.close()
 	return results
 
 

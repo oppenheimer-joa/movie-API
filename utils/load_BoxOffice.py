@@ -1,5 +1,5 @@
 import requests, datetime, json, os
-from lib.db_connection import *
+from lib.modules import *
 
 #date형식 YYYYmmdd
 def get_daily_box_office(now_date, area_code):
