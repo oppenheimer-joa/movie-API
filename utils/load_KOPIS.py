@@ -90,7 +90,7 @@ def get_pf_detail(ST_DT):
     PF_ID_LISTS = cur.fetchall()
     PF_ID_LIST = [x[0] for x in PF_ID_LISTS]
 
-    return_string=""
+    return_string=[]
 
     for id in PF_ID_LIST:
  
@@ -123,9 +123,9 @@ def get_pf_detail(ST_DT):
 
         try :
             tree.write(xml_file_path, encoding='utf-8')
-            return_string += f"{str(file_name)} load compelete!\n"
+            return_string.append(f"{str(file_name)} load compelete!")
         except:
-            return_string += f"{str(file_name)} load failed!\n"
+            return_string.append(f"{str(file_name)} load failed!")
 
     conn.close()
     return  return_string
