@@ -397,7 +397,7 @@ async def get_daily_box_office_routes(now_date:str, area_code:str):
     **Recommand call** : 1 call per day<br><br>
     **Example CURL 주소**
     ```shell
-    curl 'https://{IP}:{port}/kobis/daily-boxoffice?now_date=2023-01-01&area_code={DB_areaCode}'
+    curl 'https://{IP}:{port}/kobis/daily-boxoffice?now_date=20230101&area_code={DB_areaCode}'
     ```
     """
     return get_daily_box_office(now_date, area_code)

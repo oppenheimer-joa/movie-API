@@ -48,7 +48,7 @@ def get_soundtrack(movie_code, access_token):
     # file save
     data_path = "/api/datas/spotify"
     #data_path = "/Users/jesse/Documents/sms/API/datas/spotify"
-    json_name = f"spotify_{movie_year}_{movie_code}_.json"
+    json_name = f"spotify_{movie_code}_{movie_year}.json"
     json_path = f"{data_path}/{json_name}"
 
     try:
