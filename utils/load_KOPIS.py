@@ -1,25 +1,10 @@
 from urllib.request import urlopen, Request
-import os, configparser, datetime
-import mysql.connector
+import os, datetime
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup as bs
+from lib.modules import *
 
-# config 정보 load
-config = configparser.ConfigParser()
-config.read('config/config.ini')
-
-SERVICE_KEY = config.get('KOPIS_KEYS', 'API_KEY')
-MYSQL_HOST = config.get('MYSQL', 'MYSQL_HOST')
-MYSQL_PWD = config.get('MYSQL', 'MYSQL_PWD')
-MYSQL_PORT = config.get('MYSQL', 'MYSQL_PORT')
-MYSQL_USER = config.get('MYSQL', 'MYSQL_USER')
-MYSQL_DB = config.get('MYSQL', 'MYSQL_DB')
-
-# mysql connector
-conn = mysql.connector.connect(host=MYSQL_HOST, password=MYSQL_PWD, port=MYSQL_PORT, user=MYSQL_USER, database=MYSQL_DB)
-cur = conn.cursor()
-
-# 티켓 페이지 크롤러 함수
+# 티켓 페이지 크롤러 내장 함수
 def get_ticket_page(code):
     url = f"https://www.kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id={code}&search=db"
 
@@ -42,54 +27,37 @@ def get_ticket_page(code):
 
 
 # date 기준 4주 동안 공연 기간이 속하고 & DB에 없는 데이터 insert 함수
-def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가 되겠지요?)기준 timedelta로 +4주로 계산
-
-    config = configparser.ConfigParser()
-    config.read('config/config.ini')
+def get_mt20id(ST_DT): # end_date는 Dag에서 start_date(execution_date기준 timedelta +4주로 계산
+    # db connection
+    conn = db_conn()
+    cur = conn.cursor()
+    SERVICE_KEY = get_config('KOPIS_KEYS', 'API_KEY')
     
     CPAGE=1
-    ROWS= '10'   # 가져오는 행수 : 실제 deploy 시에는 100000개 가져오기
+    ROWS= '100' 
+    db_insert_cnt = 0
 
-    end_date= (start_date + datetime.timedelta(weeks=4)).strftime("%Y%m%d")
-    start_date= start_date.strftime("%Y%m%d")
-    print(start_date,end_date)
+    ST_DT = datetime.datetime.strptime(ST_DT, '%Y-%m-%d')
+    END_DT= (ST_DT + datetime.timedelta(weeks=4)).strftime("%Y%m%d")
+    ST_DT= ST_DT.strftime("%Y%m%d")
 
-    url = f'http://www.kopis.or.kr/openApi/restful/prfper?service={SERVICE_KEY}&stdate={start_date}&eddate={end_date}&cpage={CPAGE}&rows={ROWS}'
+    url = f'http://www.kopis.or.kr/openApi/restful/pblprfr?service={SERVICE_KEY}&stdate={ST_DT}&eddate={END_DT}&cpage={CPAGE}&rows={ROWS}'
+
     result = urlopen(url)
     data = bs(result, 'lxml-xml')
     db = data.find_all('db')
-    # print(len(db))
     
-    id=[]
-    nm=[]
-    author=[]
-    creator=[]
+    id, nm = [], []
     
     for pf in db :
         pf_id = pf.find('mt20id').text
         pf_nm = pf.find('prfnm').text
-
-        try:
-            pf_author = pf.find('author').text
-        except:
-            pf_author = pf.find('author')
-
-        try:
-            pf_creator = pf.find('creator').text
-        except:
-            pf_creator = pf.find('creator')
-
         id.append(pf_id)
         nm.append(pf_nm)
-        author.append(pf_author)
-        creator.append(pf_creator)
-
 
     data_dict={}
     data_dict['mt20id']=id
     data_dict['name']=nm
-    data_dict['author']=author
-    data_dict['creator']=creator
 
     for idx,id in enumerate(data_dict['mt20id']):
         check_query = f"SELECT * FROM performance WHERE pf_id = %s"
@@ -97,42 +65,37 @@ def get_mt20id(start_date): # end_date는 Dag에서 start_date(execution_date가
         result = cur.fetchall()
         
         if result != []:
-            print("중복값 존재. bye")
+            pass
 
         else:
             name = data_dict['name'][idx]
-            author = data_dict['author'][idx]
-            creator = data_dict['creator'][idx]
-
-            ex_query = "INSERT INTO performance(pf_id, pf_nm, author, creator) VALUES (%s,%s,%s,%s)"
-            cur.execute(ex_query,(id,name,author,creator))
+            ex_query = "INSERT INTO performance(pf_id, pf_nm) VALUES (%s,%s)"
+            cur.execute(ex_query,(id,name))
             conn.commit()
-            # conn.close()
+            db_insert_cnt += 1 
+
+    conn.close()
+    return db_insert_cnt
     
 
 # 공연별 상세 정보 수집 후 xml 파일 저장
 def get_pf_detail(ST_DT):
+    # db connection
+    conn = db_conn()
+    cur = conn.cursor()
+    SERVICE_KEY = get_config('KOPIS_KEYS', 'API_KEY')
 
-    config = configparser.ConfigParser()
-    config.read('config/config.ini')
-    SERVICE_KEY = config.get('KOPIS_KEYS', 'API_KEY')
-
-    """
-    db에서 쿼리로 공연 id 받아와서 아래 PF_ID_LIST로 선언
-    """
-    # 확인용 string
-    new_file = ''
-
-    PF_ID_LIST = []
     select_query = f'SELECT pf_id FROM performance WHERE created_at = "{ST_DT}"'
     cur.execute(select_query)
     PF_ID_LISTS = cur.fetchall()
     PF_ID_LIST = [x[0] for x in PF_ID_LISTS]
 
+    return_string=[]
+
     for id in PF_ID_LIST:
-        # PF_ID = "PF223258"
+ 
         tmp_path = "./datas/kopis"
-        file_name = f"KOPIS_showDetails_{id}.xml"
+        file_name = f"KOPIS_showDetails_{ST_DT}_{id}.xml"
         xml_file_path = os.path.join(tmp_path, file_name)
 
         url = f"http://kopis.or.kr/openApi/restful/pblprfr/{id}?service={SERVICE_KEY}"
@@ -157,10 +120,12 @@ def get_pf_detail(ST_DT):
 
         # 수정된 XML 파일 저장
         tree = ET.ElementTree(root)
-        tree.write(xml_file_path, encoding='utf-8')
 
+        try :
+            tree.write(xml_file_path, encoding='utf-8')
+            return_string.append(f"{str(file_name)} load compelete!")
+        except:
+            return_string.append(f"{str(file_name)} load failed!")
 
-        new_file += str(xml_file_path)
-
-
-    return new_file
+    conn.close()
+    return  return_string

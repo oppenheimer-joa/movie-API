@@ -1,11 +1,10 @@
-import requests, datetime, json, os, configparser
-import mysql.connector
+import requests, datetime, json, os
+from lib.modules import *
 
 #date형식 YYYYmmdd
 def get_daily_box_office(now_date, area_code):
-    config = configparser.ConfigParser()
-    config.read('config/config.ini')
-    SERVICE_KEY = config.get('KOBIS_KEYS', 'API_KEY')
+
+    SERVICE_KEY = get_config('KOBIS_KEYS', 'API_KEY')
 
     service_url = f"http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json"
     headers = {
@@ -30,21 +29,12 @@ def get_daily_box_office(now_date, area_code):
         return f"{json_name} load failed!"
 
 def update_movie_location_code():
-    config = configparser.ConfigParser()
-    config.read('config/config.ini')
-    SERVICE_KEY = config.get('KOBIS_KEYS', 'API_KEY')
 
-    host = config.get('MYSQL', 'MYSQL_HOST')
-    user = config.get('MYSQL', 'MYSQL_USER')
-    password = config.get('MYSQL', 'MYSQL_PWD')
-    database = config.get('MYSQL', 'MYSQL_DB')
+    SERVICE_KEY = get_config('KOBIS_KEYS', 'API_KEY')
+
 
     # MySQL 연결
-    conn = mysql.connector.connect(host=host,
-                                   user=user,
-                                   password=password,
-                                   database=database,
-                                   charset='utf8mb4')
+    conn = db_conn(charset=False)
     cursor = conn.cursor()
 
     url = "http://kobis.or.kr/kobisopenapi/webservice/rest/code/searchCodeList.json"
@@ -55,8 +45,15 @@ def update_movie_location_code():
     resp_data = requests.get(url=url, params=params).json()
 
     insert_query = "INSERT INTO movie_location (location_code, location_name) VALUES (%s, %s)"
-    for data in resp_data['codes']:
-        values = (data['fullCd'], data['korNm'])
-        cursor.execute(insert_query, values)
-        conn.commit()
-    conn.close()
+
+    try : 
+        for data in resp_data['codes']:
+            values = (data['fullCd'], data['korNm'])
+            cursor.execute(insert_query, values)
+            conn.commit()
+        conn.close()
+        return f"{insert_query} complete!"
+        
+    except Exception as e:
+        conn.close()
+        return f"{insert_query} failed!"
