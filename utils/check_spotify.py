@@ -36,6 +36,6 @@ def spotify_file_check(now_date):
     json_file_cnt = len(json_files_list)
 
     if json_file_cnt == movie_cnt:
-        return f"DB속 개수({movie_cnt})와 파일 개수({json_file_cnt}) 가 같슴둥"
+        return "0"
     else:
         return "1"

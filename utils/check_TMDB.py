@@ -38,11 +38,11 @@ def TMDB_file_check(xcom:int ,category:str, date:str):
 
     if category in ['movieCredits', 'movieDetails', 'peopleDetail']:
         if json_counts == db_count :
-            return f'{dir} has {json_counts} files'
+            return "0"
         else:
             return '1'
     elif category in ['movieImages', 'movieSimilar']:
         if json_counts >= 1 :
-            return f'{dir} has {json_counts} files'
+            return "0"
         else:
             return '1'

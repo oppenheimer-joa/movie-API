@@ -5,6 +5,6 @@ def imdb_file_check(event,start_year):
     if os.path.isfile(file_path):
         size = os.path.getsize(file_path)
         if size >= 8000:
-            return f"{file_path} size is {size} Byte"
+            return "0"
     else:
         return "1"
