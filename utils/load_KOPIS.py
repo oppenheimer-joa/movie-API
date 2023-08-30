@@ -39,9 +39,10 @@ def get_mt20id(ST_DT): # end_date는 Dag에서 start_date(execution_date기준 t
 
     ST_DT = datetime.datetime.strptime(ST_DT, '%Y-%m-%d')
     END_DT= (ST_DT + datetime.timedelta(weeks=4)).strftime("%Y%m%d")
-    ST_DT= ST_DT.strftime("%Y%m%d")
+    ST_DT_2= ST_DT.strftime("%Y%m%d")
+    ST_DT = ST_DT.strftime("%Y-%m-%d")
 
-    url = f'http://www.kopis.or.kr/openApi/restful/pblprfr?service={SERVICE_KEY}&stdate={ST_DT}&eddate={END_DT}&cpage={CPAGE}&rows={ROWS}'
+    url = f'http://www.kopis.or.kr/openApi/restful/pblprfr?service={SERVICE_KEY}&stdate={ST_DT_2}&eddate={END_DT}&cpage={CPAGE}&rows={ROWS}'
 
     result = urlopen(url)
     data = bs(result, 'lxml-xml')
@@ -69,8 +70,8 @@ def get_mt20id(ST_DT): # end_date는 Dag에서 start_date(execution_date기준 t
 
         else:
             name = data_dict['name'][idx]
-            ex_query = "INSERT INTO performance(pf_id, pf_nm) VALUES (%s,%s)"
-            cur.execute(ex_query,(id,name))
+            ex_query = "INSERT INTO performance(created_at, pf_id, pf_nm) VALUES (%s,%s,%s)"
+            cur.execute(ex_query,(ST_DT,id,name))
             conn.commit()
             db_insert_cnt += 1 
 
