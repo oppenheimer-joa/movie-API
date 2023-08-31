@@ -24,7 +24,7 @@ def cleanse_awards(event, year):
 	if os.path.isfile(file_path):
 		try:
 			os.remove(file_path)
-			return f"IMDB : {file_path} : DATA NOT COMPLETED!"
+			return f"IMDB : {file_path} : DATA DELETED!"
 
 		except Exception as e:
 			return f"IMDB : {file_path} : DATA NOT DELETED! SOMETHING WENT WRONG!"
@@ -57,9 +57,9 @@ def cleanse_soundtrack():
 			file_path = os.path.join(dir_path,filename)
 			try:
 				os.remove(file_path)
-				results.append(f"KOPIS : {file_path} : DATA DELETED!")
+				results.append(f"SPOTIFY : {file_path} : DATA DELETED!")
 			except Exception as e:
-				results.append(f"KOPIS : {file_path} : DATA NOT DELETED! SOMETHING WENT WRONG!")
+				results.append(f"SPOTIFY : {file_path} : DATA NOT DELETED! SOMETHING WENT WRONG!")
 
 	return results
 
