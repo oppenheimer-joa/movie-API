@@ -1,7 +1,33 @@
 import os, boto3, configparser
 from datetime import datetime
 from lib.modules import *
+
+def blob_tmdb(category, date_gte):
+    server_path = ""
+    if category == 'movieCredit':
+        server_path = "./datas/TMDB/credit"
+    elif category == 'movieDetail':
+        server_path = "./datas/TMDB/detail"
+    elif category == 'movieImages':
+        server_path = "./datas/TMDB/images"
+    elif category == 'movieSimilar':
+        server_path = "./datas/TMDB/similar"
+    elif category == 'peopleDetail':
+        server_path = "./datas/TMDB/people_detail"
+        
+    s3_path = server_path.split("/")[-1]
     
+    s3 = create_s3client()
+
+    # TMDB > date_gte
+    datas = os.listdir(server_path)
+    for filename in datas:
+        if filename.endswith(f"{date_gte}.json"):
+            file_dir = f"{server_path}/{filename}"
+            s3.upload_file(file_dir, 'sms-basket', f'TMDB/{s3_path}/{date_gte}/{filename}')
+
+
+'''
 def blob_tmdb_credit(date_gte):
     s3 = create_s3client()
 
@@ -56,3 +82,4 @@ def blob_tmdb_peopleDetail(date_gte):
         if filename.endswith(f"{date_gte}.json"):
             file_dir = f"{server_path}/{filename}"
             s3.upload_file(file_dir, 'sms-basket', f'TMDB/people_detail/{date_gte}/{filename}')
+'''
