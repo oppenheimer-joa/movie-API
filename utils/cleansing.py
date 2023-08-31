@@ -77,20 +77,10 @@ def cleanse_tmdb(category, date):
 	elif category == "peopleDetail":
 		dir_path = "./datas/TMDB/people_detail/"
 
-
-	date_argv = date
-	date_gte = datetime.strptime(date_argv, "%Y-%m-%d")
-	date_lte = date_gte + timedelta(days=6)
-
-	primary_release_date_gte = date_gte.strftime("%Y-%m-%d")
-	primary_release_date_lte = date_lte.strftime("%Y-%m-%d")
-
-	date_range = f"{primary_release_date_gte}_{primary_release_date_lte}"
-
 	results = []
 
 	for filename in os.listdir(dir_path):
-		if date_range in filename and filename.endswith(".json"):
+		if date in filename and filename.endswith(".json"):
 			file_path = os.path.join(dir_path,filename)
 			try:
 				os.remove(file_path)
