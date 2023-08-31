@@ -5,3 +5,4 @@ beautifulsoup4
 mysql.connector
 requests
 lxml
+boto3
