@@ -1,11 +1,11 @@
-import requests, datetime, json, os
-from lib.modules import *
+from datetime import datetime, timedelta
+import os
 
 # KOBIS(BoxOffice)
 def cleanse_daily_box_office(now_date):
 	dir_path = "/api/datas/kobis/"
 	
-	result = []
+	results = []
 	for filename in os.listdir(dir_path):
 		if now_date in filename and filename.endswith(".json"):
 			file_path = os.path.join(dir_path,filename)
@@ -22,7 +22,7 @@ def cleanse_daily_box_office(now_date):
 def cleanse_awards(event, year):
 	file_path = f"/api/datas/IMDb/imdb_{event}_{year}.json"
 	if os.path.isfile(file_path):
-        try:
+		try:
 			os.remove(file_path)
 			return f"IMDB : {file_path} : DATA NOT COMPLETED!"
 
@@ -34,7 +34,7 @@ def cleanse_awards(event, year):
 def cleanse_pf_detail(ST_DT):
 	dir_path = "./datas/kopis/"
 	
-	result = []
+	results = []
 	for filename in os.listdir(dir_path):
 		if ST_DT in filename and filename.endswith(".xml"):
 			file_path = os.path.join(dir_path,filename)
