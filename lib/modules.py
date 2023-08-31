@@ -1,4 +1,4 @@
-import configparser, mysql.connector
+import configparser, mysql.connector, boto3
 
 def get_config(group, req_var):
 	config = configparser.ConfigParser()
@@ -32,3 +32,14 @@ def db_conn(charset=True):
 									charset='utf8mb4')
 
 	return conn
+
+def create_s3client():
+
+	access = get_config("AWS", "S3_ACCESS")
+	secret = get_config("AWS", "S3_SECRET")
+
+	# s3 client 생성
+	s3 = boto3.client('s3', aws_access_key_id=access,
+	    aws_secret_access_key=secret)
+	    
+	return s3
