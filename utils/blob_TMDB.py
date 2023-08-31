@@ -4,9 +4,9 @@ from lib.modules import *
 
 def blob_tmdb(category, date_gte):
     server_path = ""
-    if category == 'movieCredit':
+    if category == 'movieCredits':
         server_path = "./datas/TMDB/credit"
-    elif category == 'movieDetail':
+    elif category == 'movieDetails':
         server_path = "./datas/TMDB/detail"
     elif category == 'movieImages':
         server_path = "./datas/TMDB/images"
