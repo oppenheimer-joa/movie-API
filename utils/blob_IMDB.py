@@ -9,4 +9,4 @@ def blob_imdb(event, year):
     server_path = "./datas/IMDB"
     filename = f"imdb_{event}_{year}.json"
     file_dir = f"{server_path}/{filename}"
-    s3.upload_file(file_dir, 'sms-basket', f'IMDB/{filename}')
+    s3.upload_file(file_dir, 'sms-basket', f'IMDb/{filename}')
