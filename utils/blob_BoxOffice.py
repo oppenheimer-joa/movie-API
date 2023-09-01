@@ -6,7 +6,7 @@ def blob_kobis(date):
     s3 = create_s3client()
 
     # KOBIS > date_gte
-    date_dt = datetime.strptime(date, "%Y-%m-%d")
+    date_dt = datetime.strptime(date, "%Y%m%d")
     year = date_dt.strftime("%Y")
     server_path = "./datas/kobis"
     datas = os.listdir(server_path)
