@@ -29,7 +29,7 @@ def get_soundtrack(movie_code, access_token):
     cur.execute(query)
     raw_data = cur.fetchall()
 
-    movie_year = datetime.strftime(raw_data[0][1], '%Y')
+    movie_year = datetime.strftime(raw_data[0][2], '%Y')
     movie_name = raw_data[0][2]
 
     query = f"{movie_name}%{movie_year}year"
