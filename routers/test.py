@@ -10,7 +10,7 @@ async def health_check_routes():
     """
     서버 헬스 체크 합니다.
     """
-    return "FastAPI-01 alive"
+    return "FastAPI-01 alive version v1.3.1"
 
 @router.get("/")
 async def header_routes():
