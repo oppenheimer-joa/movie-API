@@ -52,6 +52,7 @@ def load_discoverMovie(date):
 
 # movie credits를 가져오는 endPoint
 def load_movieCredits(date) :
+	import subprocess
 
 	api_key = get_config('TMDB', 'API_KEY')
  
@@ -82,23 +83,30 @@ def load_movieCredits(date) :
 			"Authorization": f"Bearer {api_key}"
 		}
 		response = requests.get(url, headers=headers).json()
+		resp_status_check = get_httpStatus(response)
 
 		# 파일 저장
 		json_path = f"{home_dir}/TMDB_movieCredits_{movie_id}_{date}.json"
 
-		try:
-			with open(json_path, "w", encoding="utf-8") as file:
-				json.dump(response, file, indent=4, ensure_ascii=False)
-			results.append(f"TMDB_movieCredits_{movie_id}_{date}.json : DATA LOAD COMPLETE!")
+		if resp_status_check == 200:
+			try:
+				with open(json_path, "w", encoding="utf-8") as file:
+					json.dump(response, file, indent=4, ensure_ascii=False)
+				results.append(f"TMDB_movieCredits_{movie_id}_{date}.json : DATA LOAD COMPLETE!")
 
-		except Exception as e:
-			results.append(f"TMDB_movieCredits_{movie_id}_{date}.json : DATA LOAD FAILED!")
+			except Exception as e:
+				results.append(f"TMDB_movieCredits_{movie_id}_{date}.json : DATA LOAD FAILED!")
+		else:
+			command = ['touch' ,json_path]
+			subprocess.run(command)
+
 
 	conn.close()
 	return db_counts, results
 
 # movie 상세정보를 가져오는 endPoint
 def load_movieDetails(date) :
+	import subprocess
 
 	api_key = get_config('TMDB', 'API_KEY')
 
@@ -123,18 +131,24 @@ def load_movieDetails(date) :
     	}
 	
 		response = requests.get(base_url, headers=headers)
-		response.raise_for_status()  # Will raise an error if the HTTP request returned an unsuccessful status code
-		json_data = response.json()
+		resp_status_check = get_httpStatus(response)
 		
-		try:
-			# 파일 저장
-			dir = f"./datas/TMDB/detail/TMDB_movieDetails_{movie_id}_{date}.json"
-			with open (dir, "w", encoding="utf-8") as file:
-				json.dump(json_data, file, indent=4, ensure_ascii=False)
-			results.append(f'TMDB_movieDetails_{movie_id}_{date}.json : DATA LOAD COMPLETE!')
+		if resp_status_check == 200:
+			json_data = response.json()
+			try:
+				# 파일 저장
+				dir = f"./datas/TMDB/detail/TMDB_movieDetails_{movie_id}_{date}.json"
+				with open (dir, "w", encoding="utf-8") as file:
+					json.dump(json_data, file, indent=4, ensure_ascii=False)
+				results.append(f'TMDB_movieDetails_{movie_id}_{date}.json : DATA LOAD COMPLETE!')
 
-		except Exception as e:
-			results.append(f'TMDB_movieDetails_{movie_id}_{date}.json : DATA LOAD FAILED!')
+			except Exception as e:
+				results.append(f'TMDB_movieDetails_{movie_id}_{date}.json : DATA LOAD FAILED!')
+
+		else :
+			dir = f"./datas/TMDB/detail/TMDB_movieDetails_{movie_id}_{date}.json"
+			command = ['touch' ,dir]
+			subprocess.run(command)
 
 	conn.close()
 	return db_counts, results
@@ -142,6 +156,7 @@ def load_movieDetails(date) :
 
 # movie images를 가져오는 endPoint
 def get_TMDB_movieImages(date):
+	import subprocess
 
 	api_key = get_config('TMDB', 'API_KEY')
  
@@ -165,20 +180,25 @@ def get_TMDB_movieImages(date):
 		}
 
 		response = requests.get(base_url, headers=headers)
-		response.raise_for_status()  # Will raise an error if the HTTP request returned an unsuccessful status code
-		json_data = response.json()
+		resp_status_check = get_httpStatus(response)
 
-		if all(not json_data[key] for key in ["backdrops", "logos", "posters"]):
-			results.append(f'TMDB_movieImages_{movie_id}_{date}.json : NO DATA')
-		else:
-			try:
-				# 파일 저장
-				dir = f"./datas/TMDB/images/TMDB_movieImages_{movie_id}_{date}.json"
-				with open (dir, "w", encoding="utf-8") as file:
-					json.dump(json_data, file, indent=4, ensure_ascii=False)
-				results.append(f'TMDB_movieImages_{movie_id}_{date}.json : DATA LOAD COMPLETE!')
-			except Exception as e:
-				results.append(f'TMDB_movieImages_{movie_id}_{date}.json : DATA LOAD FAILED!')
+		if resp_status_check == 200:
+			json_data = response.json()
+			if all(not json_data[key] for key in ["backdrops", "logos", "posters"]):
+				results.append(f'TMDB_movieImages_{movie_id}_{date}.json : NO DATA')
+			else:
+				try:
+					# 파일 저장
+					dir = f"./datas/TMDB/images/TMDB_movieImages_{movie_id}_{date}.json"
+					with open (dir, "w", encoding="utf-8") as file:
+						json.dump(json_data, file, indent=4, ensure_ascii=False)
+					results.append(f'TMDB_movieImages_{movie_id}_{date}.json : DATA LOAD COMPLETE!')
+				except Exception as e:
+					results.append(f'TMDB_movieImages_{movie_id}_{date}.json : DATA LOAD FAILED!')
+		else: 
+			dir = f"./datas/TMDB/images/TMDB_movieImages_{movie_id}_{date}.json"
+			command = ['touch' ,dir]
+			subprocess.run(command)
 
 	conn.close()
 	return db_counts, results
@@ -186,6 +206,7 @@ def get_TMDB_movieImages(date):
 
 # similar movie 정보를 가져오는 endPoint
 def get_TMDB_movieSimilar(date):
+	import subprocess
 
 	api_key = get_config('TMDB', 'API_KEY')
 
@@ -209,20 +230,26 @@ def get_TMDB_movieSimilar(date):
 		}
 
 		response = requests.get(base_url, headers=headers)
-		response.raise_for_status()  # Will raise an error if the HTTP request returned an unsuccessful status code
-		json_data = response.json()
+		resp_status_check = get_httpStatus(response)
 
-		if not json_data['results']:
-			results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : NO DATA')
+		if resp_status_check == 200:
+			json_data = response.json()
+			if not json_data['results']:
+				results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : NO DATA')
+			else:
+				try:
+					# 파일 저장
+					dir = f"./datas/TMDB/similar/TMDB_movieSimilar_{movie_id}_{date}.json"
+					with open (dir, "w", encoding="utf-8") as file:
+						json.dump(json_data, file, indent=4, ensure_ascii=False)
+					results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : DATA LOAD COMPLETE!')
+				except Exception as e:
+					results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : DATA LOAD FAILED!')
+
 		else:
-			try:
-				# 파일 저장
-				dir = f"./datas/TMDB/similar/TMDB_movieSimilar_{movie_id}_{date}.json"
-				with open (dir, "w", encoding="utf-8") as file:
-					json.dump(json_data, file, indent=4, ensure_ascii=False)
-				results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : DATA LOAD COMPLETE!')
-			except Exception as e:
-				results.append(f'TMDB_movieSimilar_{movie_id}_{date}.json : DATA LOAD FAILED!')
+			dir = f"./datas/TMDB/similar/TMDB_movieSimilar_{movie_id}_{date}.json"
+			command = ['touch' ,dir]
+			subprocess.run(command)
 
 	conn.close()
 	return db_counts, results
@@ -230,6 +257,7 @@ def get_TMDB_movieSimilar(date):
 
 # 영화 인물 정보를 가져오는 endpoint		
 def get_TMDB_peopleDetail(date):
+	import subprocess
 
 	api_key = get_config('TMDB', 'API_KEY')
 
@@ -253,17 +281,25 @@ def get_TMDB_peopleDetail(date):
 		}
 
 		response = requests.get(base_url, headers=headers)
-		response.raise_for_status()  # Will raise an error if the HTTP request returned an unsuccessful status code
+		resp_status_check = get_httpStatus(response)
+
 		json_data = response.json()
 
-		try:
-			# 파일 저장
+		if resp_status_check == 200:
+			json_data = response.json()
+			try:
+				# 파일 저장
+				dir = f"./datas/TMDB/people_detail/TMDB_peopleDetails_{people_id}_{date}.json"
+				with open (dir, "w", encoding="utf-8") as file:
+					json.dump(json_data, file, indent=4, ensure_ascii=False)
+				results.append(f'TMDB_peopleDetails_{people_id}_{date}.json : DATA LOAD COMPLETE!')
+			except Exception as e:
+				results.append(f'TMDB_peopleDetails_{people_id}_{date}.json : DATA LOAD FAIELD!')
+
+		else:
 			dir = f"./datas/TMDB/people_detail/TMDB_peopleDetails_{people_id}_{date}.json"
-			with open (dir, "w", encoding="utf-8") as file:
-				json.dump(json_data, file, indent=4, ensure_ascii=False)
-			results.append(f'TMDB_peopleDetails_{people_id}_{date}.json : DATA LOAD COMPLETE!')
-		except Exception as e:
-			results.append(f'TMDB_peopleDetails_{people_id}_{date}.json : DATA LOAD FAIELD!')
+			command = ['touch' ,dir]
+			subprocess.run(command)
 
 	conn.close()
 	return db_counts, results
