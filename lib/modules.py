@@ -35,11 +35,16 @@ def db_conn(charset=True):
 
 def create_s3client():
     
-    access = get_config("AWS", "S3_ACCESS")
-    secret = get_config("AWS", "S3_SECRET")
+	access = get_config("AWS", "S3_ACCESS")
+	secret = get_config("AWS", "S3_SECRET")
 
-    # s3 client 생성
-    s3 = boto3.client('s3', aws_access_key_id=access,
-        aws_secret_access_key=secret)
-        
-    return s3
+	# s3 client 생성
+	s3 = boto3.client('s3', aws_access_key_id=access,
+		aws_secret_access_key=secret)
+
+	return s3
+
+def get_httpStatus(status):
+	http_status = status.status_code
+	return http_status
+
