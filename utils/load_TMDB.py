@@ -82,13 +82,14 @@ def load_movieCredits(date) :
 			"accept": "application/json",
 			"Authorization": f"Bearer {api_key}"
 		}
-		response = requests.get(url, headers=headers).json()
+		response = requests.get(url, headers=headers)
 		resp_status_check = get_httpStatus(response)
 
 		# 파일 저장
 		json_path = f"{home_dir}/TMDB_movieCredits_{movie_id}_{date}.json"
 
 		if resp_status_check == 200:
+			response = response.json()
 			try:
 				with open(json_path, "w", encoding="utf-8") as file:
 					json.dump(response, file, indent=4, ensure_ascii=False)
