@@ -51,11 +51,11 @@ def load_json(KEY, conn, people_list, date):
             except Exception as e:
                 print(e)
         else:
+            print(f"ERROR : {date}, {people_id}")
             dir = f"/home/hooniegit/ERROR/people/{date}"
             with open (dir, "w", encoding="utf-8") as file:
                 pass
-        
-        # time.sleep(1)
+        time.sleep(1)
 
 def thread_single(KEY, conn, date):
     print(f"start thread : {date} >>>>>>")

@@ -59,9 +59,3 @@ if __name__ == "__main__":
         date_list = make_dateList(date, 7, 39)
 
         thread_all(KEY, date_list)
-    
-
-
-
-
-
