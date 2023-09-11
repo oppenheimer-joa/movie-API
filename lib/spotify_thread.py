@@ -1,12 +1,17 @@
 
-def make_accessToken():
+# make_accessToken(1)
+# make_accessToken(2)
+# make_accessToken(3)
+# make_accessToken(4)
+# make_accessToken(5)
+def make_accessToken(cnt):
     from configparser import ConfigParser
     import requests
 
     parser = ConfigParser()
-    parser.read('/home/hooniegit/git/personal/python-thread-pool/config/config.ini')
-    client_id = parser.get("SPOTIFY", "client_id")
-    client_sc = parser.get("SPOTIFY", "client_sc")
+    parser.read('/home/hooniegit/config/config.ini')
+    client_id = parser.get("SPOTIFY", f"client_id_{cnt}")
+    client_sc = parser.get("SPOTIFY", f"client_sc_{cnt}")
 
     headers = {
         'Content-Type': 'application/x-www-form-urlencoded',
@@ -67,7 +72,7 @@ def thread_single(token, movie_list):
         movie_name = movie[1]
         date_gte = movie[2]
         load_json(token, movie_id, movie_name, date_gte)
-        time.sleep(0.5)
+        time.sleep(1)
 
     print(f"<<<<<< end thread")
     with open(f"/home/hooniegit/DONE/spotify/{date_gte}", "w") as file:

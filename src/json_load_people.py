@@ -44,9 +44,16 @@ def thread_all(KEY, date_list):
 # need to do until 64
 if __name__ == "__main__":
 
-    start_date_str = "1961-01-13"
-    date_list_base = make_dateList(start_date_str, 273, 84)
-    KEY = get_keys()
+    # start_date_str = "2000-01-"
+    # start_date_str = "2005-01-"
+    # start_date_str = "2010-01-"
+    # start_date_str = "2015-01-"
+    # start_date_str = "2020-01-"
+    start_date_str = sys.argv[1]
+    date_list_base = make_dateList(start_date_str, 273, 14)
+
+    cnt = sys.argv[2]
+    KEY = get_keys(cnt)
 
     for date in date_list_base:
         date_list = make_dateList(date, 7, 39)

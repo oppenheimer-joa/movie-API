@@ -23,13 +23,17 @@ def thread_all(token, movie_dump):
 if __name__ == "__main__":
 
     movie_dump = []
-    for i in range(5):
+    # 1960 / 1970 / 1980 / 1990 / 2000 ..
+    start_year = sys.argv[1]
+
+    for i in range(10):
         conn = mysql_connector()
-        movie_list = make_movieList(conn, f'{i+1960}-01-01', f'{(i+1)+1960}-01-01')
+        movie_list = make_movieList(conn, f'{i+start_year}-01-01', f'{(i+1)+start_year}-01-01')
         movie_dump.append(movie_list)
         conn.close()
 
-    token = make_accessToken()
+    cnt = sys.argv[2]
+    token = make_accessToken(cnt)
     thread_all(token, movie_dump)
     
 

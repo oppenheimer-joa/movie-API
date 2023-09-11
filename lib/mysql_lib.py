@@ -5,7 +5,7 @@ def mysql_connector():
     # import MySQLdb
 
     parser = ConfigParser()
-    config_dir = '/home/hooniegit/git/personal/python-thread-pool/config/config.ini'
+    config_dir = '/home/hooniegit/config/config.ini'
     parser.read(config_dir)
 
     MYSQL_HOST = parser.get('MYSQL', 'MYSQL_HOST')
@@ -33,7 +33,7 @@ def mysql_connectionPool():
     from mysql.connector.pooling import MySQLConnectionPool
 
     parser = ConfigParser()
-    config_dir = '/home/hooniegit/git/personal/python-thread-pool/config/config.ini'
+    config_dir = '/home/hooniegit/config/config.ini'
     parser.read(config_dir)
 
     MYSQL_HOST = parser.get('MYSQL', 'MYSQL_HOST')

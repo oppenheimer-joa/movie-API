@@ -1,10 +1,15 @@
 
-def get_keys():
+# get_keys(1)
+# get_keys(2)
+# get_keys(3)
+# get_keys(4)
+# get_keys(5)
+def get_keys(cnt):
     from configparser import ConfigParser
 
     parser = ConfigParser()
-    parser.read('/home/hooniegit/git/personal/python-thread-pool/config/config.ini')
-    KEY = parser.get("TMDB", "API_KEY")
+    parser.read('/home/hooniegit/config/config.ini')
+    KEY = parser.get("TMDB", f"API_KEY_{cnt}")
 
     return KEY
     
