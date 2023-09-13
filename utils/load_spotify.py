@@ -29,7 +29,8 @@ def get_soundtrack(movie_code, access_token):
     cur.execute(query)
     raw_data = cur.fetchall()
 
-    movie_year = datetime.strftime(raw_data[0][0], '%Y')
+    movie_date = raw_data[0][0]
+    movie_year = datetime.strftime(movie_date, '%Y')
     movie_name = raw_data[0][1]
 
     query = f"{movie_name}%{movie_year}year"
@@ -48,7 +49,7 @@ def get_soundtrack(movie_code, access_token):
     # file save
     data_path = "/api/datas/spotify"
     #data_path = "/Users/jesse/Documents/sms/API/datas/spotify"
-    json_name = f"spotify_{movie_code}_{movie_year}.json"
+    json_name = f"spotify_{movie_code}_{movie_date}.json"
     json_path = f"{data_path}/{json_name}"
 
     try:

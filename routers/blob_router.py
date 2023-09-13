@@ -30,5 +30,5 @@ async def blob_kopis_routes(st_dt:str):
 
 # Spotify 데이터 정합성 체크
 @router.get("/blob/spotify")
-async def check_spotify_routes(year: int):
-	return blob_spotify(year)
+async def check_spotify_routes(date:str):
+	return blob_spotify(date)
