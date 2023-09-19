@@ -6,16 +6,20 @@ def blob_tmdb(category, date_gte):
     server_path = ""
     if category == 'movieCredits':
         server_path = "./datas/TMDB/credit"
+        s3_path = "credit"
     elif category == 'movieDetails':
         server_path = "./datas/TMDB/detail"
+        s3_path = "detail"
     elif category == 'movieImages':
         server_path = "./datas/TMDB/images"
+        s3_path = "image"
     elif category == 'movieSimilar':
         server_path = "./datas/TMDB/similar"
+        s3_path = "similar"
     elif category == 'peopleDetail':
         server_path = "./datas/TMDB/people_detail"
+        s3_path = "people_detail"
         
-    s3_path = server_path.split("/")[-1]
     
     s3 = create_s3client()
 
