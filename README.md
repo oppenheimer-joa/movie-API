@@ -1,11 +1,20 @@
 # movie-API
-v1.3.7/rel 
+## v1.3.7/rel 
 
-릴리즈
+### 전체 기능
 
-추가 기능
-Spotify 데이터 저장 관련 날짜 형식 변경
+- IMDB 수집/적재/삭제 endpoint 구성
+- TMDB 수집/적재/삭제 endpoint 구성
+- Kopis(공연) 수집/적재/삭제 endpoint 구성
+- Kobis(BoxOffice) 수집/적재/삭제 endpoint 구성
+- Spotify 수집/적재/삭제 endpoint 구성
 
+### 추가 기능
+
+- Spotify 데이터 저장 관련 날짜 형식 변경
+
+
+## FileTree
 ```
 .
 ├── README.md
